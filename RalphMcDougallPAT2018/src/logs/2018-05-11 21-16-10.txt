@@ -1,0 +1,119 @@
+<2018-05-11 21-16-10> INFO : Connecting to database: DSPersistent
+<2018-05-11 21-16-11> INFO : Successfully connected to database
+<2018-05-11 21-16-11> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-11 21-16-11> INFO : Initialising GUIActiveQuests.
+<2018-05-11 21-16-12> INFO : Initialising GUICharacterMainMenu.
+<2018-05-11 21-16-12> INFO : Initialising GUICharacterSelection.
+<2018-05-11 21-16-12> INFO : Initialising GUICredits.
+<2018-05-11 21-16-12> INFO : Initialising GUIHelp.
+<2018-05-11 21-16-12> INFO : Initialising GUINewCharacter.
+<2018-05-11 21-16-12> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-11 21-16-12> INFO : GameHandler initialised.
+<2018-05-11 21-16-13> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-14> INFO : Changing screen to: GAME
+<2018-05-11 21-16-14> INFO : Starting game.
+<2018-05-11 21-16-14> INFO : Initialising app game container
+<2018-05-11 21-16-14> INFO : Initialising a new game.
+<2018-05-11 21-16-14> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-16-14> INFO : Loading image.
+<2018-05-11 21-16-14> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-16-14> INFO : Loading image.
+<2018-05-11 21-16-14> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-16-14> INFO : Loading image.
+<2018-05-11 21-16-14> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-16-14> INFO : Loading image.
+<2018-05-11 21-16-14> INFO : Setting up new map.
+<2018-05-11 21-16-14> INFO : Setting up map tiles.
+<2018-05-11 21-16-14> INFO : Map tile setup completed.
+<2018-05-11 21-16-14> INFO : Map setup completed.
+<2018-05-11 21-16-14> INFO : Creating HUD layer.
+<2018-05-11 21-16-14> INFO : Finished initialising new game.
+<2018-05-11 21-16-16> INFO : Exiting main game.
+<2018-05-11 21-16-16> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-16> INFO : Closing game.
+<2018-05-11 21-16-16> INFO : Changing screen to: GAME
+<2018-05-11 21-16-16> INFO : Starting game.
+<2018-05-11 21-16-16> INFO : Initialising app game container
+<2018-05-11 21-16-16> INFO : Initialising a new game.
+<2018-05-11 21-16-16> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-16-16> INFO : Loading image.
+<2018-05-11 21-16-16> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-16-16> INFO : Loading image.
+<2018-05-11 21-16-16> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-16-16> INFO : Loading image.
+<2018-05-11 21-16-16> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-16-16> INFO : Loading image.
+<2018-05-11 21-16-16> INFO : Setting up new map.
+<2018-05-11 21-16-16> INFO : Setting up map tiles.
+<2018-05-11 21-16-16> INFO : Map tile setup completed.
+<2018-05-11 21-16-16> INFO : Map setup completed.
+<2018-05-11 21-16-16> INFO : Creating HUD layer.
+<2018-05-11 21-16-17> INFO : Finished initialising new game.
+<2018-05-11 21-16-18> INFO : Exiting main game.
+<2018-05-11 21-16-18> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-18> INFO : Closing game.
+<2018-05-11 21-16-18> INFO : Changing screen to: GAME
+<2018-05-11 21-16-18> INFO : Starting game.
+<2018-05-11 21-16-18> INFO : Initialising app game container
+<2018-05-11 21-16-18> INFO : Initialising a new game.
+<2018-05-11 21-16-18> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-16-18> INFO : Loading image.
+<2018-05-11 21-16-18> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-16-18> INFO : Loading image.
+<2018-05-11 21-16-18> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-16-18> INFO : Loading image.
+<2018-05-11 21-16-18> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-16-18> INFO : Loading image.
+<2018-05-11 21-16-18> INFO : Setting up new map.
+<2018-05-11 21-16-18> INFO : Setting up map tiles.
+<2018-05-11 21-16-18> INFO : Map tile setup completed.
+<2018-05-11 21-16-18> INFO : Map setup completed.
+<2018-05-11 21-16-18> INFO : Creating HUD layer.
+<2018-05-11 21-16-19> INFO : Finished initialising new game.
+<2018-05-11 21-16-20> INFO : Exiting main game.
+<2018-05-11 21-16-20> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-20> INFO : Closing game.
+<2018-05-11 21-16-20> INFO : Changing screen to: GAME
+<2018-05-11 21-16-20> INFO : Starting game.
+<2018-05-11 21-16-20> INFO : Initialising app game container
+<2018-05-11 21-16-20> INFO : Initialising a new game.
+<2018-05-11 21-16-20> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-16-20> INFO : Loading image.
+<2018-05-11 21-16-20> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-16-20> INFO : Loading image.
+<2018-05-11 21-16-20> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-16-20> INFO : Loading image.
+<2018-05-11 21-16-20> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-16-20> INFO : Loading image.
+<2018-05-11 21-16-20> INFO : Setting up new map.
+<2018-05-11 21-16-20> INFO : Setting up map tiles.
+<2018-05-11 21-16-20> INFO : Map tile setup completed.
+<2018-05-11 21-16-20> INFO : Map setup completed.
+<2018-05-11 21-16-20> INFO : Creating HUD layer.
+<2018-05-11 21-16-20> INFO : Finished initialising new game.
+<2018-05-11 21-16-21> INFO : Exiting main game.
+<2018-05-11 21-16-21> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-21> INFO : Closing game.
+<2018-05-11 21-16-21> INFO : Changing screen to: GAME
+<2018-05-11 21-16-22> INFO : Starting game.
+<2018-05-11 21-16-22> INFO : Initialising app game container
+<2018-05-11 21-16-22> INFO : Initialising a new game.
+<2018-05-11 21-16-22> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-16-22> INFO : Loading image.
+<2018-05-11 21-16-22> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-16-22> INFO : Loading image.
+<2018-05-11 21-16-22> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-16-22> INFO : Loading image.
+<2018-05-11 21-16-22> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-16-22> INFO : Loading image.
+<2018-05-11 21-16-22> INFO : Setting up new map.
+<2018-05-11 21-16-22> INFO : Setting up map tiles.
+<2018-05-11 21-16-22> INFO : Map tile setup completed.
+<2018-05-11 21-16-22> INFO : Map setup completed.
+<2018-05-11 21-16-22> INFO : Creating HUD layer.
+<2018-05-11 21-16-22> INFO : Finished initialising new game.
+<2018-05-11 21-16-42> INFO : Exiting main game.
+<2018-05-11 21-16-42> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-16-42> INFO : Closing game.
+<2018-05-11 21-16-43> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-11 21-16-44> INFO : Exiting.

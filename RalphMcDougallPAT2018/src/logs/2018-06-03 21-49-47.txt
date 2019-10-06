@@ -1,0 +1,436 @@
+<2018-06-03 21-49-47> INFO : Connecting to database: DSPersistent
+<2018-06-03 21-49-48> INFO : Successfully connected to database
+<2018-06-03 21-49-48> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-03 21-49-48> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-03 21-49-48> INFO : Initialising GUIActiveQuests.
+<2018-06-03 21-49-49> INFO : Initialising GUICharacterMainMenu.
+<2018-06-03 21-49-49> INFO : Initialising GUICharacterSelection.
+<2018-06-03 21-49-49> INFO : Initialising GUICredits.
+<2018-06-03 21-49-49> INFO : Initialising GUIHelp.
+<2018-06-03 21-49-49> INFO : Initialising GUINewCharacter.
+<2018-06-03 21-49-49> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-03 21-49-49> INFO : GameHandler initialised.
+<2018-06-03 21-49-50> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 21-49-51> INFO : Changing screen to: GAME
+<2018-06-03 21-49-51> INFO : Starting game.
+<2018-06-03 21-49-51> INFO : Initialising app game container
+<2018-06-03 21-49-51> INFO : Initialising a new game.
+<2018-06-03 21-49-51> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-03 21-49-51> INFO : Loading image.
+<2018-06-03 21-49-51> INFO : Starting to split sprite sheet.
+<2018-06-03 21-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-49-51> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-03 21-49-51> INFO : Loading image.
+<2018-06-03 21-49-51> INFO : Starting to split sprite sheet.
+<2018-06-03 21-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-49-51> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-03 21-49-51> INFO : Loading image.
+<2018-06-03 21-49-51> INFO : Starting to split sprite sheet.
+<2018-06-03 21-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-49-51> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-03 21-49-51> INFO : Loading image.
+<2018-06-03 21-49-51> INFO : Starting to split sprite sheet.
+<2018-06-03 21-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-49-51> INFO : Setting up new map.
+<2018-06-03 21-49-51> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-51> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-51> INFO : Starting maze construction.
+<2018-06-03 21-49-51> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-51> INFO : Starting to get dead ends.
+<2018-06-03 21-49-51> INFO : All dead ends found.
+<2018-06-03 21-49-51> INFO : Number of dead-ends: 30
+<2018-06-03 21-49-51> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-51> INFO : Setting up map tiles.
+<2018-06-03 21-49-51> INFO : Map tile setup completed.
+<2018-06-03 21-49-51> INFO : Map setup completed.
+<2018-06-03 21-49-51> INFO : Creating HUD layer.
+<2018-06-03 21-49-51> INFO : Finished initialising new game.
+<2018-06-03 21-49-51> INFO : *********************************
+<2018-06-03 21-49-51> INFO : Available processors (cores): 4
+<2018-06-03 21-49-51> INFO : Memory use (MB): 81.304 / 1,804.5
+<2018-06-03 21-49-51> INFO : *********************************
+<2018-06-03 21-49-53> INFO : Setting up new map.
+<2018-06-03 21-49-53> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-53> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-53> INFO : Starting maze construction.
+<2018-06-03 21-49-53> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-53> INFO : Starting to get dead ends.
+<2018-06-03 21-49-53> INFO : All dead ends found.
+<2018-06-03 21-49-53> INFO : Number of dead-ends: 23
+<2018-06-03 21-49-53> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-53> INFO : Setting up map tiles.
+<2018-06-03 21-49-53> INFO : Map tile setup completed.
+<2018-06-03 21-49-53> INFO : Map setup completed.
+<2018-06-03 21-49-53> INFO : Setting up new map.
+<2018-06-03 21-49-53> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-53> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-53> INFO : Starting maze construction.
+<2018-06-03 21-49-53> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-53> INFO : Starting to get dead ends.
+<2018-06-03 21-49-53> INFO : All dead ends found.
+<2018-06-03 21-49-53> INFO : Number of dead-ends: 27
+<2018-06-03 21-49-53> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-53> INFO : Setting up map tiles.
+<2018-06-03 21-49-53> INFO : Map tile setup completed.
+<2018-06-03 21-49-53> INFO : Map setup completed.
+<2018-06-03 21-49-53> INFO : Setting up new map.
+<2018-06-03 21-49-53> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-53> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-53> INFO : Starting maze construction.
+<2018-06-03 21-49-53> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-53> INFO : Starting to get dead ends.
+<2018-06-03 21-49-53> INFO : All dead ends found.
+<2018-06-03 21-49-53> INFO : Number of dead-ends: 25
+<2018-06-03 21-49-53> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-53> INFO : Setting up map tiles.
+<2018-06-03 21-49-53> INFO : Map tile setup completed.
+<2018-06-03 21-49-53> INFO : Map setup completed.
+<2018-06-03 21-49-54> INFO : Setting up new map.
+<2018-06-03 21-49-54> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-54> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-54> INFO : Starting maze construction.
+<2018-06-03 21-49-54> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-54> INFO : Starting to get dead ends.
+<2018-06-03 21-49-54> INFO : All dead ends found.
+<2018-06-03 21-49-54> INFO : Number of dead-ends: 25
+<2018-06-03 21-49-54> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-54> INFO : Setting up map tiles.
+<2018-06-03 21-49-54> INFO : Map tile setup completed.
+<2018-06-03 21-49-54> INFO : Map setup completed.
+<2018-06-03 21-49-54> INFO : Setting up new map.
+<2018-06-03 21-49-54> INFO : Creating tile segment grid for map.
+<2018-06-03 21-49-54> INFO : Creating new blank segment grid.
+<2018-06-03 21-49-54> INFO : Starting maze construction.
+<2018-06-03 21-49-54> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-49-54> INFO : Starting to get dead ends.
+<2018-06-03 21-49-54> INFO : All dead ends found.
+<2018-06-03 21-49-54> INFO : Number of dead-ends: 27
+<2018-06-03 21-49-54> INFO : Points of Interest setup completed.
+<2018-06-03 21-49-54> INFO : Setting up map tiles.
+<2018-06-03 21-49-54> INFO : Map tile setup completed.
+<2018-06-03 21-49-54> INFO : Map setup completed.
+<2018-06-03 21-50-11> INFO : *********************************
+<2018-06-03 21-50-11> INFO : Available processors (cores): 4
+<2018-06-03 21-50-11> INFO : Memory use (MB): 143.187 / 1,804.5
+<2018-06-03 21-50-11> INFO : *********************************
+<2018-06-03 21-50-31> INFO : *********************************
+<2018-06-03 21-50-31> INFO : Available processors (cores): 4
+<2018-06-03 21-50-31> INFO : Memory use (MB): 101.748 / 1,804.5
+<2018-06-03 21-50-31> INFO : *********************************
+<2018-06-03 21-50-51> INFO : *********************************
+<2018-06-03 21-50-51> INFO : Available processors (cores): 4
+<2018-06-03 21-50-51> INFO : Memory use (MB): 131.229 / 1,804.5
+<2018-06-03 21-50-51> INFO : *********************************
+<2018-06-03 21-51-11> INFO : *********************************
+<2018-06-03 21-51-11> INFO : Available processors (cores): 4
+<2018-06-03 21-51-11> INFO : Memory use (MB): 118.48 / 1,804.5
+<2018-06-03 21-51-11> INFO : *********************************
+<2018-06-03 21-51-31> INFO : *********************************
+<2018-06-03 21-51-31> INFO : Available processors (cores): 4
+<2018-06-03 21-51-31> INFO : Memory use (MB): 106.891 / 1,804.5
+<2018-06-03 21-51-31> INFO : *********************************
+<2018-06-03 21-51-51> INFO : *********************************
+<2018-06-03 21-51-51> INFO : Available processors (cores): 4
+<2018-06-03 21-51-51> INFO : Memory use (MB): 94.143 / 1,804.5
+<2018-06-03 21-51-51> INFO : *********************************
+<2018-06-03 21-52-11> INFO : *********************************
+<2018-06-03 21-52-11> INFO : Available processors (cores): 4
+<2018-06-03 21-52-11> INFO : Memory use (MB): 129.38 / 1,804.5
+<2018-06-03 21-52-11> INFO : *********************************
+<2018-06-03 21-52-31> INFO : *********************************
+<2018-06-03 21-52-31> INFO : Available processors (cores): 4
+<2018-06-03 21-52-31> INFO : Memory use (MB): 112.327 / 1,804.5
+<2018-06-03 21-52-31> INFO : *********************************
+<2018-06-03 21-52-51> INFO : *********************************
+<2018-06-03 21-52-51> INFO : Available processors (cores): 4
+<2018-06-03 21-52-51> INFO : Memory use (MB): 99.866 / 1,804.5
+<2018-06-03 21-52-51> INFO : *********************************
+<2018-06-03 21-53-11> INFO : *********************************
+<2018-06-03 21-53-11> INFO : Available processors (cores): 4
+<2018-06-03 21-53-11> INFO : Memory use (MB): 87.406 / 1,804.5
+<2018-06-03 21-53-11> INFO : *********************************
+<2018-06-03 21-53-31> INFO : *********************************
+<2018-06-03 21-53-31> INFO : Available processors (cores): 4
+<2018-06-03 21-53-31> INFO : Memory use (MB): 74.945 / 1,804.5
+<2018-06-03 21-53-31> INFO : *********************************
+<2018-06-03 21-53-51> INFO : *********************************
+<2018-06-03 21-53-51> INFO : Available processors (cores): 4
+<2018-06-03 21-53-51> INFO : Memory use (MB): 129.361 / 1,804.5
+<2018-06-03 21-53-51> INFO : *********************************
+<2018-06-03 21-54-11> INFO : *********************************
+<2018-06-03 21-54-11> INFO : Available processors (cores): 4
+<2018-06-03 21-54-11> INFO : Memory use (MB): 110.312 / 1,804.5
+<2018-06-03 21-54-11> INFO : *********************************
+<2018-06-03 21-54-31> INFO : *********************************
+<2018-06-03 21-54-31> INFO : Available processors (cores): 4
+<2018-06-03 21-54-31> INFO : Memory use (MB): 98.045 / 1,804.5
+<2018-06-03 21-54-31> INFO : *********************************
+<2018-06-03 21-54-51> INFO : *********************************
+<2018-06-03 21-54-51> INFO : Available processors (cores): 4
+<2018-06-03 21-54-51> INFO : Memory use (MB): 85.778 / 1,804.5
+<2018-06-03 21-54-51> INFO : *********************************
+<2018-06-03 21-55-11> INFO : *********************************
+<2018-06-03 21-55-11> INFO : Available processors (cores): 4
+<2018-06-03 21-55-11> INFO : Memory use (MB): 116.418 / 1,804.5
+<2018-06-03 21-55-11> INFO : *********************************
+<2018-06-03 21-55-31> INFO : *********************************
+<2018-06-03 21-55-31> INFO : Available processors (cores): 4
+<2018-06-03 21-55-31> INFO : Memory use (MB): 104.327 / 1,804.5
+<2018-06-03 21-55-31> INFO : *********************************
+<2018-06-03 21-55-51> INFO : *********************************
+<2018-06-03 21-55-51> INFO : Available processors (cores): 4
+<2018-06-03 21-55-51> INFO : Memory use (MB): 83.331 / 1,804.5
+<2018-06-03 21-55-51> INFO : *********************************
+<2018-06-03 21-56-11> INFO : *********************************
+<2018-06-03 21-56-11> INFO : Available processors (cores): 4
+<2018-06-03 21-56-11> INFO : Memory use (MB): 134.858 / 1,804.5
+<2018-06-03 21-56-11> INFO : *********************************
+<2018-06-03 21-56-31> INFO : *********************************
+<2018-06-03 21-56-31> INFO : Available processors (cores): 4
+<2018-06-03 21-56-31> INFO : Memory use (MB): 121.93 / 1,804.5
+<2018-06-03 21-56-31> INFO : *********************************
+<2018-06-03 21-56-51> INFO : *********************************
+<2018-06-03 21-56-51> INFO : Available processors (cores): 4
+<2018-06-03 21-56-51> INFO : Memory use (MB): 109.001 / 1,804.5
+<2018-06-03 21-56-51> INFO : *********************************
+<2018-06-03 21-57-11> INFO : *********************************
+<2018-06-03 21-57-11> INFO : Available processors (cores): 4
+<2018-06-03 21-57-11> INFO : Memory use (MB): 97.151 / 1,804.5
+<2018-06-03 21-57-11> INFO : *********************************
+<2018-06-03 21-57-31> INFO : *********************************
+<2018-06-03 21-57-31> INFO : Available processors (cores): 4
+<2018-06-03 21-57-31> INFO : Memory use (MB): 117.809 / 1,804.5
+<2018-06-03 21-57-31> INFO : *********************************
+<2018-06-03 21-57-51> INFO : *********************************
+<2018-06-03 21-57-51> INFO : Available processors (cores): 4
+<2018-06-03 21-57-51> INFO : Memory use (MB): 106.169 / 1,804.5
+<2018-06-03 21-57-51> INFO : *********************************
+<2018-06-03 21-58-11> INFO : *********************************
+<2018-06-03 21-58-11> INFO : Available processors (cores): 4
+<2018-06-03 21-58-11> INFO : Memory use (MB): 93.47 / 1,804.5
+<2018-06-03 21-58-11> INFO : *********************************
+<2018-06-03 21-58-31> INFO : *********************************
+<2018-06-03 21-58-31> INFO : Available processors (cores): 4
+<2018-06-03 21-58-31> INFO : Memory use (MB): 80.755 / 1,804.5
+<2018-06-03 21-58-31> INFO : *********************************
+<2018-06-03 21-58-51> INFO : *********************************
+<2018-06-03 21-58-51> INFO : Available processors (cores): 4
+<2018-06-03 21-58-51> INFO : Memory use (MB): 128.308 / 1,804.5
+<2018-06-03 21-58-51> INFO : *********************************
+<2018-06-03 21-59-11> INFO : *********************************
+<2018-06-03 21-59-11> INFO : Available processors (cores): 4
+<2018-06-03 21-59-11> INFO : Memory use (MB): 103.44 / 1,804.5
+<2018-06-03 21-59-11> INFO : *********************************
+<2018-06-03 21-59-31> INFO : *********************************
+<2018-06-03 21-59-31> INFO : Available processors (cores): 4
+<2018-06-03 21-59-31> INFO : Memory use (MB): 90.979 / 1,804.5
+<2018-06-03 21-59-31> INFO : *********************************
+<2018-06-03 21-59-51> INFO : *********************************
+<2018-06-03 21-59-51> INFO : Available processors (cores): 4
+<2018-06-03 21-59-51> INFO : Memory use (MB): 120.913 / 1,804.5
+<2018-06-03 21-59-51> INFO : *********************************
+<2018-06-03 22-00-11> INFO : *********************************
+<2018-06-03 22-00-11> INFO : Available processors (cores): 4
+<2018-06-03 22-00-11> INFO : Memory use (MB): 108.693 / 1,804.5
+<2018-06-03 22-00-11> INFO : *********************************
+<2018-06-03 22-00-31> INFO : *********************************
+<2018-06-03 22-00-31> INFO : Available processors (cores): 4
+<2018-06-03 22-00-31> INFO : Memory use (MB): 96.462 / 1,804.5
+<2018-06-03 22-00-31> INFO : *********************************
+<2018-06-03 22-00-51> INFO : *********************************
+<2018-06-03 22-00-51> INFO : Available processors (cores): 4
+<2018-06-03 22-00-51> INFO : Memory use (MB): 128.299 / 1,804.5
+<2018-06-03 22-00-51> INFO : *********************************
+<2018-06-03 22-01-11> INFO : *********************************
+<2018-06-03 22-01-11> INFO : Available processors (cores): 4
+<2018-06-03 22-01-11> INFO : Memory use (MB): 115.414 / 1,804.5
+<2018-06-03 22-01-11> INFO : *********************************
+<2018-06-03 22-01-31> INFO : *********************************
+<2018-06-03 22-01-31> INFO : Available processors (cores): 4
+<2018-06-03 22-01-31> INFO : Memory use (MB): 102.528 / 1,804.5
+<2018-06-03 22-01-31> INFO : *********************************
+<2018-06-03 22-01-51> INFO : *********************************
+<2018-06-03 22-01-51> INFO : Available processors (cores): 4
+<2018-06-03 22-01-51> INFO : Memory use (MB): 90.634 / 1,804.5
+<2018-06-03 22-01-51> INFO : *********************************
+<2018-06-03 22-02-11> INFO : *********************************
+<2018-06-03 22-02-11> INFO : Available processors (cores): 4
+<2018-06-03 22-02-11> INFO : Memory use (MB): 117.047 / 1,804.5
+<2018-06-03 22-02-11> INFO : *********************************
+<2018-06-03 22-02-31> INFO : *********************************
+<2018-06-03 22-02-31> INFO : Available processors (cores): 4
+<2018-06-03 22-02-31> INFO : Memory use (MB): 88.61 / 1,804.5
+<2018-06-03 22-02-31> INFO : *********************************
+<2018-06-03 22-02-51> INFO : *********************************
+<2018-06-03 22-02-51> INFO : Available processors (cores): 4
+<2018-06-03 22-02-51> INFO : Memory use (MB): 75.942 / 1,804.5
+<2018-06-03 22-02-51> INFO : *********************************
+<2018-06-03 22-03-11> INFO : *********************************
+<2018-06-03 22-03-11> INFO : Available processors (cores): 4
+<2018-06-03 22-03-11> INFO : Memory use (MB): 119.305 / 1,804.5
+<2018-06-03 22-03-11> INFO : *********************************
+<2018-06-03 22-03-31> INFO : *********************************
+<2018-06-03 22-03-31> INFO : Available processors (cores): 4
+<2018-06-03 22-03-31> INFO : Memory use (MB): 106.882 / 1,804.5
+<2018-06-03 22-03-31> INFO : *********************************
+<2018-06-03 22-03-51> INFO : *********************************
+<2018-06-03 22-03-51> INFO : Available processors (cores): 4
+<2018-06-03 22-03-51> INFO : Memory use (MB): 94.459 / 1,804.5
+<2018-06-03 22-03-51> INFO : *********************************
+<2018-06-03 22-04-11> INFO : *********************************
+<2018-06-03 22-04-11> INFO : Available processors (cores): 4
+<2018-06-03 22-04-11> INFO : Memory use (MB): 102.314 / 1,804.5
+<2018-06-03 22-04-11> INFO : *********************************
+<2018-06-03 22-04-31> INFO : *********************************
+<2018-06-03 22-04-31> INFO : Available processors (cores): 4
+<2018-06-03 22-04-31> INFO : Memory use (MB): 89.195 / 1,804.5
+<2018-06-03 22-04-31> INFO : *********************************
+<2018-06-03 22-04-51> INFO : *********************************
+<2018-06-03 22-04-51> INFO : Available processors (cores): 4
+<2018-06-03 22-04-51> INFO : Memory use (MB): 77.013 / 1,804.5
+<2018-06-03 22-04-51> INFO : *********************************
+<2018-06-03 22-05-11> INFO : *********************************
+<2018-06-03 22-05-11> INFO : Available processors (cores): 4
+<2018-06-03 22-05-11> INFO : Memory use (MB): 117.543 / 1,804.5
+<2018-06-03 22-05-11> INFO : *********************************
+<2018-06-03 22-05-31> INFO : *********************************
+<2018-06-03 22-05-31> INFO : Available processors (cores): 4
+<2018-06-03 22-05-31> INFO : Memory use (MB): 104.699 / 1,804.5
+<2018-06-03 22-05-31> INFO : *********************************
+<2018-06-03 22-05-51> INFO : *********************************
+<2018-06-03 22-05-51> INFO : Available processors (cores): 4
+<2018-06-03 22-05-51> INFO : Memory use (MB): 108.158 / 1,804.5
+<2018-06-03 22-05-51> INFO : *********************************
+<2018-06-03 22-06-11> INFO : *********************************
+<2018-06-03 22-06-11> INFO : Available processors (cores): 4
+<2018-06-03 22-06-11> INFO : Memory use (MB): 95.592 / 1,804.5
+<2018-06-03 22-06-11> INFO : *********************************
+<2018-06-03 22-06-31> INFO : *********************************
+<2018-06-03 22-06-31> INFO : Available processors (cores): 4
+<2018-06-03 22-06-31> INFO : Memory use (MB): 83.026 / 1,804.5
+<2018-06-03 22-06-31> INFO : *********************************
+<2018-06-03 22-06-51> INFO : *********************************
+<2018-06-03 22-06-51> INFO : Available processors (cores): 4
+<2018-06-03 22-06-51> INFO : Memory use (MB): 120.988 / 1,804.5
+<2018-06-03 22-06-51> INFO : *********************************
+<2018-06-03 22-07-11> INFO : *********************************
+<2018-06-03 22-07-11> INFO : Available processors (cores): 4
+<2018-06-03 22-07-11> INFO : Memory use (MB): 108.69 / 1,804.5
+<2018-06-03 22-07-11> INFO : *********************************
+<2018-06-03 22-07-31> INFO : *********************************
+<2018-06-03 22-07-31> INFO : Available processors (cores): 4
+<2018-06-03 22-07-31> INFO : Memory use (MB): 108.328 / 1,804.5
+<2018-06-03 22-07-31> INFO : *********************************
+<2018-06-03 22-07-51> INFO : *********************************
+<2018-06-03 22-07-51> INFO : Available processors (cores): 4
+<2018-06-03 22-07-51> INFO : Memory use (MB): 96.259 / 1,804.5
+<2018-06-03 22-07-51> INFO : *********************************
+<2018-06-03 22-08-11> INFO : *********************************
+<2018-06-03 22-08-11> INFO : Available processors (cores): 4
+<2018-06-03 22-08-11> INFO : Memory use (MB): 83.327 / 1,804.5
+<2018-06-03 22-08-11> INFO : *********************************
+<2018-06-03 22-08-31> INFO : *********************************
+<2018-06-03 22-08-31> INFO : Available processors (cores): 4
+<2018-06-03 22-08-31> INFO : Memory use (MB): 120.481 / 1,804.5
+<2018-06-03 22-08-31> INFO : *********************************
+<2018-06-03 22-08-51> INFO : *********************************
+<2018-06-03 22-08-51> INFO : Available processors (cores): 4
+<2018-06-03 22-08-51> INFO : Memory use (MB): 107.656 / 1,804.5
+<2018-06-03 22-08-51> INFO : *********************************
+<2018-06-03 22-09-11> INFO : *********************************
+<2018-06-03 22-09-11> INFO : Available processors (cores): 4
+<2018-06-03 22-09-11> INFO : Memory use (MB): 103.26 / 1,804.5
+<2018-06-03 22-09-11> INFO : *********************************
+<2018-06-03 22-09-31> INFO : *********************************
+<2018-06-03 22-09-31> INFO : Available processors (cores): 4
+<2018-06-03 22-09-31> INFO : Memory use (MB): 91.448 / 1,804.5
+<2018-06-03 22-09-31> INFO : *********************************
+<2018-06-03 22-09-51> INFO : *********************************
+<2018-06-03 22-09-51> INFO : Available processors (cores): 4
+<2018-06-03 22-09-51> INFO : Memory use (MB): 78.793 / 1,804.5
+<2018-06-03 22-09-51> INFO : *********************************
+<2018-06-03 22-10-11> INFO : *********************************
+<2018-06-03 22-10-11> INFO : Available processors (cores): 4
+<2018-06-03 22-10-11> INFO : Memory use (MB): 112.968 / 1,804.5
+<2018-06-03 22-10-11> INFO : *********************************
+<2018-06-03 22-10-31> INFO : *********************************
+<2018-06-03 22-10-31> INFO : Available processors (cores): 4
+<2018-06-03 22-10-31> INFO : Memory use (MB): 100.429 / 1,804.5
+<2018-06-03 22-10-31> INFO : *********************************
+<2018-06-03 22-10-51> INFO : *********************************
+<2018-06-03 22-10-51> INFO : Available processors (cores): 4
+<2018-06-03 22-10-51> INFO : Memory use (MB): 92.906 / 1,804.5
+<2018-06-03 22-10-51> INFO : *********************************
+<2018-06-03 22-11-11> INFO : *********************************
+<2018-06-03 22-11-11> INFO : Available processors (cores): 4
+<2018-06-03 22-11-11> INFO : Memory use (MB): 80.594 / 1,804.5
+<2018-06-03 22-11-11> INFO : *********************************
+<2018-06-03 22-11-31> INFO : *********************************
+<2018-06-03 22-11-31> INFO : Available processors (cores): 4
+<2018-06-03 22-11-31> INFO : Memory use (MB): 113.548 / 1,804.5
+<2018-06-03 22-11-31> INFO : *********************************
+<2018-06-03 22-11-51> INFO : *********************************
+<2018-06-03 22-11-51> INFO : Available processors (cores): 4
+<2018-06-03 22-11-51> INFO : Memory use (MB): 100.522 / 1,804.5
+<2018-06-03 22-11-51> INFO : *********************************
+<2018-06-03 22-12-11> INFO : *********************************
+<2018-06-03 22-12-11> INFO : Available processors (cores): 4
+<2018-06-03 22-12-11> INFO : Memory use (MB): 88.31 / 1,804.5
+<2018-06-03 22-12-11> INFO : *********************************
+<2018-06-03 22-12-31> INFO : *********************************
+<2018-06-03 22-12-31> INFO : Available processors (cores): 4
+<2018-06-03 22-12-31> INFO : Memory use (MB): 77.11 / 1,804.5
+<2018-06-03 22-12-31> INFO : *********************************
+<2018-06-03 22-12-51> INFO : *********************************
+<2018-06-03 22-12-51> INFO : Available processors (cores): 4
+<2018-06-03 22-12-51> INFO : Memory use (MB): 108.118 / 1,804.5
+<2018-06-03 22-12-51> INFO : *********************************
+<2018-06-03 22-13-11> INFO : *********************************
+<2018-06-03 22-13-11> INFO : Available processors (cores): 4
+<2018-06-03 22-13-11> INFO : Memory use (MB): 96.167 / 1,804.5
+<2018-06-03 22-13-11> INFO : *********************************
+<2018-06-03 22-13-31> INFO : *********************************
+<2018-06-03 22-13-31> INFO : Available processors (cores): 4
+<2018-06-03 22-13-31> INFO : Memory use (MB): 83.419 / 1,804.5
+<2018-06-03 22-13-31> INFO : *********************************
+<2018-06-03 22-13-51> INFO : *********************************
+<2018-06-03 22-13-51> INFO : Available processors (cores): 4
+<2018-06-03 22-13-51> INFO : Memory use (MB): 106.577 / 1,804.5
+<2018-06-03 22-13-51> INFO : *********************************
+<2018-06-03 22-14-11> INFO : *********************************
+<2018-06-03 22-14-11> INFO : Available processors (cores): 4
+<2018-06-03 22-14-11> INFO : Memory use (MB): 97.877 / 1,804.5
+<2018-06-03 22-14-11> INFO : *********************************
+<2018-06-03 22-14-31> INFO : *********************************
+<2018-06-03 22-14-31> INFO : Available processors (cores): 4
+<2018-06-03 22-14-31> INFO : Memory use (MB): 85.522 / 1,804.5
+<2018-06-03 22-14-31> INFO : *********************************
+<2018-06-03 22-14-51> INFO : *********************************
+<2018-06-03 22-14-51> INFO : Available processors (cores): 4
+<2018-06-03 22-14-51> INFO : Memory use (MB): 107.954 / 1,804.5
+<2018-06-03 22-14-51> INFO : *********************************
+<2018-06-03 22-15-11> INFO : *********************************
+<2018-06-03 22-15-11> INFO : Available processors (cores): 4
+<2018-06-03 22-15-11> INFO : Memory use (MB): 95.714 / 1,804.5
+<2018-06-03 22-15-11> INFO : *********************************
+<2018-06-03 22-15-31> INFO : *********************************
+<2018-06-03 22-15-31> INFO : Available processors (cores): 4
+<2018-06-03 22-15-31> INFO : Memory use (MB): 82.709 / 1,804.5
+<2018-06-03 22-15-31> INFO : *********************************
+<2018-06-03 22-15-51> INFO : *********************************
+<2018-06-03 22-15-51> INFO : Available processors (cores): 4
+<2018-06-03 22-15-51> INFO : Memory use (MB): 104.01 / 1,804.5
+<2018-06-03 22-15-51> INFO : *********************************
+<2018-06-03 22-16-11> INFO : *********************************
+<2018-06-03 22-16-11> INFO : Available processors (cores): 4
+<2018-06-03 22-16-11> INFO : Memory use (MB): 91.403 / 1,804.5
+<2018-06-03 22-16-11> INFO : *********************************
+<2018-06-03 22-16-31> INFO : *********************************
+<2018-06-03 22-16-31> INFO : Available processors (cores): 4
+<2018-06-03 22-16-31> INFO : Memory use (MB): 78.795 / 1,804.5
+<2018-06-03 22-16-31> INFO : *********************************
+<2018-06-03 22-16-37> INFO : Exiting main game.
+<2018-06-03 22-16-37> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 22-16-37> INFO : Closing game.
+<2018-06-03 22-16-38> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-03 22-16-39> INFO : Exiting.

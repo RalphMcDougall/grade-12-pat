@@ -1,0 +1,166 @@
+<2018-05-30 18-13-53> INFO : Connecting to database: DSPersistent
+<2018-05-30 18-13-54> INFO : Successfully connected to database
+<2018-05-30 18-13-54> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-30 18-13-54> INFO : Initialising GUIActiveQuests.
+<2018-05-30 18-13-54> INFO : Initialising GUICharacterMainMenu.
+<2018-05-30 18-13-54> INFO : Initialising GUICharacterSelection.
+<2018-05-30 18-13-54> INFO : Initialising GUICredits.
+<2018-05-30 18-13-54> INFO : Initialising GUIHelp.
+<2018-05-30 18-13-54> INFO : Initialising GUINewCharacter.
+<2018-05-30 18-13-54> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-30 18-13-54> INFO : GameHandler initialised.
+<2018-05-30 18-13-56> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-30 18-13-59> INFO : Changing screen to: GAME
+<2018-05-30 18-13-59> INFO : Starting game.
+<2018-05-30 18-13-59> INFO : Initialising app game container
+<2018-05-30 18-13-59> INFO : Initialising a new game.
+<2018-05-30 18-13-59> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-30 18-13-59> INFO : Loading image.
+<2018-05-30 18-13-59> INFO : Starting to split sprite sheet.
+<2018-05-30 18-13-59> INFO : Sprite sheet splitting completed.
+<2018-05-30 18-13-59> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-30 18-13-59> INFO : Loading image.
+<2018-05-30 18-13-59> INFO : Starting to split sprite sheet.
+<2018-05-30 18-13-59> INFO : Sprite sheet splitting completed.
+<2018-05-30 18-13-59> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-30 18-13-59> INFO : Loading image.
+<2018-05-30 18-13-59> INFO : Starting to split sprite sheet.
+<2018-05-30 18-13-59> INFO : Sprite sheet splitting completed.
+<2018-05-30 18-13-59> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-30 18-13-59> INFO : Loading image.
+<2018-05-30 18-13-59> INFO : Starting to split sprite sheet.
+<2018-05-30 18-13-59> INFO : Sprite sheet splitting completed.
+<2018-05-30 18-13-59> INFO : Setting up new map.
+<2018-05-30 18-13-59> INFO : Creating tile segment grid for map.
+<2018-05-30 18-13-59> INFO : Creating new blank segment grid.
+<2018-05-30 18-13-59> INFO : Starting maze construction.
+<2018-05-30 18-13-59> INFO : Setting up map tiles.
+<2018-05-30 18-13-59> INFO : Map tile setup completed.
+<2018-05-30 18-13-59> INFO : Map setup completed.
+<2018-05-30 18-13-59> INFO : Creating HUD layer.
+<2018-05-30 18-13-59> INFO : Finished initialising new game.
+<2018-05-30 18-13-59> INFO : *********************************
+<2018-05-30 18-13-59> INFO : Available processors (cores): 4
+<2018-05-30 18-13-59> INFO : Memory use (MB): 68.773 / 1,804.5
+<2018-05-30 18-13-59> INFO : *********************************
+<2018-05-30 18-14-20> INFO : *********************************
+<2018-05-30 18-14-20> INFO : Available processors (cores): 4
+<2018-05-30 18-14-20> INFO : Memory use (MB): 82.158 / 1,804.5
+<2018-05-30 18-14-20> INFO : *********************************
+<2018-05-30 18-14-40> INFO : *********************************
+<2018-05-30 18-14-40> INFO : Available processors (cores): 4
+<2018-05-30 18-14-40> INFO : Memory use (MB): 79.945 / 1,804.5
+<2018-05-30 18-14-40> INFO : *********************************
+<2018-05-30 18-15-00> INFO : *********************************
+<2018-05-30 18-15-00> INFO : Available processors (cores): 4
+<2018-05-30 18-15-00> INFO : Memory use (MB): 73.436 / 1,804.5
+<2018-05-30 18-15-00> INFO : *********************************
+<2018-05-30 18-15-20> INFO : *********************************
+<2018-05-30 18-15-20> INFO : Available processors (cores): 4
+<2018-05-30 18-15-20> INFO : Memory use (MB): 75.277 / 1,804.5
+<2018-05-30 18-15-20> INFO : *********************************
+<2018-05-30 18-15-40> INFO : *********************************
+<2018-05-30 18-15-40> INFO : Available processors (cores): 4
+<2018-05-30 18-15-40> INFO : Memory use (MB): 68.732 / 1,804.5
+<2018-05-30 18-15-40> INFO : *********************************
+<2018-05-30 18-16-00> INFO : *********************************
+<2018-05-30 18-16-00> INFO : Available processors (cores): 4
+<2018-05-30 18-16-00> INFO : Memory use (MB): 69.287 / 1,804.5
+<2018-05-30 18-16-00> INFO : *********************************
+<2018-05-30 18-16-20> INFO : *********************************
+<2018-05-30 18-16-20> INFO : Available processors (cores): 4
+<2018-05-30 18-16-20> INFO : Memory use (MB): 69.287 / 1,804.5
+<2018-05-30 18-16-20> INFO : *********************************
+<2018-05-30 18-16-41> INFO : *********************************
+<2018-05-30 18-16-41> INFO : Available processors (cores): 4
+<2018-05-30 18-16-41> INFO : Memory use (MB): 69.287 / 1,804.5
+<2018-05-30 18-16-41> INFO : *********************************
+<2018-05-30 18-17-01> INFO : *********************************
+<2018-05-30 18-17-01> INFO : Available processors (cores): 4
+<2018-05-30 18-17-01> INFO : Memory use (MB): 68.695 / 1,804.5
+<2018-05-30 18-17-01> INFO : *********************************
+<2018-05-30 18-17-21> INFO : *********************************
+<2018-05-30 18-17-21> INFO : Available processors (cores): 4
+<2018-05-30 18-17-21> INFO : Memory use (MB): 67.542 / 1,804.5
+<2018-05-30 18-17-21> INFO : *********************************
+<2018-05-30 18-17-41> INFO : *********************************
+<2018-05-30 18-17-41> INFO : Available processors (cores): 4
+<2018-05-30 18-17-41> INFO : Memory use (MB): 66.972 / 1,804.5
+<2018-05-30 18-17-41> INFO : *********************************
+<2018-05-30 18-18-01> INFO : *********************************
+<2018-05-30 18-18-01> INFO : Available processors (cores): 4
+<2018-05-30 18-18-01> INFO : Memory use (MB): 64.221 / 1,804.5
+<2018-05-30 18-18-01> INFO : *********************************
+<2018-05-30 18-18-22> INFO : *********************************
+<2018-05-30 18-18-22> INFO : Available processors (cores): 4
+<2018-05-30 18-18-22> INFO : Memory use (MB): 61.564 / 1,804.5
+<2018-05-30 18-18-22> INFO : *********************************
+<2018-05-30 18-18-42> INFO : *********************************
+<2018-05-30 18-18-42> INFO : Available processors (cores): 4
+<2018-05-30 18-18-42> INFO : Memory use (MB): 71.173 / 1,804.5
+<2018-05-30 18-18-42> INFO : *********************************
+<2018-05-30 18-19-02> INFO : *********************************
+<2018-05-30 18-19-02> INFO : Available processors (cores): 4
+<2018-05-30 18-19-02> INFO : Memory use (MB): 59.792 / 1,804.5
+<2018-05-30 18-19-02> INFO : *********************************
+<2018-05-30 18-19-22> INFO : *********************************
+<2018-05-30 18-19-22> INFO : Available processors (cores): 4
+<2018-05-30 18-19-22> INFO : Memory use (MB): 69.45 / 1,804.5
+<2018-05-30 18-19-22> INFO : *********************************
+<2018-05-30 18-19-42> INFO : *********************************
+<2018-05-30 18-19-42> INFO : Available processors (cores): 4
+<2018-05-30 18-19-42> INFO : Memory use (MB): 64.319 / 1,804.5
+<2018-05-30 18-19-42> INFO : *********************************
+<2018-05-30 18-20-02> INFO : *********************************
+<2018-05-30 18-20-02> INFO : Available processors (cores): 4
+<2018-05-30 18-20-02> INFO : Memory use (MB): 82.529 / 1,804.5
+<2018-05-30 18-20-02> INFO : *********************************
+<2018-05-30 18-20-22> INFO : *********************************
+<2018-05-30 18-20-22> INFO : Available processors (cores): 4
+<2018-05-30 18-20-22> INFO : Memory use (MB): 72.261 / 1,804.5
+<2018-05-30 18-20-22> INFO : *********************************
+<2018-05-30 18-20-42> INFO : *********************************
+<2018-05-30 18-20-42> INFO : Available processors (cores): 4
+<2018-05-30 18-20-42> INFO : Memory use (MB): 87.066 / 1,804.5
+<2018-05-30 18-20-42> INFO : *********************************
+<2018-05-30 18-21-02> INFO : *********************************
+<2018-05-30 18-21-02> INFO : Available processors (cores): 4
+<2018-05-30 18-21-02> INFO : Memory use (MB): 77.367 / 1,804.5
+<2018-05-30 18-21-02> INFO : *********************************
+<2018-05-30 18-21-22> INFO : *********************************
+<2018-05-30 18-21-22> INFO : Available processors (cores): 4
+<2018-05-30 18-21-22> INFO : Memory use (MB): 67.06 / 1,804.5
+<2018-05-30 18-21-22> INFO : *********************************
+<2018-05-30 18-21-42> INFO : *********************************
+<2018-05-30 18-21-42> INFO : Available processors (cores): 4
+<2018-05-30 18-21-42> INFO : Memory use (MB): 85.316 / 1,804.5
+<2018-05-30 18-21-42> INFO : *********************************
+<2018-05-30 18-22-02> INFO : *********************************
+<2018-05-30 18-22-02> INFO : Available processors (cores): 4
+<2018-05-30 18-22-02> INFO : Memory use (MB): 75.61 / 1,804.5
+<2018-05-30 18-22-02> INFO : *********************************
+<2018-05-30 18-22-22> INFO : *********************************
+<2018-05-30 18-22-22> INFO : Available processors (cores): 4
+<2018-05-30 18-22-22> INFO : Memory use (MB): 60.774 / 1,804.5
+<2018-05-30 18-22-22> INFO : *********************************
+<2018-05-30 18-22-42> INFO : *********************************
+<2018-05-30 18-22-42> INFO : Available processors (cores): 4
+<2018-05-30 18-22-42> INFO : Memory use (MB): 73.885 / 1,804.5
+<2018-05-30 18-22-42> INFO : *********************************
+<2018-05-30 18-23-02> INFO : *********************************
+<2018-05-30 18-23-02> INFO : Available processors (cores): 4
+<2018-05-30 18-23-02> INFO : Memory use (MB): 81.865 / 1,804.5
+<2018-05-30 18-23-02> INFO : *********************************
+<2018-05-30 18-23-22> INFO : *********************************
+<2018-05-30 18-23-22> INFO : Available processors (cores): 4
+<2018-05-30 18-23-22> INFO : Memory use (MB): 81.865 / 1,804.5
+<2018-05-30 18-23-22> INFO : *********************************
+<2018-05-30 18-23-42> INFO : *********************************
+<2018-05-30 18-23-42> INFO : Available processors (cores): 4
+<2018-05-30 18-23-42> INFO : Memory use (MB): 81.865 / 1,804.5
+<2018-05-30 18-23-42> INFO : *********************************
+<2018-05-30 18-23-55> INFO : Exiting main game.
+<2018-05-30 18-23-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-30 18-23-55> INFO : Closing game.
+<2018-05-30 18-23-56> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-30 18-23-56> INFO : Exiting.

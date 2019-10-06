@@ -1,0 +1,12 @@
+<2018-04-26 15-12-58> INFO : Connecting to database: DSPersistent
+<2018-04-26 15-12-58> ERROR : Unable to load the database! java.sql.SQLException: No suitable driver found for resources/DSPersistent.accdb
+<2018-04-26 15-13-00> INFO : Initialising GUIActiveQuests.
+<2018-04-26 15-13-00> INFO : Initialising GUICharacterMainMenu.
+<2018-04-26 15-13-00> INFO : Initialising GUICharacterSelection.
+<2018-04-26 15-13-00> INFO : Initialising GUICredits.
+<2018-04-26 15-13-00> INFO : Initialising GUIHelp.
+<2018-04-26 15-13-00> INFO : Initialising GUINewCharacter.
+<2018-04-26 15-13-00> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-26 15-13-00> INFO : Initialising GameScreen.
+<2018-04-26 15-13-00> INFO : GameHandler initialised.
+<2018-04-26 15-13-02> INFO : Exiting.

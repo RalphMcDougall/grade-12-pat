@@ -1,0 +1,54 @@
+<2018-05-30 19-58-31> INFO : Connecting to database: DSPersistent
+<2018-05-30 19-58-32> INFO : Successfully connected to database
+<2018-05-30 19-58-32> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-30 19-58-32> INFO : Initialising GUIActiveQuests.
+<2018-05-30 19-58-32> INFO : Initialising GUICharacterMainMenu.
+<2018-05-30 19-58-32> INFO : Initialising GUICharacterSelection.
+<2018-05-30 19-58-32> INFO : Initialising GUICredits.
+<2018-05-30 19-58-32> INFO : Initialising GUIHelp.
+<2018-05-30 19-58-32> INFO : Initialising GUINewCharacter.
+<2018-05-30 19-58-33> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-30 19-58-33> INFO : GameHandler initialised.
+<2018-05-30 19-58-34> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-30 19-58-35> INFO : Changing screen to: GAME
+<2018-05-30 19-58-35> INFO : Starting game.
+<2018-05-30 19-58-35> INFO : Initialising app game container
+<2018-05-30 19-58-35> INFO : Initialising a new game.
+<2018-05-30 19-58-35> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-30 19-58-35> INFO : Loading image.
+<2018-05-30 19-58-35> INFO : Starting to split sprite sheet.
+<2018-05-30 19-58-35> INFO : Sprite sheet splitting completed.
+<2018-05-30 19-58-35> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-30 19-58-35> INFO : Loading image.
+<2018-05-30 19-58-35> INFO : Starting to split sprite sheet.
+<2018-05-30 19-58-35> INFO : Sprite sheet splitting completed.
+<2018-05-30 19-58-35> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-30 19-58-35> INFO : Loading image.
+<2018-05-30 19-58-35> INFO : Starting to split sprite sheet.
+<2018-05-30 19-58-35> INFO : Sprite sheet splitting completed.
+<2018-05-30 19-58-35> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-30 19-58-35> INFO : Loading image.
+<2018-05-30 19-58-35> INFO : Starting to split sprite sheet.
+<2018-05-30 19-58-35> INFO : Sprite sheet splitting completed.
+<2018-05-30 19-58-35> INFO : Setting up new map.
+<2018-05-30 19-58-35> INFO : Creating tile segment grid for map.
+<2018-05-30 19-58-35> INFO : Creating new blank segment grid.
+<2018-05-30 19-58-35> INFO : Starting maze construction.
+<2018-05-30 19-58-35> INFO : Setting up map tiles.
+<2018-05-30 19-58-35> INFO : Map tile setup completed.
+<2018-05-30 19-58-35> INFO : Map setup completed.
+<2018-05-30 19-58-35> INFO : Creating HUD layer.
+<2018-05-30 19-58-36> INFO : Finished initialising new game.
+<2018-05-30 19-58-36> INFO : *********************************
+<2018-05-30 19-58-36> INFO : Available processors (cores): 4
+<2018-05-30 19-58-36> INFO : Memory use (MB): 68.35 / 1,804.5
+<2018-05-30 19-58-36> INFO : *********************************
+<2018-05-30 19-58-56> INFO : *********************************
+<2018-05-30 19-58-56> INFO : Available processors (cores): 4
+<2018-05-30 19-58-56> INFO : Memory use (MB): 79.912 / 1,804.5
+<2018-05-30 19-58-56> INFO : *********************************
+<2018-05-30 19-59-00> INFO : Exiting main game.
+<2018-05-30 19-59-00> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-30 19-59-00> INFO : Closing game.
+<2018-05-30 19-59-01> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-30 19-59-02> INFO : Exiting.

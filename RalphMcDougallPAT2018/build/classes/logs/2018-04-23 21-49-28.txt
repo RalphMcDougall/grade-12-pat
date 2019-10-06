@@ -1,0 +1,8 @@
+<2018-04-23 21-49-28> INFO : Initialising GUIActiveQuests.
+<2018-04-23 21-49-28> INFO : Initialising GUICharacterMainMenu.
+<2018-04-23 21-49-28> INFO : Initialising GUICharacterSelection.
+<2018-04-23 21-49-28> INFO : Initialising GUICredits.
+<2018-04-23 21-49-28> INFO : Initialising GUIHelp.
+<2018-04-23 21-49-28> INFO : Initialising GUINewCharacter.
+<2018-04-23 21-49-28> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-23 21-49-31> INFO : Exiting.

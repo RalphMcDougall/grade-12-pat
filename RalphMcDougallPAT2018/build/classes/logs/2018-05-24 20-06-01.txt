@@ -1,0 +1,65 @@
+<2018-05-24 20-06-01> INFO : Connecting to database: DSPersistent
+<2018-05-24 20-06-01> INFO : Successfully connected to database
+<2018-05-24 20-06-01> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-24 20-06-02> INFO : Initialising GUIActiveQuests.
+<2018-05-24 20-06-02> INFO : Initialising GUICharacterMainMenu.
+<2018-05-24 20-06-02> INFO : Initialising GUICharacterSelection.
+<2018-05-24 20-06-02> INFO : Initialising GUICredits.
+<2018-05-24 20-06-02> INFO : Initialising GUIHelp.
+<2018-05-24 20-06-02> INFO : Initialising GUINewCharacter.
+<2018-05-24 20-06-02> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-24 20-06-02> INFO : GameHandler initialised.
+<2018-05-24 20-07-41> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-07-44> INFO : Changing screen to: GAME
+<2018-05-24 20-07-44> INFO : Starting game.
+<2018-05-24 20-07-44> INFO : Initialising app game container
+<2018-05-24 20-07-45> INFO : Initialising a new game.
+<2018-05-24 20-07-45> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 20-07-45> INFO : Loading image.
+<2018-05-24 20-07-45> INFO : Starting to split sprite sheet.
+<2018-05-24 20-07-45> INFO : Sprite sheet splitting completed.
+<2018-05-24 20-07-45> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 20-07-45> INFO : Loading image.
+<2018-05-24 20-07-45> INFO : Starting to split sprite sheet.
+<2018-05-24 20-07-45> INFO : Sprite sheet splitting completed.
+<2018-05-24 20-07-45> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 20-07-45> INFO : Loading image.
+<2018-05-24 20-07-45> INFO : Starting to split sprite sheet.
+<2018-05-24 20-07-45> INFO : Sprite sheet splitting completed.
+<2018-05-24 20-07-45> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 20-07-45> INFO : Loading image.
+<2018-05-24 20-07-45> INFO : Starting to split sprite sheet.
+<2018-05-24 20-07-45> INFO : Sprite sheet splitting completed.
+<2018-05-24 20-07-45> INFO : Setting up new map.
+<2018-05-24 20-07-45> INFO : Setting up map tiles.
+<2018-05-24 20-07-45> INFO : Map tile setup completed.
+<2018-05-24 20-07-45> INFO : Map setup completed.
+<2018-05-24 20-07-45> INFO : Creating HUD layer.
+<2018-05-24 20-07-45> INFO : Finished initialising new game.
+<2018-05-24 20-07-45> INFO : *********************************
+<2018-05-24 20-07-45> INFO : Available processors (cores): 4
+<2018-05-24 20-07-45> INFO : Memory use (MB): 63.914 / 1,804.5
+<2018-05-24 20-07-45> INFO : *********************************
+<2018-05-24 20-08-07> INFO : *********************************
+<2018-05-24 20-08-07> INFO : Available processors (cores): 4
+<2018-05-24 20-08-07> INFO : Memory use (MB): 44.322 / 1,804.5
+<2018-05-24 20-08-07> INFO : *********************************
+<2018-05-24 20-08-27> INFO : *********************************
+<2018-05-24 20-08-27> INFO : Available processors (cores): 4
+<2018-05-24 20-08-27> INFO : Memory use (MB): 44.54 / 1,804.5
+<2018-05-24 20-08-27> INFO : *********************************
+<2018-05-24 20-08-44> INFO : Exiting main game.
+<2018-05-24 20-08-44> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-08-44> INFO : Closing game.
+<2018-05-24 20-08-47> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-05-24 20-08-49> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-08-50> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-05-24 20-08-51> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-08-53> INFO : Changing screen to: HELP
+<2018-05-24 20-08-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-09-05> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-05-24 20-09-10> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-09-11> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-05-24 20-09-13> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 20-09-14> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-24 20-09-19> INFO : Exiting.

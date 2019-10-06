@@ -1,0 +1,13 @@
+<2018-06-03 20-25-46> INFO : Connecting to database: DSPersistent
+<2018-06-03 20-25-47> INFO : Successfully connected to database
+<2018-06-03 20-25-47> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-03 20-25-47> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-03 20-25-47> INFO : Initialising GUIActiveQuests.
+<2018-06-03 20-25-48> INFO : Initialising GUICharacterMainMenu.
+<2018-06-03 20-25-48> INFO : Initialising GUICharacterSelection.
+<2018-06-03 20-25-48> INFO : Initialising GUICredits.
+<2018-06-03 20-25-48> INFO : Initialising GUIHelp.
+<2018-06-03 20-25-48> INFO : Initialising GUINewCharacter.
+<2018-06-03 20-25-48> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-03 20-25-48> INFO : GameHandler initialised.
+<2018-06-03 20-25-48> INFO : Exiting.

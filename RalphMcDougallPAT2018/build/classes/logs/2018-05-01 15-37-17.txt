@@ -1,0 +1,32 @@
+<2018-05-01 15-37-17> INFO : Connecting to database: DSPersistent
+<2018-05-01 15-37-18> INFO : Successfully connected to database
+<2018-05-01 15-37-18> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-01 15-37-18> INFO : Initialising GUIActiveQuests.
+<2018-05-01 15-37-19> INFO : Initialising GUICharacterMainMenu.
+<2018-05-01 15-37-19> INFO : Initialising GUICharacterSelection.
+<2018-05-01 15-37-19> INFO : Initialising GUICredits.
+<2018-05-01 15-37-19> INFO : Initialising GUIHelp.
+<2018-05-01 15-37-19> INFO : Initialising GUINewCharacter.
+<2018-05-01 15-37-19> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-01 15-37-19> INFO : GameHandler initialised.
+<2018-05-01 15-37-20> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-01 15-37-21> INFO : Changing screen to: GAME
+<2018-05-01 15-37-21> INFO : Starting game.
+<2018-05-01 15-37-21> INFO : Initialising app game container
+<2018-05-01 15-37-22> INFO : Initialising a new game.
+<2018-05-01 15-37-22> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-01 15-37-22> INFO : Loading image.
+<2018-05-01 15-37-22> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-01 15-37-22> INFO : Loading image.
+<2018-05-01 15-37-22> INFO : Finished initialising new game.
+<2018-05-01 15-37-23> INFO : Exiting main game.
+<2018-05-01 15-37-23> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-01 15-37-23> INFO : Closing game.
+<2018-05-01 15-37-23> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-05-01 15-37-26> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-01 15-37-27> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-05-01 15-37-28> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-01 15-37-28> INFO : Changing screen to: HELP
+<2018-05-01 15-37-29> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-01 15-37-30> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-01 15-37-31> INFO : Exiting.

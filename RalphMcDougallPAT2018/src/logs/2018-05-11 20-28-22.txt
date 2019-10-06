@@ -1,0 +1,46 @@
+<2018-05-11 20-28-22> INFO : Connecting to database: DSPersistent
+<2018-05-11 20-28-23> INFO : Successfully connected to database
+<2018-05-11 20-28-23> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-11 20-28-23> INFO : Initialising GUIActiveQuests.
+<2018-05-11 20-28-24> INFO : Initialising GUICharacterMainMenu.
+<2018-05-11 20-28-24> INFO : Initialising GUICharacterSelection.
+<2018-05-11 20-28-24> INFO : Initialising GUICredits.
+<2018-05-11 20-28-24> INFO : Initialising GUIHelp.
+<2018-05-11 20-28-24> INFO : Initialising GUINewCharacter.
+<2018-05-11 20-28-24> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-11 20-28-24> INFO : GameHandler initialised.
+<2018-05-11 20-28-25> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 20-28-26> INFO : Changing screen to: GAME
+<2018-05-11 20-28-26> INFO : Starting game.
+<2018-05-11 20-28-26> INFO : Initialising app game container
+<2018-05-11 20-28-27> INFO : Initialising a new game.
+<2018-05-11 20-28-27> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 20-28-27> INFO : Loading image.
+<2018-05-11 20-28-27> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 20-28-27> INFO : Loading image.
+<2018-05-11 20-28-27> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 20-28-27> INFO : Loading image.
+<2018-05-11 20-28-27> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 20-28-27> INFO : Loading image.
+<2018-05-11 20-28-28> INFO : Finished initialising new game.
+<2018-05-11 20-28-30> INFO : Exiting main game.
+<2018-05-11 20-28-30> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 20-28-30> INFO : Closing game.
+<2018-05-11 20-28-30> INFO : Changing screen to: GAME
+<2018-05-11 20-28-30> INFO : Starting game.
+<2018-05-11 20-28-30> INFO : Initialising app game container
+<2018-05-11 20-28-31> INFO : Initialising a new game.
+<2018-05-11 20-28-31> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 20-28-31> INFO : Loading image.
+<2018-05-11 20-28-31> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 20-28-31> INFO : Loading image.
+<2018-05-11 20-28-31> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 20-28-31> INFO : Loading image.
+<2018-05-11 20-28-31> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 20-28-31> INFO : Loading image.
+<2018-05-11 20-28-31> INFO : Finished initialising new game.
+<2018-05-11 20-28-38> INFO : Exiting main game.
+<2018-05-11 20-28-38> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 20-28-38> INFO : Closing game.
+<2018-05-11 20-28-39> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-11 20-28-39> INFO : Exiting.

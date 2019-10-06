@@ -1,0 +1,20 @@
+<2018-06-25 21-30-11> INFO : Connecting to database: DSPersistent
+<2018-06-25 21-30-12> INFO : Successfully connected to database
+<2018-06-25 21-30-12> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-25 21-30-12> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-25 21-30-12> INFO : Loading projectile types...
+<2018-06-25 21-30-12> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-25 21-30-12> INFO : Projectile loading completed.
+<2018-06-25 21-30-12> INFO : Initialising GUIActiveQuests.
+<2018-06-25 21-30-13> INFO : Initialising GUICharacterMainMenu.
+<2018-06-25 21-30-13> INFO : Initialising GUICharacterSelection.
+<2018-06-25 21-30-13> INFO : Initialising GUICredits.
+<2018-06-25 21-30-13> INFO : Initialising GUIHelp.
+<2018-06-25 21-30-13> INFO : Initialising GUINewCharacter.
+<2018-06-25 21-30-13> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-25 21-30-13> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-30-13> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-30-13> INFO : GameHandler initialised.
+<2018-06-25 21-30-15> INFO : Getting data for user with ID: 4
+<2018-06-25 21-30-15> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 4;
+<2018-06-25 21-30-15> INFO : User data successfully retrieved.

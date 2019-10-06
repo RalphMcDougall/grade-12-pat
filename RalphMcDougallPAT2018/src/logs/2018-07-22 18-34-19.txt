@@ -1,0 +1,66 @@
+<2018-07-22 18-34-19> INFO : Loading static data...
+<2018-07-22 18-34-19> INFO : Loading database bridge...
+<2018-07-22 18-34-19> INFO : Connecting to database: DSPersistent
+<2018-07-22 18-34-20> INFO : Successfully connected to database
+<2018-07-22 18-34-20> INFO : Database bridge loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading tile types...
+<2018-07-22 18-34-20> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-07-22 18-34-20> INFO : Tile types loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading map segments from file...
+<2018-07-22 18-34-20> INFO : Map segments loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading item types...
+<2018-07-22 18-34-20> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-07-22 18-34-20> INFO : Item types loaded.
+<2018-07-22 18-34-20> INFO : Loading NPC names from file...
+<2018-07-22 18-34-20> INFO : NPC names loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading projectile types...
+<2018-07-22 18-34-20> INFO : Loading projectile types...
+<2018-07-22 18-34-20> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-07-22 18-34-20> INFO : Projectile loading completed.
+<2018-07-22 18-34-20> INFO : Projectile types loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading quest types...
+<2018-07-22 18-34-20> INFO : Loading quest types from database.
+<2018-07-22 18-34-20> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-07-22 18-34-20> INFO : Load the targets of the quest type from the database.
+<2018-07-22 18-34-20> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-07-22 18-34-20> INFO : Load the targets of the quest type from the database.
+<2018-07-22 18-34-20> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-07-22 18-34-20> INFO : Quest types loaded successfully.
+<2018-07-22 18-34-20> INFO : Loading enemy types...
+<2018-07-22 18-34-20> INFO : Loading enemy types...
+<2018-07-22 18-34-20> INFO : Querying database: SELECT EnemyName, SpriteSheetX, SpriteSheetY, NumSprites, EnemyHealth, EnemyMovementSpeed, EnemyDamage, EnemyProjectileType, EnemyFireRate FROM tblEnemyTypes
+<2018-07-22 18-34-20> INFO : Enemy types loaded successfully.
+<2018-07-22 18-34-20> INFO : Enemy types loaded successfully.
+<2018-07-22 18-34-20> INFO : Static data loaded.
+<2018-07-22 18-34-20> INFO : Initialising screens...
+<2018-07-22 18-34-20> INFO : Initialising GUIActiveQuests.
+<2018-07-22 18-34-20> INFO : Initialising GUICharacterMainMenu.
+<2018-07-22 18-34-21> INFO : Initialising GUICharacterSelection.
+<2018-07-22 18-34-21> INFO : Initialising GUICredits.
+<2018-07-22 18-34-21> INFO : Initialising GUIHelp.
+<2018-07-22 18-34-21> INFO : Initialising GUINewCharacter.
+<2018-07-22 18-34-21> INFO : Initialising GUIUpgradeCharacter.
+<2018-07-22 18-34-21> INFO : Screens initialised successfully.
+<2018-07-22 18-34-21> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-22 18-34-21> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-22 18-34-21> INFO : GameHandler initialised.
+<2018-07-22 18-34-24> INFO : Getting data for user with ID: 22
+<2018-07-22 18-34-24> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 22;
+<2018-07-22 18-34-24> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 22;
+<2018-07-22 18-34-24> INFO : Construct quest with id: 30
+<2018-07-22 18-34-24> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 30;
+<2018-07-22 18-34-24> INFO : Construct quest with id: 31
+<2018-07-22 18-34-24> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 31;
+<2018-07-22 18-34-24> INFO : Construct quest with id: 32
+<2018-07-22 18-34-24> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 32;
+<2018-07-22 18-34-24> INFO : User data successfully retrieved.
+<2018-07-22 18-34-24> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-07-22 18-34-25> INFO : Updating the users statistic data.
+<2018-07-22 18-34-25> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 0, Health = 50, Damage = 7, FireRate = 15, Speed = 9, NumDeaths = 7, NumKills = 12, NumQuestsCompleted = 2, numTimesHealthUpgraded = 0, numTimesDamageUpgraded = 0, numTimesFireRateUpgraded = 0, numTimesSpeedUpgraded = 1 WHERE UserID = 22;
+<2018-07-22 18-34-25> INFO : User statistic data updated.
+<2018-07-22 18-34-25> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 1 WHERE QuestID = 30;
+<2018-07-22 18-34-25> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 1 WHERE QuestID = 31;
+<2018-07-22 18-34-25> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 32;
+<2018-07-22 18-34-25> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-22 18-34-25> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-22 18-34-25> INFO : Exiting.

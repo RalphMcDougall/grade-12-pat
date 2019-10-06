@@ -1,0 +1,20 @@
+<2018-04-26 12-47-21> INFO : Initialising GUIActiveQuests.
+<2018-04-26 12-47-22> INFO : Initialising GUICharacterMainMenu.
+<2018-04-26 12-47-22> INFO : Initialising GUICharacterSelection.
+<2018-04-26 12-47-22> INFO : Initialising GUICredits.
+<2018-04-26 12-47-22> INFO : Initialising GUIHelp.
+<2018-04-26 12-47-22> INFO : Initialising GUINewCharacter.
+<2018-04-26 12-47-22> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-26 12-47-22> INFO : Initialising GameScreen.
+<2018-04-26 12-47-22> INFO : GameHandler initialised.
+<2018-04-26 12-47-22> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-26 12-47-23> INFO : Changing screen to: GAME
+<2018-04-26 12-47-23> INFO : Starting game.
+<2018-04-26 12-47-24> INFO : Initialising a new game.
+<2018-04-26 12-47-24> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-26 12-47-24> INFO : Loading image.
+<2018-04-26 12-47-25> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-26 12-47-25> INFO : Closing game.
+<2018-04-26 12-47-28> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-04-26 12-47-28> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-26 12-47-29> INFO : Changing screen to: ACTIVE_QUESTS

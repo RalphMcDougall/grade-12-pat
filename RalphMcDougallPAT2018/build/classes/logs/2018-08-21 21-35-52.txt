@@ -1,0 +1,585 @@
+<2018-08-21 21-35-52> INFO : Loading static data...
+<2018-08-21 21-35-52> INFO : Connecting to database: DSPersistent
+<2018-08-21 21-35-53> INFO : Successfully connected to database
+<2018-08-21 21-35-53> INFO : Load tile types from database...
+<2018-08-21 21-35-53> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-08-21 21-35-53> INFO : Tile types loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading map segments from file...
+<2018-08-21 21-35-53> INFO : Map segments loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading item types from database...
+<2018-08-21 21-35-53> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-08-21 21-35-53> INFO : Item types loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading NPC names from file...
+<2018-08-21 21-35-53> INFO : NPC names loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading projectile types from database...
+<2018-08-21 21-35-53> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-08-21 21-35-53> INFO : Projectile types loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading quest types from database...
+<2018-08-21 21-35-53> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-08-21 21-35-53> INFO : Load the targets of the quest type from the database.
+<2018-08-21 21-35-53> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-08-21 21-35-53> INFO : Load the targets of the quest type from the database.
+<2018-08-21 21-35-53> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-08-21 21-35-53> INFO : Quest types loaded successfully.
+<2018-08-21 21-35-53> INFO : Loading enemy types from database...
+<2018-08-21 21-35-53> INFO : Querying database: SELECT EnemyName, SpriteSheetX, SpriteSheetY, NumSprites, EnemyHealth, EnemyMovementSpeed, EnemyDamage, EnemyProjectileType, EnemyFireRate FROM tblEnemyTypes
+<2018-08-21 21-35-53> INFO : Enemy types loaded successfully.
+<2018-08-21 21-35-53> INFO : Static data loaded.
+<2018-08-21 21-35-53> INFO : Initialising screens...
+<2018-08-21 21-35-53> INFO : Initialising GUIActiveQuests.
+<2018-08-21 21-35-53> INFO : Initialising GUICharacterMainMenu.
+<2018-08-21 21-35-53> INFO : Initialising GUICharacterSelection.
+<2018-08-21 21-35-53> INFO : Initialising GUICredits.
+<2018-08-21 21-35-53> INFO : Initialising GUIHelp.
+<2018-08-21 21-35-53> INFO : Initialising GUINewCharacter.
+<2018-08-21 21-35-53> INFO : Initialising GUIUpgradeCharacter.
+<2018-08-21 21-35-53> INFO : Screens initialised successfully.
+<2018-08-21 21-35-53> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-21 21-35-53> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-21 21-35-53> INFO : GameHandler initialised.
+<2018-08-21 21-35-55> INFO : Getting data for user with ID: 26
+<2018-08-21 21-35-55> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 26;
+<2018-08-21 21-35-55> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 26;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 105
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 105;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 113
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 113;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 132
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 132;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 133
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 133;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 135
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 135;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 137
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 137;
+<2018-08-21 21-35-55> INFO : Construct quest with id: 138
+<2018-08-21 21-35-55> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 138;
+<2018-08-21 21-35-55> INFO : User data successfully retrieved.
+<2018-08-21 21-35-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-21 21-35-55> INFO : Changing screen to: GAME
+<2018-08-21 21-35-55> INFO : Starting game.
+<2018-08-21 21-35-55> INFO : Initialising app game container
+<2018-08-21 21-35-56> INFO : Initialising new game...
+<2018-08-21 21-35-56> INFO : Initialising sprite sheets...
+<2018-08-21 21-35-56> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-08-21 21-35-56> INFO : Loading image.
+<2018-08-21 21-35-56> INFO : Starting to split sprite sheet.
+<2018-08-21 21-35-56> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-35-56> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-35-56> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-08-21 21-35-56> INFO : Loading image.
+<2018-08-21 21-35-56> INFO : Starting to split sprite sheet.
+<2018-08-21 21-35-56> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-35-56> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-35-56> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-08-21 21-35-56> INFO : Loading image.
+<2018-08-21 21-35-56> INFO : Starting to split sprite sheet.
+<2018-08-21 21-35-56> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-35-56> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-35-56> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-08-21 21-35-56> INFO : Loading image.
+<2018-08-21 21-35-56> INFO : Starting to split sprite sheet.
+<2018-08-21 21-35-56> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-35-56> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-35-56> INFO : Sprite sheets initialised successfully.
+<2018-08-21 21-35-56> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-35-56> INFO : Enemies removed from entity handler.
+<2018-08-21 21-35-56> INFO : Setting up new map.
+<2018-08-21 21-35-56> INFO : Creating tile segment grid for map.
+<2018-08-21 21-35-56> INFO : Creating new blank segment grid.
+<2018-08-21 21-35-56> INFO : Starting maze construction.
+<2018-08-21 21-35-56> INFO : Starting to get dead ends.
+<2018-08-21 21-35-56> INFO : All dead ends found.
+<2018-08-21 21-35-56> INFO : Number of dead-ends: 23
+<2018-08-21 21-35-56> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-35-56> INFO : Starting to get dead ends.
+<2018-08-21 21-35-56> INFO : All dead ends found.
+<2018-08-21 21-35-56> INFO : Points of Interest setup completed.
+<2018-08-21 21-35-56> INFO : Setting up map tiles.
+<2018-08-21 21-35-56> INFO : Map tile setup completed.
+<2018-08-21 21-35-56> INFO : Getting new quest ID.
+<2018-08-21 21-35-56> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-35-56> INFO : Map setup completed.
+<2018-08-21 21-35-56> WARNING : HUDLayer not yet initialised, minimap could not be set to current map.
+<2018-08-21 21-35-56> INFO : Initialising path finding grid...
+<2018-08-21 21-35-56> INFO : Path finding grid initialised.
+<2018-08-21 21-35-56> INFO : Loading HUD...
+<2018-08-21 21-35-56> INFO : Creating HUD layer.
+<2018-08-21 21-35-56> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-35-56> INFO : Creating new minimap.
+<2018-08-21 21-35-56> INFO : Setting up grid segment type colours.
+<2018-08-21 21-35-56> INFO : Filling grid with unknown types.
+<2018-08-21 21-35-56> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-35-56> INFO : Minimap created successfully.
+<2018-08-21 21-35-56> INFO : New game initialised successfully.
+<2018-08-21 21-35-56> INFO : *********************************
+<2018-08-21 21-35-56> INFO : Available processors (cores): 4
+<2018-08-21 21-35-56> INFO : Memory use (MB): 21.431 / 1,804.5
+<2018-08-21 21-35-56> INFO : Number of entities: 2
+<2018-08-21 21-35-56> INFO : *********************************
+<2018-08-21 21-36-06> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-36-06> INFO : Enemies removed from entity handler.
+<2018-08-21 21-36-06> INFO : Setting up new map.
+<2018-08-21 21-36-06> INFO : Creating tile segment grid for map.
+<2018-08-21 21-36-06> INFO : Creating new blank segment grid.
+<2018-08-21 21-36-06> INFO : Starting maze construction.
+<2018-08-21 21-36-06> INFO : Starting to get dead ends.
+<2018-08-21 21-36-06> INFO : All dead ends found.
+<2018-08-21 21-36-06> INFO : Number of dead-ends: 26
+<2018-08-21 21-36-06> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-36-06> INFO : Starting to get dead ends.
+<2018-08-21 21-36-06> INFO : All dead ends found.
+<2018-08-21 21-36-06> INFO : Points of Interest setup completed.
+<2018-08-21 21-36-06> INFO : Setting up map tiles.
+<2018-08-21 21-36-06> INFO : Map tile setup completed.
+<2018-08-21 21-36-06> INFO : Getting new quest ID.
+<2018-08-21 21-36-06> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-36-06> INFO : Map setup completed.
+<2018-08-21 21-36-06> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-36-06> INFO : Creating new minimap.
+<2018-08-21 21-36-06> INFO : Setting up grid segment type colours.
+<2018-08-21 21-36-06> INFO : Filling grid with unknown types.
+<2018-08-21 21-36-06> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-36-06> INFO : Minimap created successfully.
+<2018-08-21 21-36-18> INFO : *********************************
+<2018-08-21 21-36-18> INFO : Available processors (cores): 4
+<2018-08-21 21-36-18> INFO : Memory use (MB): 84.98 / 1,804.5
+<2018-08-21 21-36-18> INFO : Number of entities: 62
+<2018-08-21 21-36-18> INFO : *********************************
+<2018-08-21 21-36-27> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-36-27> INFO : Enemies removed from entity handler.
+<2018-08-21 21-36-27> INFO : Setting up new map.
+<2018-08-21 21-36-27> INFO : Creating tile segment grid for map.
+<2018-08-21 21-36-27> INFO : Creating new blank segment grid.
+<2018-08-21 21-36-27> INFO : Starting maze construction.
+<2018-08-21 21-36-27> INFO : Starting to get dead ends.
+<2018-08-21 21-36-27> INFO : All dead ends found.
+<2018-08-21 21-36-27> INFO : Number of dead-ends: 20
+<2018-08-21 21-36-27> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-36-27> INFO : Starting to get dead ends.
+<2018-08-21 21-36-27> INFO : All dead ends found.
+<2018-08-21 21-36-27> INFO : Points of Interest setup completed.
+<2018-08-21 21-36-27> INFO : Setting up map tiles.
+<2018-08-21 21-36-27> INFO : Map tile setup completed.
+<2018-08-21 21-36-27> INFO : Getting new quest ID.
+<2018-08-21 21-36-27> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-36-27> INFO : Map setup completed.
+<2018-08-21 21-36-27> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-36-27> INFO : Creating new minimap.
+<2018-08-21 21-36-27> INFO : Setting up grid segment type colours.
+<2018-08-21 21-36-27> INFO : Filling grid with unknown types.
+<2018-08-21 21-36-27> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-36-27> INFO : Minimap created successfully.
+<2018-08-21 21-36-39> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-36-39> INFO : Enemies removed from entity handler.
+<2018-08-21 21-36-39> INFO : Setting up new map.
+<2018-08-21 21-36-39> INFO : Creating tile segment grid for map.
+<2018-08-21 21-36-39> INFO : Creating new blank segment grid.
+<2018-08-21 21-36-39> INFO : Starting maze construction.
+<2018-08-21 21-36-39> INFO : Starting to get dead ends.
+<2018-08-21 21-36-39> INFO : All dead ends found.
+<2018-08-21 21-36-39> INFO : Number of dead-ends: 21
+<2018-08-21 21-36-39> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-36-39> INFO : Starting to get dead ends.
+<2018-08-21 21-36-39> INFO : All dead ends found.
+<2018-08-21 21-36-39> INFO : Points of Interest setup completed.
+<2018-08-21 21-36-39> INFO : Setting up map tiles.
+<2018-08-21 21-36-39> INFO : Map tile setup completed.
+<2018-08-21 21-36-39> INFO : Getting new quest ID.
+<2018-08-21 21-36-39> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-36-39> INFO : Map setup completed.
+<2018-08-21 21-36-39> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-36-39> INFO : Creating new minimap.
+<2018-08-21 21-36-39> INFO : Setting up grid segment type colours.
+<2018-08-21 21-36-39> INFO : Filling grid with unknown types.
+<2018-08-21 21-36-39> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-36-39> INFO : Minimap created successfully.
+<2018-08-21 21-36-39> INFO : *********************************
+<2018-08-21 21-36-39> INFO : Available processors (cores): 4
+<2018-08-21 21-36-39> INFO : Memory use (MB): 67.158 / 1,804.5
+<2018-08-21 21-36-39> INFO : Number of entities: 3
+<2018-08-21 21-36-39> INFO : *********************************
+<2018-08-21 21-36-54> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-36-54> INFO : Enemies removed from entity handler.
+<2018-08-21 21-36-54> INFO : Setting up new map.
+<2018-08-21 21-36-54> INFO : Creating tile segment grid for map.
+<2018-08-21 21-36-54> INFO : Creating new blank segment grid.
+<2018-08-21 21-36-54> INFO : Starting maze construction.
+<2018-08-21 21-36-54> INFO : Starting to get dead ends.
+<2018-08-21 21-36-54> INFO : All dead ends found.
+<2018-08-21 21-36-54> INFO : Number of dead-ends: 31
+<2018-08-21 21-36-54> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-36-54> INFO : Starting to get dead ends.
+<2018-08-21 21-36-54> INFO : All dead ends found.
+<2018-08-21 21-36-54> INFO : Points of Interest setup completed.
+<2018-08-21 21-36-54> INFO : Setting up map tiles.
+<2018-08-21 21-36-54> INFO : Map tile setup completed.
+<2018-08-21 21-36-54> INFO : Getting new quest ID.
+<2018-08-21 21-36-54> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-36-54> INFO : Map setup completed.
+<2018-08-21 21-36-54> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-36-54> INFO : Creating new minimap.
+<2018-08-21 21-36-54> INFO : Setting up grid segment type colours.
+<2018-08-21 21-36-54> INFO : Filling grid with unknown types.
+<2018-08-21 21-36-54> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-36-54> INFO : Minimap created successfully.
+<2018-08-21 21-37-01> INFO : *********************************
+<2018-08-21 21-37-01> INFO : Available processors (cores): 4
+<2018-08-21 21-37-01> INFO : Memory use (MB): 43.694 / 1,804.5
+<2018-08-21 21-37-01> INFO : Number of entities: 7
+<2018-08-21 21-37-01> INFO : *********************************
+<2018-08-21 21-37-22> INFO : *********************************
+<2018-08-21 21-37-22> INFO : Available processors (cores): 4
+<2018-08-21 21-37-22> INFO : Memory use (MB): 43.018 / 1,804.5
+<2018-08-21 21-37-22> INFO : Number of entities: 50
+<2018-08-21 21-37-22> INFO : *********************************
+<2018-08-21 21-37-25> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-37-25> INFO : Enemies removed from entity handler.
+<2018-08-21 21-37-25> INFO : Setting up new map.
+<2018-08-21 21-37-25> INFO : Creating tile segment grid for map.
+<2018-08-21 21-37-25> INFO : Creating new blank segment grid.
+<2018-08-21 21-37-25> INFO : Starting maze construction.
+<2018-08-21 21-37-25> INFO : Starting to get dead ends.
+<2018-08-21 21-37-25> INFO : All dead ends found.
+<2018-08-21 21-37-25> INFO : Number of dead-ends: 22
+<2018-08-21 21-37-25> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-37-25> INFO : Starting to get dead ends.
+<2018-08-21 21-37-25> INFO : All dead ends found.
+<2018-08-21 21-37-25> INFO : Points of Interest setup completed.
+<2018-08-21 21-37-25> INFO : Setting up map tiles.
+<2018-08-21 21-37-25> INFO : Map tile setup completed.
+<2018-08-21 21-37-25> INFO : Getting new quest ID.
+<2018-08-21 21-37-25> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-37-25> INFO : Map setup completed.
+<2018-08-21 21-37-25> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-37-25> INFO : Creating new minimap.
+<2018-08-21 21-37-25> INFO : Setting up grid segment type colours.
+<2018-08-21 21-37-25> INFO : Filling grid with unknown types.
+<2018-08-21 21-37-25> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-37-25> INFO : Minimap created successfully.
+<2018-08-21 21-37-36> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-37-36> INFO : Enemies removed from entity handler.
+<2018-08-21 21-37-36> INFO : Setting up new map.
+<2018-08-21 21-37-36> INFO : Creating tile segment grid for map.
+<2018-08-21 21-37-36> INFO : Creating new blank segment grid.
+<2018-08-21 21-37-36> INFO : Starting maze construction.
+<2018-08-21 21-37-36> INFO : Starting to get dead ends.
+<2018-08-21 21-37-36> INFO : All dead ends found.
+<2018-08-21 21-37-36> INFO : Number of dead-ends: 24
+<2018-08-21 21-37-36> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-37-36> INFO : Starting to get dead ends.
+<2018-08-21 21-37-36> INFO : All dead ends found.
+<2018-08-21 21-37-36> INFO : Points of Interest setup completed.
+<2018-08-21 21-37-36> INFO : Setting up map tiles.
+<2018-08-21 21-37-36> INFO : Map tile setup completed.
+<2018-08-21 21-37-36> INFO : Getting new quest ID.
+<2018-08-21 21-37-36> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-37-36> INFO : Map setup completed.
+<2018-08-21 21-37-36> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-37-36> INFO : Creating new minimap.
+<2018-08-21 21-37-36> INFO : Setting up grid segment type colours.
+<2018-08-21 21-37-36> INFO : Filling grid with unknown types.
+<2018-08-21 21-37-36> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-37-36> INFO : Minimap created successfully.
+<2018-08-21 21-37-44> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-37-44> INFO : Enemies removed from entity handler.
+<2018-08-21 21-37-44> INFO : Setting up new map.
+<2018-08-21 21-37-44> INFO : Creating tile segment grid for map.
+<2018-08-21 21-37-44> INFO : Creating new blank segment grid.
+<2018-08-21 21-37-44> INFO : Starting maze construction.
+<2018-08-21 21-37-44> INFO : Starting to get dead ends.
+<2018-08-21 21-37-44> INFO : All dead ends found.
+<2018-08-21 21-37-44> INFO : Number of dead-ends: 29
+<2018-08-21 21-37-44> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-37-44> INFO : Starting to get dead ends.
+<2018-08-21 21-37-44> INFO : All dead ends found.
+<2018-08-21 21-37-44> INFO : Points of Interest setup completed.
+<2018-08-21 21-37-44> INFO : Setting up map tiles.
+<2018-08-21 21-37-44> INFO : Map tile setup completed.
+<2018-08-21 21-37-44> INFO : Getting new quest ID.
+<2018-08-21 21-37-44> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-37-44> INFO : Map setup completed.
+<2018-08-21 21-37-44> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-37-44> INFO : Creating new minimap.
+<2018-08-21 21-37-44> INFO : Setting up grid segment type colours.
+<2018-08-21 21-37-44> INFO : Filling grid with unknown types.
+<2018-08-21 21-37-44> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-37-44> INFO : Minimap created successfully.
+<2018-08-21 21-37-44> INFO : *********************************
+<2018-08-21 21-37-44> INFO : Available processors (cores): 4
+<2018-08-21 21-37-44> INFO : Memory use (MB): 36.486 / 1,804.5
+<2018-08-21 21-37-44> INFO : Number of entities: 3
+<2018-08-21 21-37-44> INFO : *********************************
+<2018-08-21 21-38-05> INFO : *********************************
+<2018-08-21 21-38-05> INFO : Available processors (cores): 4
+<2018-08-21 21-38-05> INFO : Memory use (MB): 46.448 / 1,804.5
+<2018-08-21 21-38-05> INFO : Number of entities: 17
+<2018-08-21 21-38-05> INFO : *********************************
+<2018-08-21 21-38-27> INFO : *********************************
+<2018-08-21 21-38-27> INFO : Available processors (cores): 4
+<2018-08-21 21-38-27> INFO : Memory use (MB): 21.536 / 1,804.5
+<2018-08-21 21-38-27> INFO : Number of entities: 31
+<2018-08-21 21-38-27> INFO : *********************************
+<2018-08-21 21-38-27> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-38-27> INFO : Enemies removed from entity handler.
+<2018-08-21 21-38-27> INFO : Setting up new map.
+<2018-08-21 21-38-27> INFO : Creating tile segment grid for map.
+<2018-08-21 21-38-27> INFO : Creating new blank segment grid.
+<2018-08-21 21-38-27> INFO : Starting maze construction.
+<2018-08-21 21-38-27> INFO : Starting to get dead ends.
+<2018-08-21 21-38-27> INFO : All dead ends found.
+<2018-08-21 21-38-27> INFO : Number of dead-ends: 30
+<2018-08-21 21-38-27> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-38-27> INFO : Starting to get dead ends.
+<2018-08-21 21-38-27> INFO : All dead ends found.
+<2018-08-21 21-38-27> INFO : Points of Interest setup completed.
+<2018-08-21 21-38-27> INFO : Setting up map tiles.
+<2018-08-21 21-38-27> INFO : Map tile setup completed.
+<2018-08-21 21-38-27> INFO : Getting new quest ID.
+<2018-08-21 21-38-27> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-38-27> INFO : Map setup completed.
+<2018-08-21 21-38-27> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-38-27> INFO : Creating new minimap.
+<2018-08-21 21-38-27> INFO : Setting up grid segment type colours.
+<2018-08-21 21-38-27> INFO : Filling grid with unknown types.
+<2018-08-21 21-38-27> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-38-27> INFO : Minimap created successfully.
+<2018-08-21 21-38-36> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-38-36> INFO : Enemies removed from entity handler.
+<2018-08-21 21-38-36> INFO : Setting up new map.
+<2018-08-21 21-38-36> INFO : Creating tile segment grid for map.
+<2018-08-21 21-38-36> INFO : Creating new blank segment grid.
+<2018-08-21 21-38-36> INFO : Starting maze construction.
+<2018-08-21 21-38-36> INFO : Starting to get dead ends.
+<2018-08-21 21-38-36> INFO : All dead ends found.
+<2018-08-21 21-38-36> INFO : Number of dead-ends: 25
+<2018-08-21 21-38-36> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-38-36> INFO : Starting to get dead ends.
+<2018-08-21 21-38-36> INFO : All dead ends found.
+<2018-08-21 21-38-36> INFO : Points of Interest setup completed.
+<2018-08-21 21-38-36> INFO : Setting up map tiles.
+<2018-08-21 21-38-36> INFO : Map tile setup completed.
+<2018-08-21 21-38-36> INFO : Getting new quest ID.
+<2018-08-21 21-38-36> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-38-36> INFO : Map setup completed.
+<2018-08-21 21-38-36> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-38-36> INFO : Creating new minimap.
+<2018-08-21 21-38-36> INFO : Setting up grid segment type colours.
+<2018-08-21 21-38-36> INFO : Filling grid with unknown types.
+<2018-08-21 21-38-36> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-38-36> INFO : Minimap created successfully.
+<2018-08-21 21-38-49> INFO : *********************************
+<2018-08-21 21-38-49> INFO : Available processors (cores): 4
+<2018-08-21 21-38-49> INFO : Memory use (MB): 40.477 / 1,804.5
+<2018-08-21 21-38-49> INFO : Number of entities: 11
+<2018-08-21 21-38-49> INFO : *********************************
+<2018-08-21 21-38-52> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-38-52> INFO : Enemies removed from entity handler.
+<2018-08-21 21-38-52> INFO : Setting up new map.
+<2018-08-21 21-38-52> INFO : Creating tile segment grid for map.
+<2018-08-21 21-38-52> INFO : Creating new blank segment grid.
+<2018-08-21 21-38-52> INFO : Starting maze construction.
+<2018-08-21 21-38-52> INFO : Starting to get dead ends.
+<2018-08-21 21-38-52> INFO : All dead ends found.
+<2018-08-21 21-38-52> INFO : Number of dead-ends: 25
+<2018-08-21 21-38-52> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-38-52> INFO : Starting to get dead ends.
+<2018-08-21 21-38-52> INFO : All dead ends found.
+<2018-08-21 21-38-52> INFO : Points of Interest setup completed.
+<2018-08-21 21-38-52> INFO : Setting up map tiles.
+<2018-08-21 21-38-52> INFO : Map tile setup completed.
+<2018-08-21 21-38-52> INFO : Getting new quest ID.
+<2018-08-21 21-38-52> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-38-52> INFO : Map setup completed.
+<2018-08-21 21-38-52> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-38-52> INFO : Creating new minimap.
+<2018-08-21 21-38-52> INFO : Setting up grid segment type colours.
+<2018-08-21 21-38-52> INFO : Filling grid with unknown types.
+<2018-08-21 21-38-52> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-38-52> INFO : Minimap created successfully.
+<2018-08-21 21-39-01> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-39-01> INFO : Enemies removed from entity handler.
+<2018-08-21 21-39-01> INFO : Setting up new map.
+<2018-08-21 21-39-01> INFO : Creating tile segment grid for map.
+<2018-08-21 21-39-01> INFO : Creating new blank segment grid.
+<2018-08-21 21-39-01> INFO : Starting maze construction.
+<2018-08-21 21-39-01> INFO : Starting to get dead ends.
+<2018-08-21 21-39-01> INFO : All dead ends found.
+<2018-08-21 21-39-01> INFO : Number of dead-ends: 36
+<2018-08-21 21-39-01> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-39-01> INFO : Starting to get dead ends.
+<2018-08-21 21-39-01> INFO : All dead ends found.
+<2018-08-21 21-39-01> INFO : Points of Interest setup completed.
+<2018-08-21 21-39-01> INFO : Setting up map tiles.
+<2018-08-21 21-39-01> INFO : Map tile setup completed.
+<2018-08-21 21-39-01> INFO : Getting new quest ID.
+<2018-08-21 21-39-01> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-39-01> INFO : Map setup completed.
+<2018-08-21 21-39-01> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-39-01> INFO : Creating new minimap.
+<2018-08-21 21-39-01> INFO : Setting up grid segment type colours.
+<2018-08-21 21-39-01> INFO : Filling grid with unknown types.
+<2018-08-21 21-39-01> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-39-01> INFO : Minimap created successfully.
+<2018-08-21 21-39-10> INFO : *********************************
+<2018-08-21 21-39-10> INFO : Available processors (cores): 4
+<2018-08-21 21-39-10> INFO : Memory use (MB): 43.965 / 1,804.5
+<2018-08-21 21-39-10> INFO : Number of entities: 9
+<2018-08-21 21-39-10> INFO : *********************************
+<2018-08-21 21-39-13> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-39-13> INFO : Enemies removed from entity handler.
+<2018-08-21 21-39-13> INFO : Setting up new map.
+<2018-08-21 21-39-13> INFO : Creating tile segment grid for map.
+<2018-08-21 21-39-13> INFO : Creating new blank segment grid.
+<2018-08-21 21-39-13> INFO : Starting maze construction.
+<2018-08-21 21-39-13> INFO : Starting to get dead ends.
+<2018-08-21 21-39-13> INFO : All dead ends found.
+<2018-08-21 21-39-13> INFO : Number of dead-ends: 21
+<2018-08-21 21-39-13> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-39-13> INFO : Starting to get dead ends.
+<2018-08-21 21-39-13> INFO : All dead ends found.
+<2018-08-21 21-39-13> INFO : Points of Interest setup completed.
+<2018-08-21 21-39-13> INFO : Setting up map tiles.
+<2018-08-21 21-39-13> INFO : Map tile setup completed.
+<2018-08-21 21-39-13> INFO : Getting new quest ID.
+<2018-08-21 21-39-13> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-39-13> INFO : Map setup completed.
+<2018-08-21 21-39-13> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-39-13> INFO : Creating new minimap.
+<2018-08-21 21-39-13> INFO : Setting up grid segment type colours.
+<2018-08-21 21-39-13> INFO : Filling grid with unknown types.
+<2018-08-21 21-39-13> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-39-13> INFO : Minimap created successfully.
+<2018-08-21 21-39-18> INFO : Increasing progress on quest: 105 to 17 / 17.
+<2018-08-21 21-39-18> INFO : Increasing progress on quest: 113 to 11 / 20.
+<2018-08-21 21-39-18> INFO : Increasing progress on quest: 133 to 5 / 9.
+<2018-08-21 21-39-18> INFO : Increasing progress on quest: 138 to 1 / 12.
+<2018-08-21 21-39-32> INFO : *********************************
+<2018-08-21 21-39-32> INFO : Available processors (cores): 4
+<2018-08-21 21-39-32> INFO : Memory use (MB): 30.106 / 1,804.5
+<2018-08-21 21-39-32> INFO : Number of entities: 30
+<2018-08-21 21-39-32> INFO : *********************************
+<2018-08-21 21-39-33> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-39-33> INFO : Enemies removed from entity handler.
+<2018-08-21 21-39-33> INFO : Setting up new map.
+<2018-08-21 21-39-33> INFO : Creating tile segment grid for map.
+<2018-08-21 21-39-33> INFO : Creating new blank segment grid.
+<2018-08-21 21-39-33> INFO : Starting maze construction.
+<2018-08-21 21-39-33> INFO : Starting to get dead ends.
+<2018-08-21 21-39-33> INFO : All dead ends found.
+<2018-08-21 21-39-33> INFO : Number of dead-ends: 30
+<2018-08-21 21-39-33> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-39-33> INFO : Starting to get dead ends.
+<2018-08-21 21-39-33> INFO : All dead ends found.
+<2018-08-21 21-39-33> INFO : Points of Interest setup completed.
+<2018-08-21 21-39-33> INFO : Setting up map tiles.
+<2018-08-21 21-39-33> INFO : Map tile setup completed.
+<2018-08-21 21-39-33> INFO : Getting new quest ID.
+<2018-08-21 21-39-33> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-39-33> INFO : Map setup completed.
+<2018-08-21 21-39-33> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-39-33> INFO : Creating new minimap.
+<2018-08-21 21-39-33> INFO : Setting up grid segment type colours.
+<2018-08-21 21-39-33> INFO : Filling grid with unknown types.
+<2018-08-21 21-39-33> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-39-33> INFO : Minimap created successfully.
+<2018-08-21 21-39-53> INFO : *********************************
+<2018-08-21 21-39-53> INFO : Available processors (cores): 4
+<2018-08-21 21-39-53> INFO : Memory use (MB): 50.84 / 1,804.5
+<2018-08-21 21-39-53> INFO : Number of entities: 16
+<2018-08-21 21-39-53> INFO : *********************************
+<2018-08-21 21-39-57> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-39-57> INFO : Enemies removed from entity handler.
+<2018-08-21 21-39-57> INFO : Setting up new map.
+<2018-08-21 21-39-57> INFO : Creating tile segment grid for map.
+<2018-08-21 21-39-57> INFO : Creating new blank segment grid.
+<2018-08-21 21-39-57> INFO : Starting maze construction.
+<2018-08-21 21-39-57> INFO : Starting to get dead ends.
+<2018-08-21 21-39-57> INFO : All dead ends found.
+<2018-08-21 21-39-57> INFO : Number of dead-ends: 23
+<2018-08-21 21-39-57> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-39-57> INFO : Starting to get dead ends.
+<2018-08-21 21-39-57> INFO : All dead ends found.
+<2018-08-21 21-39-57> INFO : Points of Interest setup completed.
+<2018-08-21 21-39-57> INFO : Setting up map tiles.
+<2018-08-21 21-39-57> INFO : Map tile setup completed.
+<2018-08-21 21-39-57> INFO : Getting new quest ID.
+<2018-08-21 21-39-57> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-39-57> INFO : Map setup completed.
+<2018-08-21 21-39-57> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-39-57> INFO : Creating new minimap.
+<2018-08-21 21-39-57> INFO : Setting up grid segment type colours.
+<2018-08-21 21-39-57> INFO : Filling grid with unknown types.
+<2018-08-21 21-39-57> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-39-57> INFO : Minimap created successfully.
+<2018-08-21 21-40-01> INFO : Increasing progress on quest: 132 to 7 / 8.
+<2018-08-21 21-40-01> INFO : Increasing progress on quest: 135 to 5 / 6.
+<2018-08-21 21-40-04> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-40-04> INFO : Enemies removed from entity handler.
+<2018-08-21 21-40-04> INFO : Setting up new map.
+<2018-08-21 21-40-04> INFO : Creating tile segment grid for map.
+<2018-08-21 21-40-04> INFO : Creating new blank segment grid.
+<2018-08-21 21-40-04> INFO : Starting maze construction.
+<2018-08-21 21-40-04> INFO : Starting to get dead ends.
+<2018-08-21 21-40-04> INFO : All dead ends found.
+<2018-08-21 21-40-04> INFO : Number of dead-ends: 30
+<2018-08-21 21-40-04> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-40-04> INFO : Starting to get dead ends.
+<2018-08-21 21-40-04> INFO : All dead ends found.
+<2018-08-21 21-40-04> INFO : Points of Interest setup completed.
+<2018-08-21 21-40-04> INFO : Setting up map tiles.
+<2018-08-21 21-40-04> INFO : Map tile setup completed.
+<2018-08-21 21-40-04> INFO : Getting new quest ID.
+<2018-08-21 21-40-04> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-40-04> INFO : Map setup completed.
+<2018-08-21 21-40-04> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-40-04> INFO : Creating new minimap.
+<2018-08-21 21-40-04> INFO : Setting up grid segment type colours.
+<2018-08-21 21-40-04> INFO : Filling grid with unknown types.
+<2018-08-21 21-40-04> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-40-04> INFO : Minimap created successfully.
+<2018-08-21 21-40-14> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-40-14> INFO : Enemies removed from entity handler.
+<2018-08-21 21-40-14> INFO : Setting up new map.
+<2018-08-21 21-40-14> INFO : Creating tile segment grid for map.
+<2018-08-21 21-40-14> INFO : Creating new blank segment grid.
+<2018-08-21 21-40-14> INFO : Starting maze construction.
+<2018-08-21 21-40-14> INFO : Starting to get dead ends.
+<2018-08-21 21-40-14> INFO : All dead ends found.
+<2018-08-21 21-40-14> INFO : Number of dead-ends: 29
+<2018-08-21 21-40-14> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-40-14> INFO : Starting to get dead ends.
+<2018-08-21 21-40-14> INFO : All dead ends found.
+<2018-08-21 21-40-14> INFO : Points of Interest setup completed.
+<2018-08-21 21-40-14> INFO : Setting up map tiles.
+<2018-08-21 21-40-14> INFO : Map tile setup completed.
+<2018-08-21 21-40-14> INFO : Getting new quest ID.
+<2018-08-21 21-40-14> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-40-14> INFO : Map setup completed.
+<2018-08-21 21-40-14> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-40-14> INFO : Creating new minimap.
+<2018-08-21 21-40-14> INFO : Setting up grid segment type colours.
+<2018-08-21 21-40-14> INFO : Filling grid with unknown types.
+<2018-08-21 21-40-14> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-40-14> INFO : Minimap created successfully.
+<2018-08-21 21-40-15> INFO : *********************************
+<2018-08-21 21-40-15> INFO : Available processors (cores): 4
+<2018-08-21 21-40-15> INFO : Memory use (MB): 58.246 / 1,804.5
+<2018-08-21 21-40-15> INFO : Number of entities: 3
+<2018-08-21 21-40-15> INFO : *********************************
+<2018-08-21 21-40-16> INFO : Exiting main game.
+<2018-08-21 21-40-16> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-21 21-40-16> INFO : Closing game.
+<2018-08-21 21-40-17> INFO : Updating the users statistic data.
+<2018-08-21 21-40-17> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 381, Health = 100, Damage = 17, FireRate = 27, Speed = 29, NumDeaths = 51, NumKills = 1604, NumQuestsCompleted = 51, numTimesHealthUpgraded = 6, numTimesDamageUpgraded = 5, numTimesFireRateUpgraded = 16, numTimesSpeedUpgraded = 21 WHERE UserID = 26;
+<2018-08-21 21-40-18> INFO : User statistic data updated.
+<2018-08-21 21-40-18> INFO : Updating database: DELETE * FROM tblActiveQuests WHERE QuestID = 105;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 11 WHERE QuestID = 113;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 7 WHERE QuestID = 132;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 133;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 135;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 2 WHERE QuestID = 137;
+<2018-08-21 21-40-18> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 1 WHERE QuestID = 138;
+<2018-08-21 21-40-18> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-21 21-40-18> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-21 21-40-18> INFO : Exiting game.

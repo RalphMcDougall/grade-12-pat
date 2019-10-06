@@ -1,0 +1,50 @@
+<2018-06-25 21-35-44> INFO : Connecting to database: DSPersistent
+<2018-06-25 21-35-45> INFO : Successfully connected to database
+<2018-06-25 21-35-45> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-25 21-35-45> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-25 21-35-45> INFO : Loading projectile types...
+<2018-06-25 21-35-45> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-25 21-35-45> INFO : Projectile loading completed.
+<2018-06-25 21-35-45> INFO : Initialising GUIActiveQuests.
+<2018-06-25 21-35-45> INFO : Initialising GUICharacterMainMenu.
+<2018-06-25 21-35-45> INFO : Initialising GUICharacterSelection.
+<2018-06-25 21-35-45> INFO : Initialising GUICredits.
+<2018-06-25 21-35-45> INFO : Initialising GUIHelp.
+<2018-06-25 21-35-45> INFO : Initialising GUINewCharacter.
+<2018-06-25 21-35-45> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-25 21-35-45> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-35-45> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-35-45> INFO : GameHandler initialised.
+<2018-06-25 21-35-50> INFO : Deleting all active quests for user.
+<2018-06-25 21-35-50> INFO : Updating database: DELETE * FROM tblActiveQuests WHERE UserID = 7;
+<2018-06-25 21-35-50> INFO : User quest data deleted.
+<2018-06-25 21-35-50> INFO : Deleting user.
+<2018-06-25 21-35-50> INFO : Updating database: DELETE * FROM tblUsers WHERE UserID = 7;
+<2018-06-25 21-35-50> INFO : User deleted.
+<2018-06-25 21-35-50> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-35-58> INFO : Deleting all active quests for user.
+<2018-06-25 21-35-58> INFO : Updating database: DELETE * FROM tblActiveQuests WHERE UserID = 6;
+<2018-06-25 21-35-58> INFO : User quest data deleted.
+<2018-06-25 21-35-58> INFO : Deleting user.
+<2018-06-25 21-35-58> INFO : Updating database: DELETE * FROM tblUsers WHERE UserID = 6;
+<2018-06-25 21-35-58> INFO : User deleted.
+<2018-06-25 21-35-58> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-36-03> INFO : Changing screen to: NEW_CHARACTER
+<2018-06-25 21-36-07> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded) VALUES ('RalphTest4', DATE(), 0, 100, 10, 5, 5, 0, 0, 0, 0, 0, 0, 0);
+<2018-06-25 21-36-08> INFO : User added to database successfully.
+<2018-06-25 21-36-08> INFO : Inserting new user into database.
+<2018-06-25 21-36-08> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, Health, Damage, FireRate, Speed) VALUES ('RalphTest4', NOW(), 100, 10, 5, 5);
+<2018-06-25 21-36-08> INFO : User successfully added to database.
+<2018-06-25 21-36-08> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-25 21-36-12> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-36-12> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-36-23> INFO : Changing screen to: NEW_CHARACTER
+<2018-06-25 21-36-27> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded) VALUES ('12345', DATE(), 0, 100, 10, 5, 5, 0, 0, 0, 0, 0, 0, 0);
+<2018-06-25 21-36-27> INFO : User added to database successfully.
+<2018-06-25 21-36-27> INFO : Inserting new user into database.
+<2018-06-25 21-36-27> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, Health, Damage, FireRate, Speed) VALUES ('12345', NOW(), 100, 10, 5, 5);
+<2018-06-25 21-36-27> INFO : User successfully added to database.
+<2018-06-25 21-36-27> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-25 21-36-30> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-36-30> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-36-31> INFO : Exiting.

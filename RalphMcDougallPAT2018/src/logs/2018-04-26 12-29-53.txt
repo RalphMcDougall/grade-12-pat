@@ -1,0 +1,18 @@
+<2018-04-26 12-29-54> INFO : Initialising GUIActiveQuests.
+<2018-04-26 12-29-54> INFO : Initialising GUICharacterMainMenu.
+<2018-04-26 12-29-54> INFO : Initialising GUICharacterSelection.
+<2018-04-26 12-29-54> INFO : Initialising GUICredits.
+<2018-04-26 12-29-54> INFO : Initialising GUIHelp.
+<2018-04-26 12-29-54> INFO : Initialising GUINewCharacter.
+<2018-04-26 12-29-54> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-26 12-29-54> INFO : Initialising GameScreen.
+<2018-04-26 12-29-54> INFO : GameHandler initialised.
+<2018-04-26 12-29-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-26 12-29-56> INFO : Changing screen to: GAME
+<2018-04-26 12-29-56> INFO : Starting game.
+<2018-04-26 12-29-56> INFO : Initialising a new game.
+<2018-04-26 12-29-56> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-26 12-29-56> INFO : Loading image.
+<2018-04-26 12-29-57> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-26 12-29-57> INFO : Closing game.
+<2018-04-26 12-29-57> ERROR : The new screen could not be made visible: java.lang.NullPointerException

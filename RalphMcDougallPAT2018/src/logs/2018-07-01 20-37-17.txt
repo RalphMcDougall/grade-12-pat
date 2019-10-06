@@ -1,0 +1,112 @@
+<2018-07-01 20-37-17> INFO : Loading static data...
+<2018-07-01 20-37-17> INFO : Loading database bridge...
+<2018-07-01 20-37-17> INFO : Connecting to database: DSPersistent
+<2018-07-01 20-37-17> INFO : Successfully connected to database
+<2018-07-01 20-37-17> INFO : Database bridge loaded successfully.
+<2018-07-01 20-37-17> INFO : Loading tile types...
+<2018-07-01 20-37-17> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-07-01 20-37-17> INFO : Tile types loaded successfully.
+<2018-07-01 20-37-17> INFO : Loading map segments from file...
+<2018-07-01 20-37-17> INFO : Map segments loaded successfully.
+<2018-07-01 20-37-17> INFO : Loading item types...
+<2018-07-01 20-37-17> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-07-01 20-37-17> INFO : Item types loaded.
+<2018-07-01 20-37-17> INFO : Loading NPC names from file...
+<2018-07-01 20-37-17> INFO : NPC names loaded successfully.
+<2018-07-01 20-37-17> INFO : Loading projectile types...
+<2018-07-01 20-37-17> INFO : Loading projectile types...
+<2018-07-01 20-37-17> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-07-01 20-37-17> INFO : Projectile loading completed.
+<2018-07-01 20-37-17> INFO : Projectile types loaded successfully.
+<2018-07-01 20-37-17> INFO : Loading quest types...
+<2018-07-01 20-37-17> INFO : Loading quest types from database.
+<2018-07-01 20-37-17> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-07-01 20-37-17> INFO : Load the targets of the quest type from the database.
+<2018-07-01 20-37-17> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-07-01 20-37-17> INFO : Load the targets of the quest type from the database.
+<2018-07-01 20-37-17> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-07-01 20-37-17> INFO : Quest types loaded successfully.
+<2018-07-01 20-37-17> INFO : Static data loaded.
+<2018-07-01 20-37-17> INFO : Initialising screens...
+<2018-07-01 20-37-18> INFO : Initialising GUIActiveQuests.
+<2018-07-01 20-37-18> INFO : Initialising GUICharacterMainMenu.
+<2018-07-01 20-37-18> INFO : Initialising GUICharacterSelection.
+<2018-07-01 20-37-18> INFO : Initialising GUICredits.
+<2018-07-01 20-37-18> INFO : Initialising GUIHelp.
+<2018-07-01 20-37-18> INFO : Initialising GUINewCharacter.
+<2018-07-01 20-37-18> INFO : Initialising GUIUpgradeCharacter.
+<2018-07-01 20-37-18> INFO : Screens initialised successfully.
+<2018-07-01 20-37-18> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-01 20-37-18> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-01 20-37-18> INFO : GameHandler initialised.
+<2018-07-01 20-37-20> INFO : Getting data for user with ID: 20
+<2018-07-01 20-37-20> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 20;
+<2018-07-01 20-37-20> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 20;
+<2018-07-01 20-37-20> INFO : Construct quest with id: 12
+<2018-07-01 20-37-20> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 12;
+<2018-07-01 20-37-20> INFO : Construct quest with id: 14
+<2018-07-01 20-37-20> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 14;
+<2018-07-01 20-37-20> INFO : Construct quest with id: 19
+<2018-07-01 20-37-20> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 19;
+<2018-07-01 20-37-20> INFO : Construct quest with id: 22
+<2018-07-01 20-37-20> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 22;
+<2018-07-01 20-37-20> INFO : User data successfully retrieved.
+<2018-07-01 20-37-20> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-07-01 20-37-20> INFO : Changing screen to: GAME
+<2018-07-01 20-37-20> INFO : Starting game.
+<2018-07-01 20-37-20> INFO : Initialising app game container
+<2018-07-01 20-37-21> INFO : Initialising new game...
+<2018-07-01 20-37-21> INFO : Initialising sprite sheets...
+<2018-07-01 20-37-21> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-07-01 20-37-21> INFO : Loading image.
+<2018-07-01 20-37-21> INFO : Starting to split sprite sheet.
+<2018-07-01 20-37-21> INFO : Sprite sheet splitting completed.
+<2018-07-01 20-37-21> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-07-01 20-37-21> INFO : Loading image.
+<2018-07-01 20-37-21> INFO : Starting to split sprite sheet.
+<2018-07-01 20-37-21> INFO : Sprite sheet splitting completed.
+<2018-07-01 20-37-21> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-07-01 20-37-21> INFO : Loading image.
+<2018-07-01 20-37-21> INFO : Starting to split sprite sheet.
+<2018-07-01 20-37-21> INFO : Sprite sheet splitting completed.
+<2018-07-01 20-37-21> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-07-01 20-37-21> INFO : Loading image.
+<2018-07-01 20-37-21> INFO : Starting to split sprite sheet.
+<2018-07-01 20-37-21> INFO : Sprite sheet splitting completed.
+<2018-07-01 20-37-21> INFO : Sprite sheets initialised successfully.
+<2018-07-01 20-37-21> INFO : Setting up new map.
+<2018-07-01 20-37-21> INFO : Creating tile segment grid for map.
+<2018-07-01 20-37-21> INFO : Creating new blank segment grid.
+<2018-07-01 20-37-21> INFO : Starting maze construction.
+<2018-07-01 20-37-21> INFO : Starting to setup Points of Interest.
+<2018-07-01 20-37-21> INFO : Starting to get dead ends.
+<2018-07-01 20-37-21> INFO : All dead ends found.
+<2018-07-01 20-37-21> INFO : Number of dead-ends: 31
+<2018-07-01 20-37-21> INFO : Points of Interest setup completed.
+<2018-07-01 20-37-21> INFO : Setting up map tiles.
+<2018-07-01 20-37-21> INFO : Map tile setup completed.
+<2018-07-01 20-37-21> INFO : Getting new quest ID.
+<2018-07-01 20-37-21> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-01 20-37-21> INFO : Map setup completed.
+<2018-07-01 20-37-21> INFO : Initialising path finding grid...
+<2018-07-01 20-37-21> INFO : Path finding grid initialised.
+<2018-07-01 20-37-21> INFO : Creating HUD layer.
+<2018-07-01 20-37-21> INFO : New game initialised successfully.
+<2018-07-01 20-37-21> INFO : *********************************
+<2018-07-01 20-37-21> INFO : Available processors (cores): 4
+<2018-07-01 20-37-21> INFO : Memory use (MB): 90.204 / 1,804.5
+<2018-07-01 20-37-21> INFO : Number of entities: 3
+<2018-07-01 20-37-21> INFO : *********************************
+<2018-07-01 20-37-29> INFO : Exiting main game.
+<2018-07-01 20-37-29> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-07-01 20-37-29> INFO : Closing game.
+<2018-07-01 20-37-30> INFO : Updating the users statistic data.
+<2018-07-01 20-37-30> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 5, Health = 60, Damage = 10, FireRate = 9, Speed = 17, NumDeaths = 11, NumKills = 19, NumQuestsCompleted = 6, numTimesHealthUpgraded = 1, numTimesDamageUpgraded = 0, numTimesFireRateUpgraded = 4, numTimesSpeedUpgraded = 2 WHERE UserID = 20;
+<2018-07-01 20-37-30> INFO : User statistic data updated.
+<2018-07-01 20-37-30> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 8 WHERE QuestID = 12;
+<2018-07-01 20-37-30> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 14;
+<2018-07-01 20-37-30> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 4 WHERE QuestID = 19;
+<2018-07-01 20-37-30> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 22;
+<2018-07-01 20-37-30> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-01 20-37-30> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-01 20-37-31> INFO : Exiting.

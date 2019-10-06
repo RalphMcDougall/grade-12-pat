@@ -1,0 +1,342 @@
+<2018-05-24 22-42-29> INFO : Connecting to database: DSPersistent
+<2018-05-24 22-42-30> INFO : Successfully connected to database
+<2018-05-24 22-42-30> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-24 22-42-30> INFO : Initialising GUIActiveQuests.
+<2018-05-24 22-42-30> INFO : Initialising GUICharacterMainMenu.
+<2018-05-24 22-42-30> INFO : Initialising GUICharacterSelection.
+<2018-05-24 22-42-30> INFO : Initialising GUICredits.
+<2018-05-24 22-42-30> INFO : Initialising GUIHelp.
+<2018-05-24 22-42-30> INFO : Initialising GUINewCharacter.
+<2018-05-24 22-42-30> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-24 22-42-30> INFO : GameHandler initialised.
+<2018-05-24 22-42-31> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-42-33> INFO : Changing screen to: GAME
+<2018-05-24 22-42-33> INFO : Starting game.
+<2018-05-24 22-42-33> INFO : Initialising app game container
+<2018-05-24 22-42-33> INFO : Initialising a new game.
+<2018-05-24 22-42-33> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-42-33> INFO : Loading image.
+<2018-05-24 22-42-33> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-33> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-33> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-42-33> INFO : Loading image.
+<2018-05-24 22-42-33> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-33> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-33> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-42-33> INFO : Loading image.
+<2018-05-24 22-42-33> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-33> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-33> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-42-33> INFO : Loading image.
+<2018-05-24 22-42-33> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-33> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-33> INFO : Setting up new map.
+<2018-05-24 22-42-33> INFO : Creating tile segment grid for map.
+<2018-05-24 22-42-33> INFO : Creating new blank segment grid.
+<2018-05-24 22-42-33> INFO : Starting maze construction.
+<2018-05-24 22-42-33> INFO : Setting up map tiles.
+<2018-05-24 22-42-33> INFO : Map tile setup completed.
+<2018-05-24 22-42-33> INFO : Map setup completed.
+<2018-05-24 22-42-33> INFO : Creating HUD layer.
+<2018-05-24 22-42-33> INFO : Finished initialising new game.
+<2018-05-24 22-42-33> INFO : *********************************
+<2018-05-24 22-42-33> INFO : Available processors (cores): 4
+<2018-05-24 22-42-33> INFO : Memory use (MB): 86.017 / 1,804.5
+<2018-05-24 22-42-33> INFO : *********************************
+<2018-05-24 22-42-53> INFO : *********************************
+<2018-05-24 22-42-53> INFO : Available processors (cores): 4
+<2018-05-24 22-42-53> INFO : Memory use (MB): 129.499 / 1,804.5
+<2018-05-24 22-42-53> INFO : *********************************
+<2018-05-24 22-42-55> INFO : Exiting main game.
+<2018-05-24 22-42-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-42-55> INFO : Closing game.
+<2018-05-24 22-42-55> INFO : Changing screen to: GAME
+<2018-05-24 22-42-55> INFO : Starting game.
+<2018-05-24 22-42-55> INFO : Initialising app game container
+<2018-05-24 22-42-55> INFO : Initialising a new game.
+<2018-05-24 22-42-55> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-42-55> INFO : Loading image.
+<2018-05-24 22-42-55> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-55> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-55> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-42-55> INFO : Loading image.
+<2018-05-24 22-42-55> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-55> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-55> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-42-55> INFO : Loading image.
+<2018-05-24 22-42-55> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-55> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-55> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-42-55> INFO : Loading image.
+<2018-05-24 22-42-55> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-55> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-55> INFO : Setting up new map.
+<2018-05-24 22-42-55> INFO : Creating tile segment grid for map.
+<2018-05-24 22-42-55> INFO : Creating new blank segment grid.
+<2018-05-24 22-42-55> INFO : Starting maze construction.
+<2018-05-24 22-42-55> INFO : Setting up map tiles.
+<2018-05-24 22-42-55> INFO : Map tile setup completed.
+<2018-05-24 22-42-55> INFO : Map setup completed.
+<2018-05-24 22-42-55> INFO : Creating HUD layer.
+<2018-05-24 22-42-55> INFO : Finished initialising new game.
+<2018-05-24 22-42-57> INFO : Exiting main game.
+<2018-05-24 22-42-57> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-42-57> INFO : Closing game.
+<2018-05-24 22-42-57> INFO : Changing screen to: GAME
+<2018-05-24 22-42-57> INFO : Starting game.
+<2018-05-24 22-42-57> INFO : Initialising app game container
+<2018-05-24 22-42-58> INFO : Initialising a new game.
+<2018-05-24 22-42-58> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-42-58> INFO : Loading image.
+<2018-05-24 22-42-58> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-58> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-58> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-42-58> INFO : Loading image.
+<2018-05-24 22-42-58> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-58> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-58> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-42-58> INFO : Loading image.
+<2018-05-24 22-42-58> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-58> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-58> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-42-58> INFO : Loading image.
+<2018-05-24 22-42-58> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-58> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-58> INFO : Setting up new map.
+<2018-05-24 22-42-58> INFO : Creating tile segment grid for map.
+<2018-05-24 22-42-58> INFO : Creating new blank segment grid.
+<2018-05-24 22-42-58> INFO : Starting maze construction.
+<2018-05-24 22-42-58> INFO : Setting up map tiles.
+<2018-05-24 22-42-58> INFO : Map tile setup completed.
+<2018-05-24 22-42-58> INFO : Map setup completed.
+<2018-05-24 22-42-58> INFO : Creating HUD layer.
+<2018-05-24 22-42-58> INFO : Finished initialising new game.
+<2018-05-24 22-42-59> INFO : Exiting main game.
+<2018-05-24 22-42-59> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-42-59> INFO : Closing game.
+<2018-05-24 22-42-59> INFO : Changing screen to: GAME
+<2018-05-24 22-42-59> INFO : Starting game.
+<2018-05-24 22-42-59> INFO : Initialising app game container
+<2018-05-24 22-42-59> INFO : Initialising a new game.
+<2018-05-24 22-42-59> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-42-59> INFO : Loading image.
+<2018-05-24 22-42-59> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-59> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-59> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-42-59> INFO : Loading image.
+<2018-05-24 22-42-59> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-59> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-59> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-42-59> INFO : Loading image.
+<2018-05-24 22-42-59> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-59> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-59> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-42-59> INFO : Loading image.
+<2018-05-24 22-42-59> INFO : Starting to split sprite sheet.
+<2018-05-24 22-42-59> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-42-59> INFO : Setting up new map.
+<2018-05-24 22-42-59> INFO : Creating tile segment grid for map.
+<2018-05-24 22-42-59> INFO : Creating new blank segment grid.
+<2018-05-24 22-42-59> INFO : Starting maze construction.
+<2018-05-24 22-42-59> INFO : Setting up map tiles.
+<2018-05-24 22-42-59> INFO : Map tile setup completed.
+<2018-05-24 22-42-59> INFO : Map setup completed.
+<2018-05-24 22-42-59> INFO : Creating HUD layer.
+<2018-05-24 22-42-59> INFO : Finished initialising new game.
+<2018-05-24 22-43-00> INFO : Exiting main game.
+<2018-05-24 22-43-00> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-00> INFO : Closing game.
+<2018-05-24 22-43-00> INFO : Changing screen to: GAME
+<2018-05-24 22-43-00> INFO : Starting game.
+<2018-05-24 22-43-00> INFO : Initialising app game container
+<2018-05-24 22-43-00> INFO : Initialising a new game.
+<2018-05-24 22-43-00> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-00> INFO : Loading image.
+<2018-05-24 22-43-00> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-00> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-00> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-00> INFO : Loading image.
+<2018-05-24 22-43-00> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-00> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-00> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-00> INFO : Loading image.
+<2018-05-24 22-43-00> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-00> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-00> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-00> INFO : Loading image.
+<2018-05-24 22-43-00> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-00> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-00> INFO : Setting up new map.
+<2018-05-24 22-43-00> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-00> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-00> INFO : Starting maze construction.
+<2018-05-24 22-43-00> INFO : Setting up map tiles.
+<2018-05-24 22-43-00> INFO : Map tile setup completed.
+<2018-05-24 22-43-00> INFO : Map setup completed.
+<2018-05-24 22-43-00> INFO : Creating HUD layer.
+<2018-05-24 22-43-00> INFO : Finished initialising new game.
+<2018-05-24 22-43-01> INFO : Exiting main game.
+<2018-05-24 22-43-01> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-01> INFO : Closing game.
+<2018-05-24 22-43-02> INFO : Changing screen to: GAME
+<2018-05-24 22-43-02> INFO : Starting game.
+<2018-05-24 22-43-02> INFO : Initialising app game container
+<2018-05-24 22-43-02> INFO : Initialising a new game.
+<2018-05-24 22-43-02> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-02> INFO : Loading image.
+<2018-05-24 22-43-02> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-02> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-02> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-02> INFO : Loading image.
+<2018-05-24 22-43-02> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-02> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-02> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-02> INFO : Loading image.
+<2018-05-24 22-43-02> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-02> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-02> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-02> INFO : Loading image.
+<2018-05-24 22-43-02> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-02> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-02> INFO : Setting up new map.
+<2018-05-24 22-43-02> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-02> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-02> INFO : Starting maze construction.
+<2018-05-24 22-43-02> INFO : Setting up map tiles.
+<2018-05-24 22-43-02> INFO : Map tile setup completed.
+<2018-05-24 22-43-02> INFO : Map setup completed.
+<2018-05-24 22-43-02> INFO : Creating HUD layer.
+<2018-05-24 22-43-02> INFO : Finished initialising new game.
+<2018-05-24 22-43-02> INFO : Exiting main game.
+<2018-05-24 22-43-02> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-02> INFO : Closing game.
+<2018-05-24 22-43-03> INFO : Changing screen to: GAME
+<2018-05-24 22-43-03> INFO : Starting game.
+<2018-05-24 22-43-03> INFO : Initialising app game container
+<2018-05-24 22-43-03> INFO : Initialising a new game.
+<2018-05-24 22-43-03> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-03> INFO : Loading image.
+<2018-05-24 22-43-03> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-03> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-03> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-03> INFO : Loading image.
+<2018-05-24 22-43-03> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-03> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-03> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-03> INFO : Loading image.
+<2018-05-24 22-43-03> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-03> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-03> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-03> INFO : Loading image.
+<2018-05-24 22-43-03> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-03> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-03> INFO : Setting up new map.
+<2018-05-24 22-43-03> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-03> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-03> INFO : Starting maze construction.
+<2018-05-24 22-43-03> INFO : Setting up map tiles.
+<2018-05-24 22-43-03> INFO : Map tile setup completed.
+<2018-05-24 22-43-03> INFO : Map setup completed.
+<2018-05-24 22-43-03> INFO : Creating HUD layer.
+<2018-05-24 22-43-03> INFO : Finished initialising new game.
+<2018-05-24 22-43-04> INFO : Exiting main game.
+<2018-05-24 22-43-04> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-04> INFO : Closing game.
+<2018-05-24 22-43-04> INFO : Changing screen to: GAME
+<2018-05-24 22-43-04> INFO : Starting game.
+<2018-05-24 22-43-04> INFO : Initialising app game container
+<2018-05-24 22-43-04> INFO : Initialising a new game.
+<2018-05-24 22-43-04> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-04> INFO : Loading image.
+<2018-05-24 22-43-04> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-04> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-04> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-04> INFO : Loading image.
+<2018-05-24 22-43-04> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-04> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-04> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-04> INFO : Loading image.
+<2018-05-24 22-43-04> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-04> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-04> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-04> INFO : Loading image.
+<2018-05-24 22-43-04> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-04> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-04> INFO : Setting up new map.
+<2018-05-24 22-43-04> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-04> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-04> INFO : Starting maze construction.
+<2018-05-24 22-43-04> INFO : Setting up map tiles.
+<2018-05-24 22-43-04> INFO : Map tile setup completed.
+<2018-05-24 22-43-04> INFO : Map setup completed.
+<2018-05-24 22-43-04> INFO : Creating HUD layer.
+<2018-05-24 22-43-04> INFO : Finished initialising new game.
+<2018-05-24 22-43-05> INFO : Exiting main game.
+<2018-05-24 22-43-05> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-05> INFO : Closing game.
+<2018-05-24 22-43-05> INFO : Changing screen to: GAME
+<2018-05-24 22-43-05> INFO : Starting game.
+<2018-05-24 22-43-05> INFO : Initialising app game container
+<2018-05-24 22-43-05> INFO : Initialising a new game.
+<2018-05-24 22-43-05> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-05> INFO : Loading image.
+<2018-05-24 22-43-05> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-05> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-05> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-05> INFO : Loading image.
+<2018-05-24 22-43-05> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-05> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-05> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-05> INFO : Loading image.
+<2018-05-24 22-43-05> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-05> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-05> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-05> INFO : Loading image.
+<2018-05-24 22-43-05> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-05> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-05> INFO : Setting up new map.
+<2018-05-24 22-43-05> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-05> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-05> INFO : Starting maze construction.
+<2018-05-24 22-43-05> INFO : Setting up map tiles.
+<2018-05-24 22-43-05> INFO : Map tile setup completed.
+<2018-05-24 22-43-05> INFO : Map setup completed.
+<2018-05-24 22-43-05> INFO : Creating HUD layer.
+<2018-05-24 22-43-05> INFO : Finished initialising new game.
+<2018-05-24 22-43-06> INFO : Exiting main game.
+<2018-05-24 22-43-06> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-06> INFO : Closing game.
+<2018-05-24 22-43-06> INFO : Changing screen to: GAME
+<2018-05-24 22-43-06> INFO : Starting game.
+<2018-05-24 22-43-06> INFO : Initialising app game container
+<2018-05-24 22-43-06> INFO : Initialising a new game.
+<2018-05-24 22-43-06> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-24 22-43-06> INFO : Loading image.
+<2018-05-24 22-43-06> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-06> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-06> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-24 22-43-06> INFO : Loading image.
+<2018-05-24 22-43-06> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-06> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-06> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-24 22-43-06> INFO : Loading image.
+<2018-05-24 22-43-06> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-06> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-06> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-24 22-43-06> INFO : Loading image.
+<2018-05-24 22-43-06> INFO : Starting to split sprite sheet.
+<2018-05-24 22-43-06> INFO : Sprite sheet splitting completed.
+<2018-05-24 22-43-06> INFO : Setting up new map.
+<2018-05-24 22-43-06> INFO : Creating tile segment grid for map.
+<2018-05-24 22-43-06> INFO : Creating new blank segment grid.
+<2018-05-24 22-43-06> INFO : Starting maze construction.
+<2018-05-24 22-43-06> INFO : Setting up map tiles.
+<2018-05-24 22-43-06> INFO : Map tile setup completed.
+<2018-05-24 22-43-06> INFO : Map setup completed.
+<2018-05-24 22-43-06> INFO : Creating HUD layer.
+<2018-05-24 22-43-06> INFO : Finished initialising new game.
+<2018-05-24 22-43-07> INFO : Exiting main game.
+<2018-05-24 22-43-07> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-24 22-43-07> INFO : Closing game.
+<2018-05-24 22-43-08> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-24 22-43-09> INFO : Exiting.

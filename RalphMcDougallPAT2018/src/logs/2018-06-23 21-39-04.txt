@@ -1,0 +1,20 @@
+<2018-06-23 21-39-04> INFO : Connecting to database: DSPersistent
+<2018-06-23 21-39-05> INFO : Successfully connected to database
+<2018-06-23 21-39-05> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-23 21-39-05> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-23 21-39-05> INFO : Loading projectile types...
+<2018-06-23 21-39-05> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-23 21-39-05> INFO : Projectile loading completed.
+<2018-06-23 21-39-05> INFO : Initialising GUIActiveQuests.
+<2018-06-23 21-39-05> INFO : Initialising GUICharacterMainMenu.
+<2018-06-23 21-39-05> INFO : Initialising GUICharacterSelection.
+<2018-06-23 21-39-05> INFO : Initialising GUICredits.
+<2018-06-23 21-39-05> INFO : Initialising GUIHelp.
+<2018-06-23 21-39-05> INFO : Initialising GUINewCharacter.
+<2018-06-23 21-39-05> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-23 21-39-05> INFO : GameHandler initialised.
+<2018-06-23 21-39-06> INFO : Changing screen to: NEW_CHARACTER
+<2018-06-23 21-39-12> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded) VALUES ('Ralph', DATE(), 0, 100, 10, 5, 5, 0, 0, 0, 0, 0, 0, 0);
+<2018-06-23 21-39-12> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-23 21-39-17> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-23 21-39-18> INFO : Exiting.

@@ -1,0 +1,39 @@
+<2018-06-25 21-54-39> INFO : Connecting to database: DSPersistent
+<2018-06-25 21-54-39> INFO : Successfully connected to database
+<2018-06-25 21-54-39> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-25 21-54-39> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-25 21-54-40> INFO : Loading projectile types...
+<2018-06-25 21-54-40> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-25 21-54-40> INFO : Projectile loading completed.
+<2018-06-25 21-54-40> INFO : Initialising GUIActiveQuests.
+<2018-06-25 21-54-40> INFO : Initialising GUICharacterMainMenu.
+<2018-06-25 21-54-40> INFO : Initialising GUICharacterSelection.
+<2018-06-25 21-54-40> INFO : Initialising GUICredits.
+<2018-06-25 21-54-40> INFO : Initialising GUIHelp.
+<2018-06-25 21-54-40> INFO : Initialising GUINewCharacter.
+<2018-06-25 21-54-40> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-25 21-54-40> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-54-40> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-54-40> INFO : GameHandler initialised.
+<2018-06-25 21-54-42> INFO : Getting data for user with ID: 13
+<2018-06-25 21-54-42> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 13;
+<2018-06-25 21-54-42> INFO : User data successfully retrieved.
+<2018-06-25 21-54-42> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-25 21-55-02> INFO : Updating the users statistic data.
+<2018-06-25 21-55-02> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 0, Health = 100, Damage = 10, FireRate = 5, Speed = 5, NumDeaths = 0, NumKills = 0, NumQuestsCompleted = 0, numTimesHealthUpgraded = 0, numTimesDamageUpgraded = 0, numTimesFireRateUpgraded = 0, numTimesSpeedUpgraded = 0 WHERE UserID = 13;
+<2018-06-25 21-55-02> INFO : User statistic data updated.
+<2018-06-25 21-55-02> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-55-02> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-55-03> INFO : Changing screen to: NEW_CHARACTER
+<2018-06-25 21-55-35> INFO : Adding user to database.
+<2018-06-25 21-55-35> INFO : Inserting new user into database.
+<2018-06-25 21-55-35> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, Health, Damage, FireRate, Speed) VALUES ('Test5', NOW(), 10, 1, 1, 32);
+<2018-06-25 21-55-35> INFO : User successfully added to database.
+<2018-06-25 21-55-35> INFO : User added to database successfully.
+<2018-06-25 21-55-35> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-25 21-55-52> INFO : Updating the users statistic data.
+<2018-06-25 21-55-52> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 0, Health = 10, Damage = 1, FireRate = 1, Speed = 32, NumDeaths = 0, NumKills = 0, NumQuestsCompleted = 0, numTimesHealthUpgraded = 0, numTimesDamageUpgraded = 0, numTimesFireRateUpgraded = 0, numTimesSpeedUpgraded = 0 WHERE UserID = 0;
+<2018-06-25 21-55-52> INFO : User statistic data updated.
+<2018-06-25 21-55-52> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 21-55-52> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 21-55-58> INFO : Exiting.

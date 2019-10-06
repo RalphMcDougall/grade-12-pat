@@ -1,0 +1,56 @@
+<2018-05-11 21-51-34> INFO : Connecting to database: DSPersistent
+<2018-05-11 21-51-34> INFO : Successfully connected to database
+<2018-05-11 21-51-34> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-11 21-51-35> INFO : Initialising GUIActiveQuests.
+<2018-05-11 21-51-35> INFO : Initialising GUICharacterMainMenu.
+<2018-05-11 21-51-35> INFO : Initialising GUICharacterSelection.
+<2018-05-11 21-51-35> INFO : Initialising GUICredits.
+<2018-05-11 21-51-35> INFO : Initialising GUIHelp.
+<2018-05-11 21-51-35> INFO : Initialising GUINewCharacter.
+<2018-05-11 21-51-35> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-11 21-51-35> INFO : GameHandler initialised.
+<2018-05-11 21-51-36> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-51-37> INFO : Changing screen to: GAME
+<2018-05-11 21-51-37> INFO : Starting game.
+<2018-05-11 21-51-37> INFO : Initialising app game container
+<2018-05-11 21-51-37> INFO : Initialising a new game.
+<2018-05-11 21-51-37> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-11 21-51-37> INFO : Loading image.
+<2018-05-11 21-51-37> INFO : Starting to split sprite sheet.
+<2018-05-11 21-51-37> INFO : Sprite sheet splitting completed.
+<2018-05-11 21-51-37> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-11 21-51-37> INFO : Loading image.
+<2018-05-11 21-51-37> INFO : Starting to split sprite sheet.
+<2018-05-11 21-51-37> INFO : Sprite sheet splitting completed.
+<2018-05-11 21-51-37> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-11 21-51-37> INFO : Loading image.
+<2018-05-11 21-51-37> INFO : Starting to split sprite sheet.
+<2018-05-11 21-51-37> INFO : Sprite sheet splitting completed.
+<2018-05-11 21-51-37> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-11 21-51-37> INFO : Loading image.
+<2018-05-11 21-51-37> INFO : Starting to split sprite sheet.
+<2018-05-11 21-51-37> INFO : Sprite sheet splitting completed.
+<2018-05-11 21-51-37> INFO : Setting up new map.
+<2018-05-11 21-51-37> INFO : Setting up map tiles.
+<2018-05-11 21-51-37> INFO : Map tile setup completed.
+<2018-05-11 21-51-37> INFO : Map setup completed.
+<2018-05-11 21-51-37> INFO : Creating HUD layer.
+<2018-05-11 21-51-37> INFO : Finished initialising new game.
+<2018-05-11 21-51-37> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-38> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-38> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-38> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-42> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-42> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-42> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-43> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-44> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-44> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-51-45> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-52-46> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-52-53> WARNING : No wait before update cycle! UPS sub-optimal.
+<2018-05-11 21-53-08> INFO : Exiting main game.
+<2018-05-11 21-53-08> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-11 21-53-08> INFO : Closing game.
+<2018-05-11 21-53-09> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-11 21-53-09> INFO : Exiting.

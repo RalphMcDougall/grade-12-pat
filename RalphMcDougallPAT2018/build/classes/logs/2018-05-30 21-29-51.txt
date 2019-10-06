@@ -1,0 +1,20 @@
+<2018-05-30 21-29-51> INFO : Connecting to database: DSPersistent
+<2018-05-30 21-29-52> INFO : Successfully connected to database
+<2018-05-30 21-29-52> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-30 21-29-52> INFO : Querying database: SELECT * FROM tblItems;
+<2018-05-30 21-29-52> INFO : Initialising GUIActiveQuests.
+<2018-05-30 21-29-52> INFO : Initialising GUICharacterMainMenu.
+<2018-05-30 21-29-52> INFO : Initialising GUICharacterSelection.
+<2018-05-30 21-29-52> INFO : Initialising GUICredits.
+<2018-05-30 21-29-52> INFO : Initialising GUIHelp.
+<2018-05-30 21-29-52> INFO : Initialising GUINewCharacter.
+<2018-05-30 21-29-52> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-30 21-29-52> INFO : GameHandler initialised.
+<2018-05-30 21-29-53> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-30 21-29-55> INFO : Changing screen to: GAME
+<2018-05-30 21-29-55> INFO : Starting game.
+<2018-05-30 21-29-55> INFO : Initialising app game container
+<2018-05-30 21-29-56> INFO : Initialising a new game.
+<2018-05-30 21-29-56> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-30 21-29-56> INFO : Loading image.
+<2018-05-30 21-29-56> INFO : Starting to split sprite sheet.

@@ -1,0 +1,27 @@
+<2018-05-18 22-29-55> INFO : Connecting to database: DSPersistent
+<2018-05-18 22-29-55> INFO : Successfully connected to database
+<2018-05-18 22-29-55> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-18 22-29-56> INFO : Initialising GUIActiveQuests.
+<2018-05-18 22-29-56> INFO : Initialising GUICharacterMainMenu.
+<2018-05-18 22-29-56> INFO : Initialising GUICharacterSelection.
+<2018-05-18 22-29-56> INFO : Initialising GUICredits.
+<2018-05-18 22-29-56> INFO : Initialising GUIHelp.
+<2018-05-18 22-29-56> INFO : Initialising GUINewCharacter.
+<2018-05-18 22-29-56> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-18 22-29-56> INFO : GameHandler initialised.
+<2018-05-18 22-30-02> INFO : Changing screen to: NEW_CHARACTER
+<2018-05-18 22-30-03> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-18 22-30-05> INFO : Changing screen to: CREDITS
+<2018-05-18 22-30-06> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-18 22-30-08> INFO : Changing screen to: NEW_CHARACTER
+<2018-05-18 22-30-09> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-18 22-30-10> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-18 22-30-11> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-18 22-30-12> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-05-18 22-30-13> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-18 22-30-14> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-05-18 22-30-17> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-18 22-30-18> INFO : Changing screen to: HELP
+<2018-05-18 22-30-21> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-18 22-30-22> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-18 22-30-23> INFO : Exiting.

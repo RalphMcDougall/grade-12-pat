@@ -1,0 +1,129 @@
+<2018-05-12 22-48-52> INFO : Connecting to database: DSPersistent
+<2018-05-12 22-48-53> INFO : Successfully connected to database
+<2018-05-12 22-48-53> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-12 22-48-53> INFO : Initialising GUIActiveQuests.
+<2018-05-12 22-48-53> INFO : Initialising GUICharacterMainMenu.
+<2018-05-12 22-48-53> INFO : Initialising GUICharacterSelection.
+<2018-05-12 22-48-53> INFO : Initialising GUICredits.
+<2018-05-12 22-48-53> INFO : Initialising GUIHelp.
+<2018-05-12 22-48-53> INFO : Initialising GUINewCharacter.
+<2018-05-12 22-48-53> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-12 22-48-53> INFO : GameHandler initialised.
+<2018-05-12 22-48-54> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-12 22-48-55> INFO : Changing screen to: GAME
+<2018-05-12 22-48-55> INFO : Starting game.
+<2018-05-12 22-48-55> INFO : Initialising app game container
+<2018-05-12 22-48-55> INFO : Initialising a new game.
+<2018-05-12 22-48-55> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-12 22-48-55> INFO : Loading image.
+<2018-05-12 22-48-55> INFO : Starting to split sprite sheet.
+<2018-05-12 22-48-55> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-48-55> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-12 22-48-55> INFO : Loading image.
+<2018-05-12 22-48-56> INFO : Starting to split sprite sheet.
+<2018-05-12 22-48-56> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-48-56> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-12 22-48-56> INFO : Loading image.
+<2018-05-12 22-48-56> INFO : Starting to split sprite sheet.
+<2018-05-12 22-48-56> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-48-56> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-12 22-48-56> INFO : Loading image.
+<2018-05-12 22-48-56> INFO : Starting to split sprite sheet.
+<2018-05-12 22-48-56> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-48-56> INFO : Setting up new map.
+<2018-05-12 22-48-56> INFO : Setting up map tiles.
+<2018-05-12 22-48-56> INFO : Map tile setup completed.
+<2018-05-12 22-48-56> INFO : Map setup completed.
+<2018-05-12 22-48-56> INFO : Creating HUD layer.
+<2018-05-12 22-48-56> INFO : Finished initialising new game.
+<2018-05-12 22-48-56> INFO : *********************************
+<2018-05-12 22-48-56> INFO : Available processors (cores): 4
+<2018-05-12 22-48-56> INFO : Memory use (MB): 82.548 / 1,804.5
+<2018-05-12 22-48-56> INFO : *********************************
+<2018-05-12 22-49-16> INFO : *********************************
+<2018-05-12 22-49-16> INFO : Available processors (cores): 4
+<2018-05-12 22-49-16> INFO : Memory use (MB): 131.797 / 1,804.5
+<2018-05-12 22-49-16> INFO : *********************************
+<2018-05-12 22-49-36> INFO : *********************************
+<2018-05-12 22-49-36> INFO : Available processors (cores): 4
+<2018-05-12 22-49-36> INFO : Memory use (MB): 113.749 / 1,804.5
+<2018-05-12 22-49-36> INFO : *********************************
+<2018-05-12 22-49-56> INFO : *********************************
+<2018-05-12 22-49-56> INFO : Available processors (cores): 4
+<2018-05-12 22-49-56> INFO : Memory use (MB): 133.775 / 1,804.5
+<2018-05-12 22-49-56> INFO : *********************************
+<2018-05-12 22-50-15> INFO : Exiting main game.
+<2018-05-12 22-50-15> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-12 22-50-15> INFO : Closing game.
+<2018-05-12 22-50-16> INFO : Changing screen to: GAME
+<2018-05-12 22-50-16> INFO : Starting game.
+<2018-05-12 22-50-16> INFO : Initialising app game container
+<2018-05-12 22-50-16> INFO : Initialising a new game.
+<2018-05-12 22-50-16> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-12 22-50-16> INFO : Loading image.
+<2018-05-12 22-50-16> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-16> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-16> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-12 22-50-16> INFO : Loading image.
+<2018-05-12 22-50-16> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-16> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-16> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-12 22-50-16> INFO : Loading image.
+<2018-05-12 22-50-16> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-16> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-16> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-12 22-50-16> INFO : Loading image.
+<2018-05-12 22-50-16> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-16> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-16> INFO : Setting up new map.
+<2018-05-12 22-50-16> INFO : Setting up map tiles.
+<2018-05-12 22-50-16> INFO : Map tile setup completed.
+<2018-05-12 22-50-16> INFO : Map setup completed.
+<2018-05-12 22-50-16> INFO : Creating HUD layer.
+<2018-05-12 22-50-16> INFO : Finished initialising new game.
+<2018-05-12 22-50-17> INFO : *********************************
+<2018-05-12 22-50-17> INFO : Available processors (cores): 4
+<2018-05-12 22-50-17> INFO : Memory use (MB): 117.156 / 1,804.5
+<2018-05-12 22-50-17> INFO : *********************************
+<2018-05-12 22-50-17> INFO : Exiting main game.
+<2018-05-12 22-50-17> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-12 22-50-17> INFO : Closing game.
+<2018-05-12 22-50-18> INFO : Changing screen to: GAME
+<2018-05-12 22-50-18> INFO : Starting game.
+<2018-05-12 22-50-18> INFO : Initialising app game container
+<2018-05-12 22-50-18> INFO : Initialising a new game.
+<2018-05-12 22-50-18> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-05-12 22-50-18> INFO : Loading image.
+<2018-05-12 22-50-18> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-18> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-18> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-05-12 22-50-18> INFO : Loading image.
+<2018-05-12 22-50-18> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-18> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-18> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-05-12 22-50-18> INFO : Loading image.
+<2018-05-12 22-50-18> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-18> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-18> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-05-12 22-50-18> INFO : Loading image.
+<2018-05-12 22-50-18> INFO : Starting to split sprite sheet.
+<2018-05-12 22-50-18> INFO : Sprite sheet splitting completed.
+<2018-05-12 22-50-18> INFO : Setting up new map.
+<2018-05-12 22-50-18> INFO : Setting up map tiles.
+<2018-05-12 22-50-18> INFO : Map tile setup completed.
+<2018-05-12 22-50-18> INFO : Map setup completed.
+<2018-05-12 22-50-18> INFO : Creating HUD layer.
+<2018-05-12 22-50-18> INFO : Finished initialising new game.
+<2018-05-12 22-50-38> INFO : *********************************
+<2018-05-12 22-50-38> INFO : Available processors (cores): 4
+<2018-05-12 22-50-38> INFO : Memory use (MB): 89.376 / 1,804.5
+<2018-05-12 22-50-38> INFO : *********************************
+<2018-05-12 22-50-59> INFO : *********************************
+<2018-05-12 22-50-59> INFO : Available processors (cores): 4
+<2018-05-12 22-50-59> INFO : Memory use (MB): 79.208 / 1,804.5
+<2018-05-12 22-50-59> INFO : *********************************
+<2018-05-12 22-51-04> INFO : Exiting main game.
+<2018-05-12 22-51-04> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-05-12 22-51-04> INFO : Closing game.
+<2018-05-12 22-51-05> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-12 22-51-06> INFO : Exiting.

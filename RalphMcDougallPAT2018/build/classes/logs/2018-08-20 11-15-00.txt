@@ -1,0 +1,7 @@
+<2018-08-20 11-15-00> INFO : Loading static data...
+<2018-08-20 11-15-00> INFO : Connecting to database: DSPersistent
+<2018-08-20 11-15-02> INFO : Successfully connected to database
+<2018-08-20 11-15-02> INFO : Load tile types from database...
+<2018-08-20 11-15-02> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-08-20 11-15-02> ERROR : Unable to load tile types from database! net.ucanaccess.jdbc.UcanaccessSQLException: UCAExc:::4.0.2 feature not supported
+<2018-08-20 11-15-05> INFO : Exiting game.

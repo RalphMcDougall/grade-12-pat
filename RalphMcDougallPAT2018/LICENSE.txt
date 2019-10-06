@@ -1,0 +1,9 @@
+/**
+ * This software was created by Ralph McDougall of Curro Durbanville school
+ * for the Information Technology PAT for 2018.
+ *
+ * The author permits all use of this software for any purposes relating
+ * to the IEB and school in general.
+ *
+ * (Ralph McDougall, 2018)
+ */

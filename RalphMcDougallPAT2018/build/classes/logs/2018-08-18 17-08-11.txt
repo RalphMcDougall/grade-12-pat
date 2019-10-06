@@ -1,0 +1,181 @@
+<2018-08-18 17-08-11> INFO : Loading static data...
+<2018-08-18 17-08-11> INFO : Connecting to database: DSPersistent
+<2018-08-18 17-08-12> INFO : Successfully connected to database
+<2018-08-18 17-08-12> INFO : Load tile types from database...
+<2018-08-18 17-08-12> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-08-18 17-08-12> INFO : Tile types loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading map segments from file...
+<2018-08-18 17-08-12> INFO : Map segments loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading item types from database...
+<2018-08-18 17-08-12> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-08-18 17-08-12> INFO : Item types loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading NPC names from file...
+<2018-08-18 17-08-12> INFO : NPC names loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading projectile types from database...
+<2018-08-18 17-08-12> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-08-18 17-08-12> INFO : Projectile types loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading quest types from database...
+<2018-08-18 17-08-12> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-08-18 17-08-12> INFO : Load the targets of the quest type from the database.
+<2018-08-18 17-08-12> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-08-18 17-08-12> INFO : Load the targets of the quest type from the database.
+<2018-08-18 17-08-12> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-08-18 17-08-12> INFO : Quest types loaded successfully.
+<2018-08-18 17-08-12> INFO : Loading enemy types from database...
+<2018-08-18 17-08-12> INFO : Querying database: SELECT EnemyName, SpriteSheetX, SpriteSheetY, NumSprites, EnemyHealth, EnemyMovementSpeed, EnemyDamage, EnemyProjectileType, EnemyFireRate FROM tblEnemyTypes
+<2018-08-18 17-08-12> INFO : Enemy types loaded successfully.
+<2018-08-18 17-08-12> INFO : Static data loaded.
+<2018-08-18 17-08-12> INFO : Initialising screens...
+<2018-08-18 17-08-12> INFO : Initialising GUIActiveQuests.
+<2018-08-18 17-08-12> INFO : Initialising GUICharacterMainMenu.
+<2018-08-18 17-08-12> INFO : Initialising GUICharacterSelection.
+<2018-08-18 17-08-12> INFO : Initialising GUICredits.
+<2018-08-18 17-08-12> INFO : Initialising GUIHelp.
+<2018-08-18 17-08-12> INFO : Initialising GUINewCharacter.
+<2018-08-18 17-08-12> INFO : Initialising GUIUpgradeCharacter.
+<2018-08-18 17-08-12> INFO : Screens initialised successfully.
+<2018-08-18 17-08-12> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-18 17-08-12> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-18 17-08-12> INFO : GameHandler initialised.
+<2018-08-18 17-08-14> INFO : Getting data for user with ID: 26
+<2018-08-18 17-08-14> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 26;
+<2018-08-18 17-08-14> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 26;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 83
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 83;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 86
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 86;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 88
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 88;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 94
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 94;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 95
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 95;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 101
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 101;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 104
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 104;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 105
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 105;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 107
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 107;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 109
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 109;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 112
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 112;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 113
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 113;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 114
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 114;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 122
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 122;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 127
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 127;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 128
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 128;
+<2018-08-18 17-08-14> INFO : Construct quest with id: 129
+<2018-08-18 17-08-14> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 129;
+<2018-08-18 17-08-14> INFO : User data successfully retrieved.
+<2018-08-18 17-08-14> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-18 17-08-14> INFO : Changing screen to: GAME
+<2018-08-18 17-08-14> INFO : Starting game.
+<2018-08-18 17-08-14> INFO : Initialising app game container
+<2018-08-18 17-08-14> INFO : Initialising new game...
+<2018-08-18 17-08-14> INFO : Initialising sprite sheets...
+<2018-08-18 17-08-14> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-08-18 17-08-14> INFO : Loading image.
+<2018-08-18 17-08-14> INFO : Starting to split sprite sheet.
+<2018-08-18 17-08-14> INFO : Sprite sheet splitting completed.
+<2018-08-18 17-08-14> INFO : Sprite sheet initialised successfully.
+<2018-08-18 17-08-14> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-08-18 17-08-14> INFO : Loading image.
+<2018-08-18 17-08-14> INFO : Starting to split sprite sheet.
+<2018-08-18 17-08-14> INFO : Sprite sheet splitting completed.
+<2018-08-18 17-08-14> INFO : Sprite sheet initialised successfully.
+<2018-08-18 17-08-14> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-08-18 17-08-14> INFO : Loading image.
+<2018-08-18 17-08-15> INFO : Starting to split sprite sheet.
+<2018-08-18 17-08-15> INFO : Sprite sheet splitting completed.
+<2018-08-18 17-08-15> INFO : Sprite sheet initialised successfully.
+<2018-08-18 17-08-15> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-08-18 17-08-15> INFO : Loading image.
+<2018-08-18 17-08-15> INFO : Starting to split sprite sheet.
+<2018-08-18 17-08-15> INFO : Sprite sheet splitting completed.
+<2018-08-18 17-08-15> INFO : Sprite sheet initialised successfully.
+<2018-08-18 17-08-15> INFO : Sprite sheets initialised successfully.
+<2018-08-18 17-08-15> INFO : Removing all enemies from entity handler...
+<2018-08-18 17-08-15> INFO : Enemies removed from entity handler.
+<2018-08-18 17-08-15> INFO : Setting up new map.
+<2018-08-18 17-08-15> INFO : Removing all enemies from entity handler...
+<2018-08-18 17-08-15> INFO : Enemies removed from entity handler.
+<2018-08-18 17-08-15> INFO : Creating tile segment grid for map.
+<2018-08-18 17-08-15> INFO : Creating new blank segment grid.
+<2018-08-18 17-08-15> INFO : Starting maze construction.
+<2018-08-18 17-08-15> INFO : Starting to get dead ends.
+<2018-08-18 17-08-15> INFO : All dead ends found.
+<2018-08-18 17-08-15> INFO : Number of dead-ends: 33
+<2018-08-18 17-08-15> INFO : Starting to setup Points of Interest.
+<2018-08-18 17-08-15> INFO : Starting to get dead ends.
+<2018-08-18 17-08-15> INFO : All dead ends found.
+<2018-08-18 17-08-15> INFO : Points of Interest setup completed.
+<2018-08-18 17-08-15> INFO : Setting up map tiles.
+<2018-08-18 17-08-15> INFO : Map tile setup completed.
+<2018-08-18 17-08-15> INFO : Getting new quest ID.
+<2018-08-18 17-08-15> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-18 17-08-15> INFO : Map setup completed.
+<2018-08-18 17-08-15> WARNING : HUDLayer not yet initialised, minimap could not be set to current map.
+<2018-08-18 17-08-15> INFO : Initialising path finding grid...
+<2018-08-18 17-08-15> INFO : Path finding grid initialised.
+<2018-08-18 17-08-15> INFO : Loading HUD...
+<2018-08-18 17-08-15> INFO : Creating HUD layer.
+<2018-08-18 17-08-15> INFO : Updating minimap to new given minimap.
+<2018-08-18 17-08-15> INFO : Creating new minimap.
+<2018-08-18 17-08-15> INFO : Setting up grid segment type colours.
+<2018-08-18 17-08-15> INFO : Filling grid with unknown types.
+<2018-08-18 17-08-15> INFO : Finding Points-of-Interest on map
+<2018-08-18 17-08-15> INFO : Minimap created successfully.
+<2018-08-18 17-08-15> WARNING : Input object has null value for player character input.
+<2018-08-18 17-08-15> INFO : New game initialised successfully.
+<2018-08-18 17-08-15> INFO : *********************************
+<2018-08-18 17-08-15> INFO : Available processors (cores): 4
+<2018-08-18 17-08-15> INFO : Memory use (MB): 25.778 / 1,804.5
+<2018-08-18 17-08-15> INFO : Number of entities: 3
+<2018-08-18 17-08-15> INFO : *********************************
+<2018-08-18 17-08-25> INFO : Increasing progress on quest: 86 to 15 / 16.
+<2018-08-18 17-08-25> INFO : Increasing progress on quest: 88 to 15 / 20.
+<2018-08-18 17-08-25> INFO : Increasing progress on quest: 94 to 14 / 18.
+<2018-08-18 17-08-25> INFO : Increasing progress on quest: 105 to 10 / 17.
+<2018-08-18 17-08-25> INFO : Increasing progress on quest: 113 to 4 / 20.
+<2018-08-18 17-08-33> INFO : Inserting new quest into database.
+<2018-08-18 17-08-33> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (130, 26, 'Finn', 2, 'Zombie', 6, 0, 30)
+<2018-08-18 17-08-37> INFO : *********************************
+<2018-08-18 17-08-37> INFO : Available processors (cores): 4
+<2018-08-18 17-08-37> INFO : Memory use (MB): 93.463 / 1,804.5
+<2018-08-18 17-08-37> INFO : Number of entities: 14
+<2018-08-18 17-08-37> INFO : *********************************
+<2018-08-18 17-08-37> INFO : Exiting main game.
+<2018-08-18 17-08-37> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-18 17-08-37> INFO : Closing game.
+<2018-08-18 17-08-38> INFO : Updating the users statistic data.
+<2018-08-18 17-08-38> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 896, Health = 90, Damage = 16, FireRate = 18, Speed = 12, NumDeaths = 37, NumKills = 1235, NumQuestsCompleted = 31, numTimesHealthUpgraded = 5, numTimesDamageUpgraded = 4, numTimesFireRateUpgraded = 7, numTimesSpeedUpgraded = 4 WHERE UserID = 26;
+<2018-08-18 17-08-38> INFO : User statistic data updated.
+<2018-08-18 17-08-38> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 8 WHERE QuestID = 83;
+<2018-08-18 17-08-38> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 15 WHERE QuestID = 86;
+<2018-08-18 17-08-38> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 15 WHERE QuestID = 88;
+<2018-08-18 17-08-38> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 14 WHERE QuestID = 94;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 7 WHERE QuestID = 95;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 101;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 10 WHERE QuestID = 104;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 10 WHERE QuestID = 105;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 107;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 109;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 9 WHERE QuestID = 112;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 4 WHERE QuestID = 113;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 5 WHERE QuestID = 114;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 4 WHERE QuestID = 122;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 127;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 128;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 129;
+<2018-08-18 17-08-39> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 130;
+<2018-08-18 17-08-39> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-18 17-08-39> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-18 17-08-39> INFO : Exiting game.

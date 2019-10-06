@@ -1,0 +1,11 @@
+<2018-04-24 22-45-20> INFO : Initialising GUIActiveQuests.
+<2018-04-24 22-45-20> INFO : Initialising GUICharacterMainMenu.
+<2018-04-24 22-45-20> INFO : Initialising GUICharacterSelection.
+<2018-04-24 22-45-20> INFO : Initialising GUICredits.
+<2018-04-24 22-45-20> INFO : Initialising GUIHelp.
+<2018-04-24 22-45-20> INFO : Initialising GUINewCharacter.
+<2018-04-24 22-45-20> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-24 22-45-20> INFO : Initialising sprite sheet.
+<2018-04-24 22-45-20> INFO : Loading image.
+<2018-04-24 22-45-20> ERROR : Unable to load sprite sheet! java.lang.RuntimeException: No OpenGL context found in the current thread.
+<2018-04-24 22-45-24> INFO : Exiting.

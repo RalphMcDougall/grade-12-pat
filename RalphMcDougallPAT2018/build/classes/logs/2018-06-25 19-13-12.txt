@@ -1,0 +1,18 @@
+<2018-06-25 19-13-12> INFO : Connecting to database: DSPersistent
+<2018-06-25 19-13-13> INFO : Successfully connected to database
+<2018-06-25 19-13-13> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-25 19-13-13> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-25 19-13-13> INFO : Loading projectile types...
+<2018-06-25 19-13-13> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-25 19-13-13> INFO : Projectile loading completed.
+<2018-06-25 19-13-14> INFO : Initialising GUIActiveQuests.
+<2018-06-25 19-13-14> INFO : Initialising GUICharacterMainMenu.
+<2018-06-25 19-13-14> INFO : Initialising GUICharacterSelection.
+<2018-06-25 19-13-14> INFO : Initialising GUICredits.
+<2018-06-25 19-13-14> INFO : Initialising GUIHelp.
+<2018-06-25 19-13-14> INFO : Initialising GUINewCharacter.
+<2018-06-25 19-13-14> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-25 19-13-14> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-25 19-13-14> INFO : Querying database: SELECT UserID, UserName, DATE(LastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-06-25 19-13-14> ERROR : Unable to load character list! net.ucanaccess.jdbc.UcanaccessSQLException: UCAExc:::4.0.2 routine signature not found for: PUBLIC.DATE(TIMESTAMP)
+<2018-06-25 19-13-25> INFO : Exiting.

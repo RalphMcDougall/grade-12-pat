@@ -1,0 +1,13 @@
+<2018-04-26 15-34-52> INFO : Connecting to database: DSPersistent
+<2018-04-26 15-34-53> INFO : Successfully connected to database
+<2018-04-26 15-34-53> INFO : Initialising GUIActiveQuests.
+<2018-04-26 15-34-53> INFO : Initialising GUICharacterMainMenu.
+<2018-04-26 15-34-53> INFO : Initialising GUICharacterSelection.
+<2018-04-26 15-34-54> INFO : Initialising GUICredits.
+<2018-04-26 15-34-54> INFO : Initialising GUIHelp.
+<2018-04-26 15-34-54> INFO : Initialising GUINewCharacter.
+<2018-04-26 15-34-54> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-26 15-34-54> INFO : Initialising GameScreen.
+<2018-04-26 15-34-54> INFO : Querying database: SELECT COUNT(TileID) AS [CNT] FROM tblTileTypes;
+<2018-04-26 15-34-54> ERROR : Unable to load tile types from database! net.ucanaccess.jdbc.UcanaccessSQLException: UCAExc:::4.0.2 Column not found: 0
+<2018-04-26 15-34-56> INFO : Exiting.

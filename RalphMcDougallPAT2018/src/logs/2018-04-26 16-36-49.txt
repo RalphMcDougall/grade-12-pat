@@ -1,0 +1,13 @@
+<2018-04-26 16-36-49> INFO : Connecting to database: DSPersistent
+<2018-04-26 16-36-50> INFO : Successfully connected to database
+<2018-04-26 16-36-50> INFO : Initialising GUIActiveQuests.
+<2018-04-26 16-36-50> INFO : Initialising GUICharacterMainMenu.
+<2018-04-26 16-36-50> INFO : Initialising GUICharacterSelection.
+<2018-04-26 16-36-50> INFO : Initialising GUICredits.
+<2018-04-26 16-36-50> INFO : Initialising GUIHelp.
+<2018-04-26 16-36-50> INFO : Initialising GUINewCharacter.
+<2018-04-26 16-36-50> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-26 16-36-50> INFO : Initialising GameScreen.
+<2018-04-26 16-36-50> INFO : Querying database: SELECT COUNT(TileID) AS [CNT] FROM tblTileTypes;
+<2018-04-26 16-36-50> ERROR : Unable to load tile types from database! net.ucanaccess.jdbc.UcanaccessSQLException: UCAExc:::4.0.2 invalid cursor state: identifier cursor not positioned on row in UPDATE, DELETE, SET, or GET statement: ; ResultSet is positioned before first row
+<2018-04-26 16-36-52> INFO : Exiting.

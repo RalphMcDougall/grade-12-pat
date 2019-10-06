@@ -1,0 +1,224 @@
+<2018-06-16 20-49-26> INFO : Connecting to database: DSPersistent
+<2018-06-16 20-49-26> INFO : Successfully connected to database
+<2018-06-16 20-49-26> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-16 20-49-26> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-16 20-49-27> INFO : Initialising GUIActiveQuests.
+<2018-06-16 20-49-27> INFO : Initialising GUICharacterMainMenu.
+<2018-06-16 20-49-27> INFO : Initialising GUICharacterSelection.
+<2018-06-16 20-49-27> INFO : Initialising GUICredits.
+<2018-06-16 20-49-27> INFO : Initialising GUIHelp.
+<2018-06-16 20-49-27> INFO : Initialising GUINewCharacter.
+<2018-06-16 20-49-27> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-16 20-49-27> INFO : GameHandler initialised.
+<2018-06-16 20-49-30> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-49-38> INFO : Changing screen to: GAME
+<2018-06-16 20-49-38> INFO : Starting game.
+<2018-06-16 20-49-38> INFO : Initialising app game container
+<2018-06-16 20-49-39> INFO : Initialising a new game.
+<2018-06-16 20-49-39> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 20-49-39> INFO : Loading image.
+<2018-06-16 20-49-39> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-39> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-39> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 20-49-39> INFO : Loading image.
+<2018-06-16 20-49-39> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-39> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-39> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 20-49-39> INFO : Loading image.
+<2018-06-16 20-49-39> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-39> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-39> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 20-49-39> INFO : Loading image.
+<2018-06-16 20-49-39> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-39> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-39> INFO : Setting up new map.
+<2018-06-16 20-49-39> INFO : Creating tile segment grid for map.
+<2018-06-16 20-49-39> INFO : Creating new blank segment grid.
+<2018-06-16 20-49-39> INFO : Starting maze construction.
+<2018-06-16 20-49-39> INFO : Starting to setup Points of Interest.
+<2018-06-16 20-49-39> INFO : Starting to get dead ends.
+<2018-06-16 20-49-39> INFO : All dead ends found.
+<2018-06-16 20-49-39> INFO : Number of dead-ends: 22
+<2018-06-16 20-49-39> INFO : Points of Interest setup completed.
+<2018-06-16 20-49-39> INFO : Setting up map tiles.
+<2018-06-16 20-49-39> INFO : Map tile setup completed.
+<2018-06-16 20-49-39> INFO : Map setup completed.
+<2018-06-16 20-49-39> INFO : Creating HUD layer.
+<2018-06-16 20-49-39> INFO : Finished initialising new game.
+<2018-06-16 20-49-39> INFO : *********************************
+<2018-06-16 20-49-39> INFO : Available processors (cores): 4
+<2018-06-16 20-49-39> INFO : Memory use (MB): 58.14 / 1,804.5
+<2018-06-16 20-49-39> INFO : *********************************
+<2018-06-16 20-49-45> INFO : Exiting main game.
+<2018-06-16 20-49-45> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-49-45> INFO : Closing game.
+<2018-06-16 20-49-46> INFO : Changing screen to: GAME
+<2018-06-16 20-49-46> INFO : Starting game.
+<2018-06-16 20-49-46> INFO : Initialising app game container
+<2018-06-16 20-49-46> INFO : Initialising a new game.
+<2018-06-16 20-49-46> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 20-49-46> INFO : Loading image.
+<2018-06-16 20-49-46> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-46> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-46> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 20-49-46> INFO : Loading image.
+<2018-06-16 20-49-46> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-46> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-46> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 20-49-46> INFO : Loading image.
+<2018-06-16 20-49-46> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-46> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-46> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 20-49-46> INFO : Loading image.
+<2018-06-16 20-49-46> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-46> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-46> INFO : Setting up new map.
+<2018-06-16 20-49-46> INFO : Creating tile segment grid for map.
+<2018-06-16 20-49-46> INFO : Creating new blank segment grid.
+<2018-06-16 20-49-46> INFO : Starting maze construction.
+<2018-06-16 20-49-46> INFO : Starting to setup Points of Interest.
+<2018-06-16 20-49-46> INFO : Starting to get dead ends.
+<2018-06-16 20-49-46> INFO : All dead ends found.
+<2018-06-16 20-49-46> INFO : Number of dead-ends: 24
+<2018-06-16 20-49-46> INFO : Points of Interest setup completed.
+<2018-06-16 20-49-46> INFO : Setting up map tiles.
+<2018-06-16 20-49-46> INFO : Map tile setup completed.
+<2018-06-16 20-49-46> INFO : Map setup completed.
+<2018-06-16 20-49-46> INFO : Creating HUD layer.
+<2018-06-16 20-49-46> INFO : Finished initialising new game.
+<2018-06-16 20-49-47> INFO : Exiting main game.
+<2018-06-16 20-49-47> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-49-47> INFO : Closing game.
+<2018-06-16 20-49-48> INFO : Changing screen to: GAME
+<2018-06-16 20-49-48> INFO : Starting game.
+<2018-06-16 20-49-48> INFO : Initialising app game container
+<2018-06-16 20-49-48> INFO : Initialising a new game.
+<2018-06-16 20-49-48> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 20-49-48> INFO : Loading image.
+<2018-06-16 20-49-48> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-48> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-48> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 20-49-48> INFO : Loading image.
+<2018-06-16 20-49-48> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-48> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-48> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 20-49-48> INFO : Loading image.
+<2018-06-16 20-49-48> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-48> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-48> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 20-49-48> INFO : Loading image.
+<2018-06-16 20-49-48> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-48> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-48> INFO : Setting up new map.
+<2018-06-16 20-49-48> INFO : Creating tile segment grid for map.
+<2018-06-16 20-49-48> INFO : Creating new blank segment grid.
+<2018-06-16 20-49-48> INFO : Starting maze construction.
+<2018-06-16 20-49-48> INFO : Starting to setup Points of Interest.
+<2018-06-16 20-49-48> INFO : Starting to get dead ends.
+<2018-06-16 20-49-48> INFO : All dead ends found.
+<2018-06-16 20-49-48> INFO : Number of dead-ends: 24
+<2018-06-16 20-49-48> INFO : Points of Interest setup completed.
+<2018-06-16 20-49-48> INFO : Setting up map tiles.
+<2018-06-16 20-49-48> INFO : Map tile setup completed.
+<2018-06-16 20-49-48> INFO : Map setup completed.
+<2018-06-16 20-49-48> INFO : Creating HUD layer.
+<2018-06-16 20-49-48> INFO : Finished initialising new game.
+<2018-06-16 20-49-49> INFO : Exiting main game.
+<2018-06-16 20-49-49> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-49-49> INFO : Closing game.
+<2018-06-16 20-49-49> INFO : Changing screen to: GAME
+<2018-06-16 20-49-49> INFO : Starting game.
+<2018-06-16 20-49-49> INFO : Initialising app game container
+<2018-06-16 20-49-49> INFO : Initialising a new game.
+<2018-06-16 20-49-49> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 20-49-49> INFO : Loading image.
+<2018-06-16 20-49-49> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-49> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-49> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 20-49-49> INFO : Loading image.
+<2018-06-16 20-49-49> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-49> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-49> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 20-49-49> INFO : Loading image.
+<2018-06-16 20-49-49> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-49> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-49> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 20-49-49> INFO : Loading image.
+<2018-06-16 20-49-49> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-49> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-49> INFO : Setting up new map.
+<2018-06-16 20-49-49> INFO : Creating tile segment grid for map.
+<2018-06-16 20-49-49> INFO : Creating new blank segment grid.
+<2018-06-16 20-49-49> INFO : Starting maze construction.
+<2018-06-16 20-49-49> INFO : Starting to setup Points of Interest.
+<2018-06-16 20-49-49> INFO : Starting to get dead ends.
+<2018-06-16 20-49-49> INFO : All dead ends found.
+<2018-06-16 20-49-49> INFO : Number of dead-ends: 23
+<2018-06-16 20-49-49> INFO : Points of Interest setup completed.
+<2018-06-16 20-49-49> INFO : Setting up map tiles.
+<2018-06-16 20-49-49> INFO : Map tile setup completed.
+<2018-06-16 20-49-49> INFO : Map setup completed.
+<2018-06-16 20-49-49> INFO : Creating HUD layer.
+<2018-06-16 20-49-49> INFO : Finished initialising new game.
+<2018-06-16 20-49-50> INFO : Exiting main game.
+<2018-06-16 20-49-50> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-49-50> INFO : Closing game.
+<2018-06-16 20-49-51> INFO : Changing screen to: GAME
+<2018-06-16 20-49-51> INFO : Starting game.
+<2018-06-16 20-49-51> INFO : Initialising app game container
+<2018-06-16 20-49-51> INFO : Initialising a new game.
+<2018-06-16 20-49-51> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 20-49-51> INFO : Loading image.
+<2018-06-16 20-49-51> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-51> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 20-49-51> INFO : Loading image.
+<2018-06-16 20-49-51> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-51> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 20-49-51> INFO : Loading image.
+<2018-06-16 20-49-51> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-51> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 20-49-51> INFO : Loading image.
+<2018-06-16 20-49-51> INFO : Starting to split sprite sheet.
+<2018-06-16 20-49-51> INFO : Sprite sheet splitting completed.
+<2018-06-16 20-49-51> INFO : Setting up new map.
+<2018-06-16 20-49-51> INFO : Creating tile segment grid for map.
+<2018-06-16 20-49-51> INFO : Creating new blank segment grid.
+<2018-06-16 20-49-51> INFO : Starting maze construction.
+<2018-06-16 20-49-51> INFO : Starting to setup Points of Interest.
+<2018-06-16 20-49-51> INFO : Starting to get dead ends.
+<2018-06-16 20-49-51> INFO : All dead ends found.
+<2018-06-16 20-49-51> INFO : Number of dead-ends: 6
+<2018-06-16 20-49-51> INFO : Points of Interest setup completed.
+<2018-06-16 20-49-51> INFO : Setting up map tiles.
+<2018-06-16 20-49-51> INFO : Map tile setup completed.
+<2018-06-16 20-49-51> INFO : Map setup completed.
+<2018-06-16 20-49-51> INFO : Creating HUD layer.
+<2018-06-16 20-49-51> INFO : Finished initialising new game.
+<2018-06-16 20-50-02> INFO : *********************************
+<2018-06-16 20-50-02> INFO : Available processors (cores): 4
+<2018-06-16 20-50-02> INFO : Memory use (MB): 69.396 / 1,804.5
+<2018-06-16 20-50-02> INFO : *********************************
+<2018-06-16 20-50-22> INFO : *********************************
+<2018-06-16 20-50-22> INFO : Available processors (cores): 4
+<2018-06-16 20-50-22> INFO : Memory use (MB): 98.423 / 1,804.5
+<2018-06-16 20-50-22> INFO : *********************************
+<2018-06-16 20-50-42> INFO : *********************************
+<2018-06-16 20-50-42> INFO : Available processors (cores): 4
+<2018-06-16 20-50-42> INFO : Memory use (MB): 98.701 / 1,804.5
+<2018-06-16 20-50-42> INFO : *********************************
+<2018-06-16 20-50-44> INFO : Exiting main game.
+<2018-06-16 20-50-44> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-50-44> INFO : Closing game.
+<2018-06-16 20-50-45> INFO : Changing screen to: UPGRADE_CHARACTER
+<2018-06-16 20-50-49> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-50-50> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-06-16 20-50-51> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-50-52> INFO : Changing screen to: HELP
+<2018-06-16 20-50-53> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-50-54> INFO : Changing screen to: ACTIVE_QUESTS
+<2018-06-16 20-50-55> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 20-50-56> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-16 20-50-57> INFO : Exiting.

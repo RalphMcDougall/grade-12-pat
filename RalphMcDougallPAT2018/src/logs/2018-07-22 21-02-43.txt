@@ -1,0 +1,707 @@
+<2018-07-22 21-02-43> INFO : Loading static data...
+<2018-07-22 21-02-43> INFO : Connecting to database: DSPersistent
+<2018-07-22 21-02-43> INFO : Successfully connected to database
+<2018-07-22 21-02-43> INFO : Load tile types from database...
+<2018-07-22 21-02-43> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-07-22 21-02-43> INFO : Tile types loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading map segments from file...
+<2018-07-22 21-02-43> INFO : Map segments loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading item types from database...
+<2018-07-22 21-02-43> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-07-22 21-02-43> INFO : Item types loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading NPC names from file...
+<2018-07-22 21-02-43> INFO : NPC names loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading projectile types from database...
+<2018-07-22 21-02-43> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-07-22 21-02-43> INFO : Projectile types loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading quest types from database...
+<2018-07-22 21-02-43> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-07-22 21-02-43> INFO : Load the targets of the quest type from the database.
+<2018-07-22 21-02-43> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-07-22 21-02-43> INFO : Load the targets of the quest type from the database.
+<2018-07-22 21-02-43> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-07-22 21-02-43> INFO : Quest types loaded successfully.
+<2018-07-22 21-02-43> INFO : Loading enemy types from database...
+<2018-07-22 21-02-43> INFO : Querying database: SELECT EnemyName, SpriteSheetX, SpriteSheetY, NumSprites, EnemyHealth, EnemyMovementSpeed, EnemyDamage, EnemyProjectileType, EnemyFireRate FROM tblEnemyTypes
+<2018-07-22 21-02-43> INFO : Enemy types loaded successfully.
+<2018-07-22 21-02-43> INFO : Static data loaded.
+<2018-07-22 21-02-43> INFO : Initialising screens...
+<2018-07-22 21-02-44> INFO : Initialising GUIActiveQuests.
+<2018-07-22 21-02-44> INFO : Initialising GUICharacterMainMenu.
+<2018-07-22 21-02-44> INFO : Initialising GUICharacterSelection.
+<2018-07-22 21-02-44> INFO : Initialising GUICredits.
+<2018-07-22 21-02-44> INFO : Initialising GUIHelp.
+<2018-07-22 21-02-44> INFO : Initialising GUINewCharacter.
+<2018-07-22 21-02-44> INFO : Initialising GUIUpgradeCharacter.
+<2018-07-22 21-02-44> INFO : Screens initialised successfully.
+<2018-07-22 21-02-44> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-22 21-02-44> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-22 21-02-44> INFO : GameHandler initialised.
+<2018-07-22 21-02-45> INFO : Getting data for user with ID: 22
+<2018-07-22 21-02-45> INFO : Querying database: SELECT UserName, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded FROM tblUsers WHERE UserID = 22;
+<2018-07-22 21-02-45> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 22;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 30
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 30;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 31
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 31;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 32
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 32;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 39
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 39;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 40
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 40;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 41
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 41;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 42
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 42;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 43
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 43;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 44
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 44;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 45
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 45;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 46
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 46;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 47
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 47;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 48
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 48;
+<2018-07-22 21-02-45> INFO : Construct quest with id: 49
+<2018-07-22 21-02-45> INFO : Querying database: SELECT IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward FROM tblActiveQuests WHERE QuestID = 49;
+<2018-07-22 21-02-45> INFO : User data successfully retrieved.
+<2018-07-22 21-02-45> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-07-22 21-02-46> INFO : Changing screen to: GAME
+<2018-07-22 21-02-46> INFO : Starting game.
+<2018-07-22 21-02-46> INFO : Initialising app game container
+<2018-07-22 21-02-46> INFO : Initialising new game...
+<2018-07-22 21-02-46> INFO : Initialising sprite sheets...
+<2018-07-22 21-02-46> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-07-22 21-02-46> INFO : Loading image.
+<2018-07-22 21-02-46> INFO : Starting to split sprite sheet.
+<2018-07-22 21-02-46> INFO : Sprite sheet splitting completed.
+<2018-07-22 21-02-46> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-07-22 21-02-46> INFO : Loading image.
+<2018-07-22 21-02-46> INFO : Starting to split sprite sheet.
+<2018-07-22 21-02-46> INFO : Sprite sheet splitting completed.
+<2018-07-22 21-02-46> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-07-22 21-02-46> INFO : Loading image.
+<2018-07-22 21-02-46> INFO : Starting to split sprite sheet.
+<2018-07-22 21-02-46> INFO : Sprite sheet splitting completed.
+<2018-07-22 21-02-46> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-07-22 21-02-46> INFO : Loading image.
+<2018-07-22 21-02-46> INFO : Starting to split sprite sheet.
+<2018-07-22 21-02-46> INFO : Sprite sheet splitting completed.
+<2018-07-22 21-02-46> INFO : Sprite sheets initialised successfully.
+<2018-07-22 21-02-46> INFO : Setting up new map.
+<2018-07-22 21-02-46> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-46> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-46> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-46> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-46> INFO : Starting maze construction.
+<2018-07-22 21-02-46> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-46> INFO : Starting to get dead ends.
+<2018-07-22 21-02-46> INFO : All dead ends found.
+<2018-07-22 21-02-46> INFO : Number of dead-ends: 31
+<2018-07-22 21-02-46> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-46> INFO : Setting up map tiles.
+<2018-07-22 21-02-46> INFO : Map tile setup completed.
+<2018-07-22 21-02-46> INFO : Getting new quest ID.
+<2018-07-22 21-02-46> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-46> INFO : Map setup completed.
+<2018-07-22 21-02-46> INFO : Initialising path finding grid...
+<2018-07-22 21-02-46> INFO : Path finding grid initialised.
+<2018-07-22 21-02-46> INFO : Creating HUD layer.
+<2018-07-22 21-02-46> WARNING : Input object has null value for player character input.
+<2018-07-22 21-02-46> INFO : New game initialised successfully.
+<2018-07-22 21-02-46> INFO : *********************************
+<2018-07-22 21-02-46> INFO : Available processors (cores): 4
+<2018-07-22 21-02-46> INFO : Memory use (MB): 81.856 / 1,804.5
+<2018-07-22 21-02-46> INFO : Number of entities: 3
+<2018-07-22 21-02-46> INFO : *********************************
+<2018-07-22 21-02-48> INFO : Setting up new map.
+<2018-07-22 21-02-48> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-48> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-48> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-48> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-48> INFO : Starting maze construction.
+<2018-07-22 21-02-48> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-48> INFO : Starting to get dead ends.
+<2018-07-22 21-02-48> INFO : All dead ends found.
+<2018-07-22 21-02-48> INFO : Number of dead-ends: 22
+<2018-07-22 21-02-48> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-48> INFO : Setting up map tiles.
+<2018-07-22 21-02-48> INFO : Map tile setup completed.
+<2018-07-22 21-02-48> INFO : Getting new quest ID.
+<2018-07-22 21-02-48> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-48> INFO : Map setup completed.
+<2018-07-22 21-02-48> INFO : Setting up new map.
+<2018-07-22 21-02-48> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-48> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-48> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-48> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-48> INFO : Starting maze construction.
+<2018-07-22 21-02-48> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-48> INFO : Starting to get dead ends.
+<2018-07-22 21-02-48> INFO : All dead ends found.
+<2018-07-22 21-02-48> INFO : Number of dead-ends: 28
+<2018-07-22 21-02-48> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-48> INFO : Setting up map tiles.
+<2018-07-22 21-02-48> INFO : Map tile setup completed.
+<2018-07-22 21-02-48> INFO : Getting new quest ID.
+<2018-07-22 21-02-48> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-48> INFO : Map setup completed.
+<2018-07-22 21-02-50> INFO : Inserting new quest into database.
+<2018-07-22 21-02-50> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (50, 22, 'Arnold', 1, 'Golden Ring', 19, 0, 95)
+<2018-07-22 21-02-51> INFO : Setting up new map.
+<2018-07-22 21-02-51> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-51> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-51> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-51> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-51> INFO : Starting maze construction.
+<2018-07-22 21-02-51> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-51> INFO : Starting to get dead ends.
+<2018-07-22 21-02-51> INFO : All dead ends found.
+<2018-07-22 21-02-51> INFO : Number of dead-ends: 19
+<2018-07-22 21-02-51> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-51> INFO : Setting up map tiles.
+<2018-07-22 21-02-51> INFO : Map tile setup completed.
+<2018-07-22 21-02-51> INFO : Getting new quest ID.
+<2018-07-22 21-02-51> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-51> INFO : Map setup completed.
+<2018-07-22 21-02-51> INFO : Setting up new map.
+<2018-07-22 21-02-51> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-51> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-51> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-51> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-51> INFO : Starting maze construction.
+<2018-07-22 21-02-51> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-51> INFO : Starting to get dead ends.
+<2018-07-22 21-02-51> INFO : All dead ends found.
+<2018-07-22 21-02-51> INFO : Number of dead-ends: 28
+<2018-07-22 21-02-51> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-51> INFO : Setting up map tiles.
+<2018-07-22 21-02-51> INFO : Map tile setup completed.
+<2018-07-22 21-02-51> INFO : Getting new quest ID.
+<2018-07-22 21-02-51> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-51> INFO : Map setup completed.
+<2018-07-22 21-02-52> INFO : Setting up new map.
+<2018-07-22 21-02-52> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-52> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-52> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-52> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-52> INFO : Starting maze construction.
+<2018-07-22 21-02-52> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-52> INFO : Starting to get dead ends.
+<2018-07-22 21-02-52> INFO : All dead ends found.
+<2018-07-22 21-02-52> INFO : Number of dead-ends: 27
+<2018-07-22 21-02-52> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-52> INFO : Setting up map tiles.
+<2018-07-22 21-02-52> INFO : Map tile setup completed.
+<2018-07-22 21-02-52> INFO : Getting new quest ID.
+<2018-07-22 21-02-52> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-52> INFO : Map setup completed.
+<2018-07-22 21-02-52> INFO : Setting up new map.
+<2018-07-22 21-02-52> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-52> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-52> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-52> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-52> INFO : Starting maze construction.
+<2018-07-22 21-02-52> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-52> INFO : Starting to get dead ends.
+<2018-07-22 21-02-52> INFO : All dead ends found.
+<2018-07-22 21-02-52> INFO : Number of dead-ends: 24
+<2018-07-22 21-02-52> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-52> INFO : Setting up map tiles.
+<2018-07-22 21-02-52> INFO : Map tile setup completed.
+<2018-07-22 21-02-52> INFO : Getting new quest ID.
+<2018-07-22 21-02-52> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-52> INFO : Map setup completed.
+<2018-07-22 21-02-53> INFO : Setting up new map.
+<2018-07-22 21-02-53> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-53> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-53> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-53> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-53> INFO : Starting maze construction.
+<2018-07-22 21-02-53> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-53> INFO : Starting to get dead ends.
+<2018-07-22 21-02-53> INFO : All dead ends found.
+<2018-07-22 21-02-53> INFO : Number of dead-ends: 27
+<2018-07-22 21-02-53> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-53> INFO : Setting up map tiles.
+<2018-07-22 21-02-53> INFO : Map tile setup completed.
+<2018-07-22 21-02-53> INFO : Getting new quest ID.
+<2018-07-22 21-02-53> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-53> INFO : Map setup completed.
+<2018-07-22 21-02-53> INFO : Setting up new map.
+<2018-07-22 21-02-53> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-53> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-53> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-53> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-53> INFO : Starting maze construction.
+<2018-07-22 21-02-53> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-53> INFO : Starting to get dead ends.
+<2018-07-22 21-02-53> INFO : All dead ends found.
+<2018-07-22 21-02-53> INFO : Number of dead-ends: 24
+<2018-07-22 21-02-53> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-53> INFO : Setting up map tiles.
+<2018-07-22 21-02-53> INFO : Map tile setup completed.
+<2018-07-22 21-02-53> INFO : Getting new quest ID.
+<2018-07-22 21-02-53> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-53> INFO : Map setup completed.
+<2018-07-22 21-02-53> INFO : Setting up new map.
+<2018-07-22 21-02-53> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-53> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-53> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-53> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-53> INFO : Starting maze construction.
+<2018-07-22 21-02-53> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-53> INFO : Starting to get dead ends.
+<2018-07-22 21-02-53> INFO : All dead ends found.
+<2018-07-22 21-02-53> INFO : Number of dead-ends: 22
+<2018-07-22 21-02-53> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-53> INFO : Setting up map tiles.
+<2018-07-22 21-02-53> INFO : Map tile setup completed.
+<2018-07-22 21-02-53> INFO : Getting new quest ID.
+<2018-07-22 21-02-53> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-53> INFO : Map setup completed.
+<2018-07-22 21-02-55> INFO : Inserting new quest into database.
+<2018-07-22 21-02-55> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (51, 22, 'Marlena', 2, 'Troll', 2, 0, 20)
+<2018-07-22 21-02-56> INFO : Setting up new map.
+<2018-07-22 21-02-56> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-56> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-56> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-56> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-56> INFO : Starting maze construction.
+<2018-07-22 21-02-56> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-56> INFO : Starting to get dead ends.
+<2018-07-22 21-02-56> INFO : All dead ends found.
+<2018-07-22 21-02-56> INFO : Number of dead-ends: 27
+<2018-07-22 21-02-56> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-56> INFO : Setting up map tiles.
+<2018-07-22 21-02-57> INFO : Map tile setup completed.
+<2018-07-22 21-02-57> INFO : Getting new quest ID.
+<2018-07-22 21-02-57> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-57> INFO : Map setup completed.
+<2018-07-22 21-02-57> INFO : Setting up new map.
+<2018-07-22 21-02-57> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-57> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-57> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-57> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-57> INFO : Starting maze construction.
+<2018-07-22 21-02-57> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-57> INFO : Starting to get dead ends.
+<2018-07-22 21-02-57> INFO : All dead ends found.
+<2018-07-22 21-02-57> INFO : Number of dead-ends: 27
+<2018-07-22 21-02-57> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-57> INFO : Setting up map tiles.
+<2018-07-22 21-02-57> INFO : Map tile setup completed.
+<2018-07-22 21-02-57> INFO : Getting new quest ID.
+<2018-07-22 21-02-57> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-57> INFO : Map setup completed.
+<2018-07-22 21-02-57> INFO : Setting up new map.
+<2018-07-22 21-02-57> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-57> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-57> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-57> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-57> INFO : Starting maze construction.
+<2018-07-22 21-02-57> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-57> INFO : Starting to get dead ends.
+<2018-07-22 21-02-57> INFO : All dead ends found.
+<2018-07-22 21-02-57> INFO : Number of dead-ends: 34
+<2018-07-22 21-02-57> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-57> INFO : Setting up map tiles.
+<2018-07-22 21-02-57> INFO : Map tile setup completed.
+<2018-07-22 21-02-57> INFO : Getting new quest ID.
+<2018-07-22 21-02-57> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-57> INFO : Map setup completed.
+<2018-07-22 21-02-58> INFO : Setting up new map.
+<2018-07-22 21-02-58> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-58> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-58> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-58> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-58> INFO : Starting maze construction.
+<2018-07-22 21-02-58> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-58> INFO : Starting to get dead ends.
+<2018-07-22 21-02-58> INFO : All dead ends found.
+<2018-07-22 21-02-58> INFO : Number of dead-ends: 28
+<2018-07-22 21-02-58> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-58> INFO : Setting up map tiles.
+<2018-07-22 21-02-58> INFO : Map tile setup completed.
+<2018-07-22 21-02-58> INFO : Getting new quest ID.
+<2018-07-22 21-02-58> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-58> INFO : Map setup completed.
+<2018-07-22 21-02-59> INFO : Setting up new map.
+<2018-07-22 21-02-59> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-59> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-59> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-59> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-59> INFO : Starting maze construction.
+<2018-07-22 21-02-59> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-59> INFO : Starting to get dead ends.
+<2018-07-22 21-02-59> INFO : All dead ends found.
+<2018-07-22 21-02-59> INFO : Number of dead-ends: 30
+<2018-07-22 21-02-59> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-59> INFO : Setting up map tiles.
+<2018-07-22 21-02-59> INFO : Map tile setup completed.
+<2018-07-22 21-02-59> INFO : Getting new quest ID.
+<2018-07-22 21-02-59> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-59> INFO : Map setup completed.
+<2018-07-22 21-02-59> INFO : Setting up new map.
+<2018-07-22 21-02-59> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-59> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-59> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-59> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-59> INFO : Starting maze construction.
+<2018-07-22 21-02-59> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-59> INFO : Starting to get dead ends.
+<2018-07-22 21-02-59> INFO : All dead ends found.
+<2018-07-22 21-02-59> INFO : Number of dead-ends: 15
+<2018-07-22 21-02-59> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-59> INFO : Setting up map tiles.
+<2018-07-22 21-02-59> INFO : Map tile setup completed.
+<2018-07-22 21-02-59> INFO : Getting new quest ID.
+<2018-07-22 21-02-59> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-59> INFO : Map setup completed.
+<2018-07-22 21-02-59> INFO : Setting up new map.
+<2018-07-22 21-02-59> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-02-59> INFO : Enemies removed from entity handler.
+<2018-07-22 21-02-59> INFO : Creating tile segment grid for map.
+<2018-07-22 21-02-59> INFO : Creating new blank segment grid.
+<2018-07-22 21-02-59> INFO : Starting maze construction.
+<2018-07-22 21-02-59> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-02-59> INFO : Starting to get dead ends.
+<2018-07-22 21-02-59> INFO : All dead ends found.
+<2018-07-22 21-02-59> INFO : Number of dead-ends: 22
+<2018-07-22 21-02-59> INFO : Points of Interest setup completed.
+<2018-07-22 21-02-59> INFO : Setting up map tiles.
+<2018-07-22 21-02-59> INFO : Map tile setup completed.
+<2018-07-22 21-02-59> INFO : Getting new quest ID.
+<2018-07-22 21-02-59> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-02-59> INFO : Map setup completed.
+<2018-07-22 21-03-00> INFO : Setting up new map.
+<2018-07-22 21-03-00> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-00> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-00> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-00> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-00> INFO : Starting maze construction.
+<2018-07-22 21-03-00> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-00> INFO : Starting to get dead ends.
+<2018-07-22 21-03-00> INFO : All dead ends found.
+<2018-07-22 21-03-00> INFO : Number of dead-ends: 27
+<2018-07-22 21-03-00> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-00> INFO : Setting up map tiles.
+<2018-07-22 21-03-00> INFO : Map tile setup completed.
+<2018-07-22 21-03-00> INFO : Getting new quest ID.
+<2018-07-22 21-03-00> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-00> INFO : Map setup completed.
+<2018-07-22 21-03-00> INFO : Setting up new map.
+<2018-07-22 21-03-00> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-00> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-00> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-00> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-00> INFO : Starting maze construction.
+<2018-07-22 21-03-00> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-00> INFO : Starting to get dead ends.
+<2018-07-22 21-03-00> INFO : All dead ends found.
+<2018-07-22 21-03-00> INFO : Number of dead-ends: 29
+<2018-07-22 21-03-00> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-00> INFO : Setting up map tiles.
+<2018-07-22 21-03-00> INFO : Map tile setup completed.
+<2018-07-22 21-03-00> INFO : Getting new quest ID.
+<2018-07-22 21-03-00> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-00> INFO : Map setup completed.
+<2018-07-22 21-03-01> INFO : Setting up new map.
+<2018-07-22 21-03-01> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-01> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-01> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-01> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-01> INFO : Starting maze construction.
+<2018-07-22 21-03-01> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-01> INFO : Starting to get dead ends.
+<2018-07-22 21-03-01> INFO : All dead ends found.
+<2018-07-22 21-03-01> INFO : Number of dead-ends: 27
+<2018-07-22 21-03-01> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-01> INFO : Setting up map tiles.
+<2018-07-22 21-03-01> INFO : Map tile setup completed.
+<2018-07-22 21-03-01> INFO : Getting new quest ID.
+<2018-07-22 21-03-01> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-01> INFO : Map setup completed.
+<2018-07-22 21-03-01> INFO : Setting up new map.
+<2018-07-22 21-03-01> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-01> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-01> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-01> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-01> INFO : Starting maze construction.
+<2018-07-22 21-03-01> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-01> INFO : Starting to get dead ends.
+<2018-07-22 21-03-01> INFO : All dead ends found.
+<2018-07-22 21-03-01> INFO : Number of dead-ends: 27
+<2018-07-22 21-03-01> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-01> INFO : Setting up map tiles.
+<2018-07-22 21-03-01> INFO : Map tile setup completed.
+<2018-07-22 21-03-01> INFO : Getting new quest ID.
+<2018-07-22 21-03-01> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-01> INFO : Map setup completed.
+<2018-07-22 21-03-01> INFO : Setting up new map.
+<2018-07-22 21-03-01> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-01> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-01> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-01> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-01> INFO : Starting maze construction.
+<2018-07-22 21-03-01> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-01> INFO : Starting to get dead ends.
+<2018-07-22 21-03-01> INFO : All dead ends found.
+<2018-07-22 21-03-01> INFO : Number of dead-ends: 26
+<2018-07-22 21-03-01> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-01> INFO : Setting up map tiles.
+<2018-07-22 21-03-01> INFO : Map tile setup completed.
+<2018-07-22 21-03-01> INFO : Getting new quest ID.
+<2018-07-22 21-03-01> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-01> INFO : Map setup completed.
+<2018-07-22 21-03-02> INFO : Setting up new map.
+<2018-07-22 21-03-02> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-02> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-02> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-02> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-02> INFO : Starting maze construction.
+<2018-07-22 21-03-02> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-02> INFO : Starting to get dead ends.
+<2018-07-22 21-03-02> INFO : All dead ends found.
+<2018-07-22 21-03-02> INFO : Number of dead-ends: 31
+<2018-07-22 21-03-02> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-02> INFO : Setting up map tiles.
+<2018-07-22 21-03-02> INFO : Map tile setup completed.
+<2018-07-22 21-03-02> INFO : Getting new quest ID.
+<2018-07-22 21-03-02> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-02> INFO : Map setup completed.
+<2018-07-22 21-03-03> INFO : Inserting new quest into database.
+<2018-07-22 21-03-03> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (52, 22, 'Jacques', 1, 'Golden Ring', 1, 0, 5)
+<2018-07-22 21-03-04> INFO : Setting up new map.
+<2018-07-22 21-03-04> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-04> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-04> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-04> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-04> INFO : Starting maze construction.
+<2018-07-22 21-03-04> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-04> INFO : Starting to get dead ends.
+<2018-07-22 21-03-04> INFO : All dead ends found.
+<2018-07-22 21-03-04> INFO : Number of dead-ends: 24
+<2018-07-22 21-03-04> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-04> INFO : Setting up map tiles.
+<2018-07-22 21-03-04> INFO : Map tile setup completed.
+<2018-07-22 21-03-04> INFO : Getting new quest ID.
+<2018-07-22 21-03-04> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-04> INFO : Map setup completed.
+<2018-07-22 21-03-04> INFO : Setting up new map.
+<2018-07-22 21-03-04> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-04> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-04> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-04> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-04> INFO : Starting maze construction.
+<2018-07-22 21-03-04> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-04> INFO : Starting to get dead ends.
+<2018-07-22 21-03-04> INFO : All dead ends found.
+<2018-07-22 21-03-04> INFO : Number of dead-ends: 26
+<2018-07-22 21-03-04> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-04> INFO : Setting up map tiles.
+<2018-07-22 21-03-04> INFO : Map tile setup completed.
+<2018-07-22 21-03-04> INFO : Getting new quest ID.
+<2018-07-22 21-03-04> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-04> INFO : Map setup completed.
+<2018-07-22 21-03-05> INFO : Setting up new map.
+<2018-07-22 21-03-05> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-05> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-05> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-05> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-05> INFO : Starting maze construction.
+<2018-07-22 21-03-05> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-05> INFO : Starting to get dead ends.
+<2018-07-22 21-03-05> INFO : All dead ends found.
+<2018-07-22 21-03-05> INFO : Number of dead-ends: 28
+<2018-07-22 21-03-05> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-05> INFO : Setting up map tiles.
+<2018-07-22 21-03-05> INFO : Map tile setup completed.
+<2018-07-22 21-03-05> INFO : Getting new quest ID.
+<2018-07-22 21-03-05> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-05> INFO : Map setup completed.
+<2018-07-22 21-03-05> INFO : Setting up new map.
+<2018-07-22 21-03-05> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-05> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-05> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-05> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-05> INFO : Starting maze construction.
+<2018-07-22 21-03-05> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-05> INFO : Starting to get dead ends.
+<2018-07-22 21-03-05> INFO : All dead ends found.
+<2018-07-22 21-03-05> INFO : Number of dead-ends: 25
+<2018-07-22 21-03-05> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-05> INFO : Setting up map tiles.
+<2018-07-22 21-03-05> INFO : Map tile setup completed.
+<2018-07-22 21-03-05> INFO : Getting new quest ID.
+<2018-07-22 21-03-05> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-05> INFO : Map setup completed.
+<2018-07-22 21-03-06> INFO : Setting up new map.
+<2018-07-22 21-03-06> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-06> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-06> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-06> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-06> INFO : Starting maze construction.
+<2018-07-22 21-03-06> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-06> INFO : Starting to get dead ends.
+<2018-07-22 21-03-06> INFO : All dead ends found.
+<2018-07-22 21-03-06> INFO : Number of dead-ends: 27
+<2018-07-22 21-03-06> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-06> INFO : Setting up map tiles.
+<2018-07-22 21-03-06> INFO : Map tile setup completed.
+<2018-07-22 21-03-06> INFO : Getting new quest ID.
+<2018-07-22 21-03-06> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-06> INFO : Map setup completed.
+<2018-07-22 21-03-06> INFO : Setting up new map.
+<2018-07-22 21-03-06> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-06> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-06> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-06> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-06> INFO : Starting maze construction.
+<2018-07-22 21-03-06> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-06> INFO : Starting to get dead ends.
+<2018-07-22 21-03-06> INFO : All dead ends found.
+<2018-07-22 21-03-06> INFO : Number of dead-ends: 21
+<2018-07-22 21-03-06> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-06> INFO : Setting up map tiles.
+<2018-07-22 21-03-06> INFO : Map tile setup completed.
+<2018-07-22 21-03-06> INFO : Getting new quest ID.
+<2018-07-22 21-03-06> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-06> INFO : Map setup completed.
+<2018-07-22 21-03-07> INFO : Setting up new map.
+<2018-07-22 21-03-07> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-07> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-07> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-07> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-07> INFO : Starting maze construction.
+<2018-07-22 21-03-07> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-07> INFO : Starting to get dead ends.
+<2018-07-22 21-03-07> INFO : All dead ends found.
+<2018-07-22 21-03-07> INFO : Number of dead-ends: 22
+<2018-07-22 21-03-07> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-07> INFO : Setting up map tiles.
+<2018-07-22 21-03-07> INFO : Map tile setup completed.
+<2018-07-22 21-03-07> INFO : Getting new quest ID.
+<2018-07-22 21-03-07> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-07> INFO : Map setup completed.
+<2018-07-22 21-03-07> INFO : *********************************
+<2018-07-22 21-03-07> INFO : Available processors (cores): 4
+<2018-07-22 21-03-07> INFO : Memory use (MB): 147.372 / 1,804.5
+<2018-07-22 21-03-07> INFO : Number of entities: 3
+<2018-07-22 21-03-07> INFO : *********************************
+<2018-07-22 21-03-07> INFO : Setting up new map.
+<2018-07-22 21-03-07> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-07> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-07> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-07> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-07> INFO : Starting maze construction.
+<2018-07-22 21-03-07> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-07> INFO : Starting to get dead ends.
+<2018-07-22 21-03-07> INFO : All dead ends found.
+<2018-07-22 21-03-07> INFO : Number of dead-ends: 23
+<2018-07-22 21-03-07> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-07> INFO : Setting up map tiles.
+<2018-07-22 21-03-07> INFO : Map tile setup completed.
+<2018-07-22 21-03-07> INFO : Getting new quest ID.
+<2018-07-22 21-03-07> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-07> INFO : Map setup completed.
+<2018-07-22 21-03-07> INFO : Setting up new map.
+<2018-07-22 21-03-07> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-07> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-07> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-07> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-07> INFO : Starting maze construction.
+<2018-07-22 21-03-07> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-07> INFO : Starting to get dead ends.
+<2018-07-22 21-03-07> INFO : All dead ends found.
+<2018-07-22 21-03-07> INFO : Number of dead-ends: 24
+<2018-07-22 21-03-07> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-07> INFO : Setting up map tiles.
+<2018-07-22 21-03-07> INFO : Map tile setup completed.
+<2018-07-22 21-03-07> INFO : Getting new quest ID.
+<2018-07-22 21-03-07> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-07> INFO : Map setup completed.
+<2018-07-22 21-03-08> INFO : Setting up new map.
+<2018-07-22 21-03-08> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-08> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-08> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-08> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-08> INFO : Starting maze construction.
+<2018-07-22 21-03-08> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-08> INFO : Starting to get dead ends.
+<2018-07-22 21-03-08> INFO : All dead ends found.
+<2018-07-22 21-03-08> INFO : Number of dead-ends: 21
+<2018-07-22 21-03-08> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-08> INFO : Setting up map tiles.
+<2018-07-22 21-03-08> INFO : Map tile setup completed.
+<2018-07-22 21-03-08> INFO : Getting new quest ID.
+<2018-07-22 21-03-08> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-08> INFO : Map setup completed.
+<2018-07-22 21-03-10> INFO : Inserting new quest into database.
+<2018-07-22 21-03-10> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (53, 22, 'Michael', 1, 'Golden Ring', 2, 0, 10)
+<2018-07-22 21-03-11> INFO : Setting up new map.
+<2018-07-22 21-03-11> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-11> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-11> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-11> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-11> INFO : Starting maze construction.
+<2018-07-22 21-03-11> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-11> INFO : Starting to get dead ends.
+<2018-07-22 21-03-11> INFO : All dead ends found.
+<2018-07-22 21-03-11> INFO : Number of dead-ends: 19
+<2018-07-22 21-03-11> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-11> INFO : Setting up map tiles.
+<2018-07-22 21-03-11> INFO : Map tile setup completed.
+<2018-07-22 21-03-11> INFO : Getting new quest ID.
+<2018-07-22 21-03-11> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-11> INFO : Map setup completed.
+<2018-07-22 21-03-11> INFO : Setting up new map.
+<2018-07-22 21-03-11> INFO : Removing all enemies from entity handler...
+<2018-07-22 21-03-11> INFO : Enemies removed from entity handler.
+<2018-07-22 21-03-11> INFO : Creating tile segment grid for map.
+<2018-07-22 21-03-11> INFO : Creating new blank segment grid.
+<2018-07-22 21-03-11> INFO : Starting maze construction.
+<2018-07-22 21-03-11> INFO : Starting to setup Points of Interest.
+<2018-07-22 21-03-11> INFO : Starting to get dead ends.
+<2018-07-22 21-03-11> INFO : All dead ends found.
+<2018-07-22 21-03-11> INFO : Number of dead-ends: 30
+<2018-07-22 21-03-11> INFO : Points of Interest setup completed.
+<2018-07-22 21-03-11> INFO : Setting up map tiles.
+<2018-07-22 21-03-11> INFO : Map tile setup completed.
+<2018-07-22 21-03-11> INFO : Getting new quest ID.
+<2018-07-22 21-03-11> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-07-22 21-03-11> INFO : Map setup completed.
+<2018-07-22 21-03-14> INFO : Inserting new quest into database.
+<2018-07-22 21-03-14> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (54, 22, 'Henry', 2, 'Rogue', 8, 0, 40)
+<2018-07-22 21-03-18> INFO : Exiting main game.
+<2018-07-22 21-03-18> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-07-22 21-03-18> INFO : Closing game.
+<2018-07-22 21-03-18> INFO : Updating the users statistic data.
+<2018-07-22 21-03-18> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 10, Health = 60, Damage = 9, FireRate = 19, Speed = 10, NumDeaths = 10, NumKills = 75, NumQuestsCompleted = 8, numTimesHealthUpgraded = 1, numTimesDamageUpgraded = 2, numTimesFireRateUpgraded = 4, numTimesSpeedUpgraded = 2 WHERE UserID = 22;
+<2018-07-22 21-03-19> INFO : User statistic data updated.
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 3 WHERE QuestID = 30;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 3 WHERE QuestID = 31;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 2 WHERE QuestID = 32;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 39;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 40;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 41;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 42;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 43;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 44;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 45;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 46;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 47;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 48;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 49;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 50;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 51;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 52;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 53;
+<2018-07-22 21-03-19> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 0 WHERE QuestID = 54;
+<2018-07-22 21-03-19> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-07-22 21-03-19> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-07-22 21-03-19> INFO : Exiting.

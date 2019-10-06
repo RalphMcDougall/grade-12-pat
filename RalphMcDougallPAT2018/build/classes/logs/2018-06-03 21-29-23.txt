@@ -1,0 +1,1192 @@
+<2018-06-03 21-29-23> INFO : Connecting to database: DSPersistent
+<2018-06-03 21-29-24> INFO : Successfully connected to database
+<2018-06-03 21-29-24> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-03 21-29-24> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-03 21-29-24> INFO : Initialising GUIActiveQuests.
+<2018-06-03 21-29-24> INFO : Initialising GUICharacterMainMenu.
+<2018-06-03 21-29-24> INFO : Initialising GUICharacterSelection.
+<2018-06-03 21-29-24> INFO : Initialising GUICredits.
+<2018-06-03 21-29-24> INFO : Initialising GUIHelp.
+<2018-06-03 21-29-24> INFO : Initialising GUINewCharacter.
+<2018-06-03 21-29-24> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-03 21-29-24> INFO : GameHandler initialised.
+<2018-06-03 21-29-25> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 21-29-26> INFO : Changing screen to: GAME
+<2018-06-03 21-29-26> INFO : Starting game.
+<2018-06-03 21-29-26> INFO : Initialising app game container
+<2018-06-03 21-29-27> INFO : Initialising a new game.
+<2018-06-03 21-29-27> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-03 21-29-27> INFO : Loading image.
+<2018-06-03 21-29-27> INFO : Starting to split sprite sheet.
+<2018-06-03 21-29-27> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-29-27> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-03 21-29-27> INFO : Loading image.
+<2018-06-03 21-29-27> INFO : Starting to split sprite sheet.
+<2018-06-03 21-29-27> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-29-27> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-03 21-29-27> INFO : Loading image.
+<2018-06-03 21-29-27> INFO : Starting to split sprite sheet.
+<2018-06-03 21-29-27> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-29-27> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-03 21-29-27> INFO : Loading image.
+<2018-06-03 21-29-27> INFO : Starting to split sprite sheet.
+<2018-06-03 21-29-27> INFO : Sprite sheet splitting completed.
+<2018-06-03 21-29-27> INFO : Setting up new map.
+<2018-06-03 21-29-27> INFO : Creating tile segment grid for map.
+<2018-06-03 21-29-27> INFO : Creating new blank segment grid.
+<2018-06-03 21-29-27> INFO : Starting maze construction.
+<2018-06-03 21-29-27> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-29-27> INFO : Starting to get dead ends.
+<2018-06-03 21-29-27> INFO : All dead ends found.
+<2018-06-03 21-29-27> INFO : Number of dead-ends: 23
+<2018-06-03 21-29-27> INFO : Points of Interest setup completed.
+<2018-06-03 21-29-27> INFO : Setting up map tiles.
+<2018-06-03 21-29-27> INFO : Map tile setup completed.
+<2018-06-03 21-29-27> INFO : Map setup completed.
+<2018-06-03 21-29-27> INFO : Creating HUD layer.
+<2018-06-03 21-29-27> INFO : Finished initialising new game.
+<2018-06-03 21-29-27> INFO : *********************************
+<2018-06-03 21-29-27> INFO : Available processors (cores): 4
+<2018-06-03 21-29-27> INFO : Memory use (MB): 71.71 / 1,804.5
+<2018-06-03 21-29-27> INFO : *********************************
+<2018-06-03 21-29-47> INFO : *********************************
+<2018-06-03 21-29-47> INFO : Available processors (cores): 4
+<2018-06-03 21-29-47> INFO : Memory use (MB): 94.634 / 1,804.5
+<2018-06-03 21-29-47> INFO : *********************************
+<2018-06-03 21-30-07> INFO : *********************************
+<2018-06-03 21-30-07> INFO : Available processors (cores): 4
+<2018-06-03 21-30-07> INFO : Memory use (MB): 77.106 / 1,804.5
+<2018-06-03 21-30-07> INFO : *********************************
+<2018-06-03 21-30-15> INFO : Setting up new map.
+<2018-06-03 21-30-15> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-15> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-15> INFO : Starting maze construction.
+<2018-06-03 21-30-15> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-15> INFO : Starting to get dead ends.
+<2018-06-03 21-30-15> INFO : All dead ends found.
+<2018-06-03 21-30-15> INFO : Number of dead-ends: 25
+<2018-06-03 21-30-15> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-15> INFO : Setting up map tiles.
+<2018-06-03 21-30-15> INFO : Map tile setup completed.
+<2018-06-03 21-30-15> INFO : Map setup completed.
+<2018-06-03 21-30-28> INFO : *********************************
+<2018-06-03 21-30-28> INFO : Available processors (cores): 4
+<2018-06-03 21-30-28> INFO : Memory use (MB): 70.778 / 1,804.5
+<2018-06-03 21-30-28> INFO : *********************************
+<2018-06-03 21-30-33> INFO : Setting up new map.
+<2018-06-03 21-30-33> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-33> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-33> INFO : Starting maze construction.
+<2018-06-03 21-30-33> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-33> INFO : Starting to get dead ends.
+<2018-06-03 21-30-33> INFO : All dead ends found.
+<2018-06-03 21-30-33> INFO : Number of dead-ends: 20
+<2018-06-03 21-30-33> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-33> INFO : Setting up map tiles.
+<2018-06-03 21-30-33> INFO : Map tile setup completed.
+<2018-06-03 21-30-33> INFO : Map setup completed.
+<2018-06-03 21-30-34> INFO : Setting up new map.
+<2018-06-03 21-30-34> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-34> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-34> INFO : Starting maze construction.
+<2018-06-03 21-30-34> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-34> INFO : Starting to get dead ends.
+<2018-06-03 21-30-34> INFO : All dead ends found.
+<2018-06-03 21-30-34> INFO : Number of dead-ends: 26
+<2018-06-03 21-30-34> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-34> INFO : Setting up map tiles.
+<2018-06-03 21-30-34> INFO : Map tile setup completed.
+<2018-06-03 21-30-34> INFO : Map setup completed.
+<2018-06-03 21-30-35> INFO : Setting up new map.
+<2018-06-03 21-30-35> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-35> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-35> INFO : Starting maze construction.
+<2018-06-03 21-30-35> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-35> INFO : Starting to get dead ends.
+<2018-06-03 21-30-35> INFO : All dead ends found.
+<2018-06-03 21-30-35> INFO : Number of dead-ends: 24
+<2018-06-03 21-30-35> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-35> INFO : Setting up map tiles.
+<2018-06-03 21-30-35> INFO : Map tile setup completed.
+<2018-06-03 21-30-35> INFO : Map setup completed.
+<2018-06-03 21-30-35> INFO : Setting up new map.
+<2018-06-03 21-30-35> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-35> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-35> INFO : Starting maze construction.
+<2018-06-03 21-30-35> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-35> INFO : Starting to get dead ends.
+<2018-06-03 21-30-35> INFO : All dead ends found.
+<2018-06-03 21-30-35> INFO : Number of dead-ends: 34
+<2018-06-03 21-30-35> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-35> INFO : Setting up map tiles.
+<2018-06-03 21-30-35> INFO : Map tile setup completed.
+<2018-06-03 21-30-35> INFO : Map setup completed.
+<2018-06-03 21-30-36> INFO : Setting up new map.
+<2018-06-03 21-30-36> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-36> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-36> INFO : Starting maze construction.
+<2018-06-03 21-30-36> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-36> INFO : Starting to get dead ends.
+<2018-06-03 21-30-36> INFO : All dead ends found.
+<2018-06-03 21-30-36> INFO : Number of dead-ends: 35
+<2018-06-03 21-30-36> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-36> INFO : Setting up map tiles.
+<2018-06-03 21-30-36> INFO : Map tile setup completed.
+<2018-06-03 21-30-36> INFO : Map setup completed.
+<2018-06-03 21-30-36> INFO : Setting up new map.
+<2018-06-03 21-30-36> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-36> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-36> INFO : Starting maze construction.
+<2018-06-03 21-30-36> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-36> INFO : Starting to get dead ends.
+<2018-06-03 21-30-36> INFO : All dead ends found.
+<2018-06-03 21-30-36> INFO : Number of dead-ends: 28
+<2018-06-03 21-30-36> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-36> INFO : Setting up map tiles.
+<2018-06-03 21-30-36> INFO : Map tile setup completed.
+<2018-06-03 21-30-36> INFO : Map setup completed.
+<2018-06-03 21-30-37> INFO : Setting up new map.
+<2018-06-03 21-30-37> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-37> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-37> INFO : Starting maze construction.
+<2018-06-03 21-30-37> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-37> INFO : Starting to get dead ends.
+<2018-06-03 21-30-37> INFO : All dead ends found.
+<2018-06-03 21-30-37> INFO : Number of dead-ends: 23
+<2018-06-03 21-30-37> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-37> INFO : Setting up map tiles.
+<2018-06-03 21-30-37> INFO : Map tile setup completed.
+<2018-06-03 21-30-37> INFO : Map setup completed.
+<2018-06-03 21-30-37> INFO : Setting up new map.
+<2018-06-03 21-30-37> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-37> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-37> INFO : Starting maze construction.
+<2018-06-03 21-30-37> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-37> INFO : Starting to get dead ends.
+<2018-06-03 21-30-37> INFO : All dead ends found.
+<2018-06-03 21-30-37> INFO : Number of dead-ends: 28
+<2018-06-03 21-30-37> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-37> INFO : Setting up map tiles.
+<2018-06-03 21-30-37> INFO : Map tile setup completed.
+<2018-06-03 21-30-37> INFO : Map setup completed.
+<2018-06-03 21-30-38> INFO : Setting up new map.
+<2018-06-03 21-30-38> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-38> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-38> INFO : Starting maze construction.
+<2018-06-03 21-30-38> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-38> INFO : Starting to get dead ends.
+<2018-06-03 21-30-38> INFO : All dead ends found.
+<2018-06-03 21-30-38> INFO : Number of dead-ends: 35
+<2018-06-03 21-30-38> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-38> INFO : Setting up map tiles.
+<2018-06-03 21-30-38> INFO : Map tile setup completed.
+<2018-06-03 21-30-38> INFO : Map setup completed.
+<2018-06-03 21-30-38> INFO : Setting up new map.
+<2018-06-03 21-30-38> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-38> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-38> INFO : Starting maze construction.
+<2018-06-03 21-30-38> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-38> INFO : Starting to get dead ends.
+<2018-06-03 21-30-38> INFO : All dead ends found.
+<2018-06-03 21-30-38> INFO : Number of dead-ends: 22
+<2018-06-03 21-30-38> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-38> INFO : Setting up map tiles.
+<2018-06-03 21-30-38> INFO : Map tile setup completed.
+<2018-06-03 21-30-38> INFO : Map setup completed.
+<2018-06-03 21-30-39> INFO : Setting up new map.
+<2018-06-03 21-30-39> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-39> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-39> INFO : Starting maze construction.
+<2018-06-03 21-30-39> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-39> INFO : Starting to get dead ends.
+<2018-06-03 21-30-39> INFO : All dead ends found.
+<2018-06-03 21-30-39> INFO : Number of dead-ends: 29
+<2018-06-03 21-30-39> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-39> INFO : Setting up map tiles.
+<2018-06-03 21-30-39> INFO : Map tile setup completed.
+<2018-06-03 21-30-39> INFO : Map setup completed.
+<2018-06-03 21-30-39> INFO : Setting up new map.
+<2018-06-03 21-30-39> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-39> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-39> INFO : Starting maze construction.
+<2018-06-03 21-30-39> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-39> INFO : Starting to get dead ends.
+<2018-06-03 21-30-39> INFO : All dead ends found.
+<2018-06-03 21-30-39> INFO : Number of dead-ends: 29
+<2018-06-03 21-30-39> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-39> INFO : Setting up map tiles.
+<2018-06-03 21-30-39> INFO : Map tile setup completed.
+<2018-06-03 21-30-39> INFO : Map setup completed.
+<2018-06-03 21-30-40> INFO : Setting up new map.
+<2018-06-03 21-30-40> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-40> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-40> INFO : Starting maze construction.
+<2018-06-03 21-30-40> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-40> INFO : Starting to get dead ends.
+<2018-06-03 21-30-40> INFO : All dead ends found.
+<2018-06-03 21-30-40> INFO : Number of dead-ends: 24
+<2018-06-03 21-30-40> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-40> INFO : Setting up map tiles.
+<2018-06-03 21-30-40> INFO : Map tile setup completed.
+<2018-06-03 21-30-40> INFO : Map setup completed.
+<2018-06-03 21-30-40> INFO : Setting up new map.
+<2018-06-03 21-30-40> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-40> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-40> INFO : Starting maze construction.
+<2018-06-03 21-30-40> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-40> INFO : Starting to get dead ends.
+<2018-06-03 21-30-40> INFO : All dead ends found.
+<2018-06-03 21-30-40> INFO : Number of dead-ends: 32
+<2018-06-03 21-30-40> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-40> INFO : Setting up map tiles.
+<2018-06-03 21-30-40> INFO : Map tile setup completed.
+<2018-06-03 21-30-40> INFO : Map setup completed.
+<2018-06-03 21-30-41> INFO : Setting up new map.
+<2018-06-03 21-30-41> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-41> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-41> INFO : Starting maze construction.
+<2018-06-03 21-30-41> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-41> INFO : Starting to get dead ends.
+<2018-06-03 21-30-41> INFO : All dead ends found.
+<2018-06-03 21-30-41> INFO : Number of dead-ends: 30
+<2018-06-03 21-30-41> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-41> INFO : Setting up map tiles.
+<2018-06-03 21-30-41> INFO : Map tile setup completed.
+<2018-06-03 21-30-41> INFO : Map setup completed.
+<2018-06-03 21-30-41> INFO : Setting up new map.
+<2018-06-03 21-30-41> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-41> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-41> INFO : Starting maze construction.
+<2018-06-03 21-30-41> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-41> INFO : Starting to get dead ends.
+<2018-06-03 21-30-41> INFO : All dead ends found.
+<2018-06-03 21-30-41> INFO : Number of dead-ends: 21
+<2018-06-03 21-30-41> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-41> INFO : Setting up map tiles.
+<2018-06-03 21-30-41> INFO : Map tile setup completed.
+<2018-06-03 21-30-41> INFO : Map setup completed.
+<2018-06-03 21-30-42> INFO : Setting up new map.
+<2018-06-03 21-30-42> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-42> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-42> INFO : Starting maze construction.
+<2018-06-03 21-30-42> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-42> INFO : Starting to get dead ends.
+<2018-06-03 21-30-42> INFO : All dead ends found.
+<2018-06-03 21-30-42> INFO : Number of dead-ends: 33
+<2018-06-03 21-30-42> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-42> INFO : Setting up map tiles.
+<2018-06-03 21-30-42> INFO : Map tile setup completed.
+<2018-06-03 21-30-42> INFO : Map setup completed.
+<2018-06-03 21-30-42> INFO : Setting up new map.
+<2018-06-03 21-30-42> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-42> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-42> INFO : Starting maze construction.
+<2018-06-03 21-30-42> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-42> INFO : Starting to get dead ends.
+<2018-06-03 21-30-42> INFO : All dead ends found.
+<2018-06-03 21-30-42> INFO : Number of dead-ends: 26
+<2018-06-03 21-30-42> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-42> INFO : Setting up map tiles.
+<2018-06-03 21-30-42> INFO : Map tile setup completed.
+<2018-06-03 21-30-42> INFO : Map setup completed.
+<2018-06-03 21-30-43> INFO : Setting up new map.
+<2018-06-03 21-30-43> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-43> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-43> INFO : Starting maze construction.
+<2018-06-03 21-30-43> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-43> INFO : Starting to get dead ends.
+<2018-06-03 21-30-43> INFO : All dead ends found.
+<2018-06-03 21-30-43> INFO : Number of dead-ends: 28
+<2018-06-03 21-30-43> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-43> INFO : Setting up map tiles.
+<2018-06-03 21-30-43> INFO : Map tile setup completed.
+<2018-06-03 21-30-43> INFO : Map setup completed.
+<2018-06-03 21-30-43> INFO : Setting up new map.
+<2018-06-03 21-30-43> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-43> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-43> INFO : Starting maze construction.
+<2018-06-03 21-30-43> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-43> INFO : Starting to get dead ends.
+<2018-06-03 21-30-43> INFO : All dead ends found.
+<2018-06-03 21-30-43> INFO : Number of dead-ends: 30
+<2018-06-03 21-30-43> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-43> INFO : Setting up map tiles.
+<2018-06-03 21-30-43> INFO : Map tile setup completed.
+<2018-06-03 21-30-43> INFO : Map setup completed.
+<2018-06-03 21-30-44> INFO : Setting up new map.
+<2018-06-03 21-30-44> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-44> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-44> INFO : Starting maze construction.
+<2018-06-03 21-30-44> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-44> INFO : Starting to get dead ends.
+<2018-06-03 21-30-44> INFO : All dead ends found.
+<2018-06-03 21-30-44> INFO : Number of dead-ends: 28
+<2018-06-03 21-30-44> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-44> INFO : Setting up map tiles.
+<2018-06-03 21-30-44> INFO : Map tile setup completed.
+<2018-06-03 21-30-44> INFO : Map setup completed.
+<2018-06-03 21-30-45> INFO : Setting up new map.
+<2018-06-03 21-30-45> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-45> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-45> INFO : Starting maze construction.
+<2018-06-03 21-30-45> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-45> INFO : Starting to get dead ends.
+<2018-06-03 21-30-45> INFO : All dead ends found.
+<2018-06-03 21-30-45> INFO : Number of dead-ends: 26
+<2018-06-03 21-30-45> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-45> INFO : Setting up map tiles.
+<2018-06-03 21-30-45> INFO : Map tile setup completed.
+<2018-06-03 21-30-45> INFO : Map setup completed.
+<2018-06-03 21-30-45> INFO : Setting up new map.
+<2018-06-03 21-30-45> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-45> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-45> INFO : Starting maze construction.
+<2018-06-03 21-30-45> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-45> INFO : Starting to get dead ends.
+<2018-06-03 21-30-45> INFO : All dead ends found.
+<2018-06-03 21-30-45> INFO : Number of dead-ends: 29
+<2018-06-03 21-30-45> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-45> INFO : Setting up map tiles.
+<2018-06-03 21-30-45> INFO : Map tile setup completed.
+<2018-06-03 21-30-45> INFO : Map setup completed.
+<2018-06-03 21-30-46> INFO : Setting up new map.
+<2018-06-03 21-30-46> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-46> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-46> INFO : Starting maze construction.
+<2018-06-03 21-30-46> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-46> INFO : Starting to get dead ends.
+<2018-06-03 21-30-46> INFO : All dead ends found.
+<2018-06-03 21-30-46> INFO : Number of dead-ends: 24
+<2018-06-03 21-30-46> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-46> INFO : Setting up map tiles.
+<2018-06-03 21-30-46> INFO : Map tile setup completed.
+<2018-06-03 21-30-46> INFO : Map setup completed.
+<2018-06-03 21-30-47> INFO : Setting up new map.
+<2018-06-03 21-30-47> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-47> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-47> INFO : Starting maze construction.
+<2018-06-03 21-30-47> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-47> INFO : Starting to get dead ends.
+<2018-06-03 21-30-47> INFO : All dead ends found.
+<2018-06-03 21-30-47> INFO : Number of dead-ends: 21
+<2018-06-03 21-30-47> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-47> INFO : Setting up map tiles.
+<2018-06-03 21-30-47> INFO : Map tile setup completed.
+<2018-06-03 21-30-47> INFO : Map setup completed.
+<2018-06-03 21-30-47> INFO : Setting up new map.
+<2018-06-03 21-30-47> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-47> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-47> INFO : Starting maze construction.
+<2018-06-03 21-30-47> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-47> INFO : Starting to get dead ends.
+<2018-06-03 21-30-47> INFO : All dead ends found.
+<2018-06-03 21-30-47> INFO : Number of dead-ends: 30
+<2018-06-03 21-30-47> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-47> INFO : Setting up map tiles.
+<2018-06-03 21-30-47> INFO : Map tile setup completed.
+<2018-06-03 21-30-47> INFO : Map setup completed.
+<2018-06-03 21-30-48> INFO : Setting up new map.
+<2018-06-03 21-30-48> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-48> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-48> INFO : Starting maze construction.
+<2018-06-03 21-30-48> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-48> INFO : Starting to get dead ends.
+<2018-06-03 21-30-48> INFO : All dead ends found.
+<2018-06-03 21-30-48> INFO : Number of dead-ends: 34
+<2018-06-03 21-30-48> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-48> INFO : Setting up map tiles.
+<2018-06-03 21-30-48> INFO : Map tile setup completed.
+<2018-06-03 21-30-48> INFO : Map setup completed.
+<2018-06-03 21-30-48> INFO : *********************************
+<2018-06-03 21-30-48> INFO : Available processors (cores): 4
+<2018-06-03 21-30-48> INFO : Memory use (MB): 79.433 / 1,804.5
+<2018-06-03 21-30-48> INFO : *********************************
+<2018-06-03 21-30-49> INFO : Setting up new map.
+<2018-06-03 21-30-49> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-49> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-49> INFO : Starting maze construction.
+<2018-06-03 21-30-49> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-49> INFO : Starting to get dead ends.
+<2018-06-03 21-30-49> INFO : All dead ends found.
+<2018-06-03 21-30-49> INFO : Number of dead-ends: 27
+<2018-06-03 21-30-49> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-49> INFO : Setting up map tiles.
+<2018-06-03 21-30-49> INFO : Map tile setup completed.
+<2018-06-03 21-30-49> INFO : Map setup completed.
+<2018-06-03 21-30-49> INFO : Setting up new map.
+<2018-06-03 21-30-49> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-49> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-49> INFO : Starting maze construction.
+<2018-06-03 21-30-49> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-49> INFO : Starting to get dead ends.
+<2018-06-03 21-30-49> INFO : All dead ends found.
+<2018-06-03 21-30-49> INFO : Number of dead-ends: 19
+<2018-06-03 21-30-49> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-49> INFO : Setting up map tiles.
+<2018-06-03 21-30-49> INFO : Map tile setup completed.
+<2018-06-03 21-30-49> INFO : Map setup completed.
+<2018-06-03 21-30-50> INFO : Setting up new map.
+<2018-06-03 21-30-50> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-50> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-50> INFO : Starting maze construction.
+<2018-06-03 21-30-50> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-50> INFO : Starting to get dead ends.
+<2018-06-03 21-30-50> INFO : All dead ends found.
+<2018-06-03 21-30-50> INFO : Number of dead-ends: 21
+<2018-06-03 21-30-50> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-50> INFO : Setting up map tiles.
+<2018-06-03 21-30-50> INFO : Map tile setup completed.
+<2018-06-03 21-30-50> INFO : Map setup completed.
+<2018-06-03 21-30-51> INFO : Setting up new map.
+<2018-06-03 21-30-51> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-51> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-51> INFO : Starting maze construction.
+<2018-06-03 21-30-51> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-51> INFO : Starting to get dead ends.
+<2018-06-03 21-30-51> INFO : All dead ends found.
+<2018-06-03 21-30-51> INFO : Number of dead-ends: 29
+<2018-06-03 21-30-51> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-51> INFO : Setting up map tiles.
+<2018-06-03 21-30-51> INFO : Map tile setup completed.
+<2018-06-03 21-30-51> INFO : Map setup completed.
+<2018-06-03 21-30-51> INFO : Setting up new map.
+<2018-06-03 21-30-51> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-51> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-51> INFO : Starting maze construction.
+<2018-06-03 21-30-51> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-51> INFO : Starting to get dead ends.
+<2018-06-03 21-30-51> INFO : All dead ends found.
+<2018-06-03 21-30-51> INFO : Number of dead-ends: 26
+<2018-06-03 21-30-51> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-51> INFO : Setting up map tiles.
+<2018-06-03 21-30-51> INFO : Map tile setup completed.
+<2018-06-03 21-30-51> INFO : Map setup completed.
+<2018-06-03 21-30-52> INFO : Setting up new map.
+<2018-06-03 21-30-52> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-52> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-52> INFO : Starting maze construction.
+<2018-06-03 21-30-52> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-52> INFO : Starting to get dead ends.
+<2018-06-03 21-30-52> INFO : All dead ends found.
+<2018-06-03 21-30-52> INFO : Number of dead-ends: 30
+<2018-06-03 21-30-52> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-52> INFO : Setting up map tiles.
+<2018-06-03 21-30-52> INFO : Map tile setup completed.
+<2018-06-03 21-30-52> INFO : Map setup completed.
+<2018-06-03 21-30-52> INFO : Setting up new map.
+<2018-06-03 21-30-52> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-52> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-52> INFO : Starting maze construction.
+<2018-06-03 21-30-52> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-52> INFO : Starting to get dead ends.
+<2018-06-03 21-30-52> INFO : All dead ends found.
+<2018-06-03 21-30-52> INFO : Number of dead-ends: 25
+<2018-06-03 21-30-52> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-52> INFO : Setting up map tiles.
+<2018-06-03 21-30-52> INFO : Map tile setup completed.
+<2018-06-03 21-30-52> INFO : Map setup completed.
+<2018-06-03 21-30-53> INFO : Setting up new map.
+<2018-06-03 21-30-53> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-53> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-53> INFO : Starting maze construction.
+<2018-06-03 21-30-53> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-53> INFO : Starting to get dead ends.
+<2018-06-03 21-30-53> INFO : All dead ends found.
+<2018-06-03 21-30-53> INFO : Number of dead-ends: 23
+<2018-06-03 21-30-53> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-53> INFO : Setting up map tiles.
+<2018-06-03 21-30-53> INFO : Map tile setup completed.
+<2018-06-03 21-30-53> INFO : Map setup completed.
+<2018-06-03 21-30-53> INFO : Setting up new map.
+<2018-06-03 21-30-53> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-53> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-53> INFO : Starting maze construction.
+<2018-06-03 21-30-53> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-53> INFO : Starting to get dead ends.
+<2018-06-03 21-30-53> INFO : All dead ends found.
+<2018-06-03 21-30-53> INFO : Number of dead-ends: 25
+<2018-06-03 21-30-53> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-53> INFO : Setting up map tiles.
+<2018-06-03 21-30-53> INFO : Map tile setup completed.
+<2018-06-03 21-30-53> INFO : Map setup completed.
+<2018-06-03 21-30-54> INFO : Setting up new map.
+<2018-06-03 21-30-54> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-54> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-54> INFO : Starting maze construction.
+<2018-06-03 21-30-54> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-54> INFO : Starting to get dead ends.
+<2018-06-03 21-30-54> INFO : All dead ends found.
+<2018-06-03 21-30-54> INFO : Number of dead-ends: 33
+<2018-06-03 21-30-54> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-54> INFO : Setting up map tiles.
+<2018-06-03 21-30-54> INFO : Map tile setup completed.
+<2018-06-03 21-30-54> INFO : Map setup completed.
+<2018-06-03 21-30-54> INFO : Setting up new map.
+<2018-06-03 21-30-54> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-54> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-54> INFO : Starting maze construction.
+<2018-06-03 21-30-54> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-54> INFO : Starting to get dead ends.
+<2018-06-03 21-30-54> INFO : All dead ends found.
+<2018-06-03 21-30-54> INFO : Number of dead-ends: 26
+<2018-06-03 21-30-54> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-54> INFO : Setting up map tiles.
+<2018-06-03 21-30-54> INFO : Map tile setup completed.
+<2018-06-03 21-30-54> INFO : Map setup completed.
+<2018-06-03 21-30-55> INFO : Setting up new map.
+<2018-06-03 21-30-55> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-55> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-55> INFO : Starting maze construction.
+<2018-06-03 21-30-55> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-55> INFO : Starting to get dead ends.
+<2018-06-03 21-30-55> INFO : All dead ends found.
+<2018-06-03 21-30-55> INFO : Number of dead-ends: 24
+<2018-06-03 21-30-55> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-55> INFO : Setting up map tiles.
+<2018-06-03 21-30-55> INFO : Map tile setup completed.
+<2018-06-03 21-30-55> INFO : Map setup completed.
+<2018-06-03 21-30-55> INFO : Setting up new map.
+<2018-06-03 21-30-55> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-55> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-55> INFO : Starting maze construction.
+<2018-06-03 21-30-55> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-55> INFO : Starting to get dead ends.
+<2018-06-03 21-30-55> INFO : All dead ends found.
+<2018-06-03 21-30-55> INFO : Number of dead-ends: 27
+<2018-06-03 21-30-55> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-55> INFO : Setting up map tiles.
+<2018-06-03 21-30-55> INFO : Map tile setup completed.
+<2018-06-03 21-30-55> INFO : Map setup completed.
+<2018-06-03 21-30-56> INFO : Setting up new map.
+<2018-06-03 21-30-56> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-56> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-56> INFO : Starting maze construction.
+<2018-06-03 21-30-56> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-56> INFO : Starting to get dead ends.
+<2018-06-03 21-30-56> INFO : All dead ends found.
+<2018-06-03 21-30-56> INFO : Number of dead-ends: 19
+<2018-06-03 21-30-56> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-56> INFO : Setting up map tiles.
+<2018-06-03 21-30-56> INFO : Map tile setup completed.
+<2018-06-03 21-30-56> INFO : Map setup completed.
+<2018-06-03 21-30-56> INFO : Setting up new map.
+<2018-06-03 21-30-56> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-56> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-56> INFO : Starting maze construction.
+<2018-06-03 21-30-56> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-56> INFO : Starting to get dead ends.
+<2018-06-03 21-30-56> INFO : All dead ends found.
+<2018-06-03 21-30-56> INFO : Number of dead-ends: 29
+<2018-06-03 21-30-56> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-56> INFO : Setting up map tiles.
+<2018-06-03 21-30-56> INFO : Map tile setup completed.
+<2018-06-03 21-30-56> INFO : Map setup completed.
+<2018-06-03 21-30-57> INFO : Setting up new map.
+<2018-06-03 21-30-57> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-57> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-57> INFO : Starting maze construction.
+<2018-06-03 21-30-57> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-57> INFO : Starting to get dead ends.
+<2018-06-03 21-30-57> INFO : All dead ends found.
+<2018-06-03 21-30-57> INFO : Number of dead-ends: 25
+<2018-06-03 21-30-57> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-57> INFO : Setting up map tiles.
+<2018-06-03 21-30-57> INFO : Map tile setup completed.
+<2018-06-03 21-30-57> INFO : Map setup completed.
+<2018-06-03 21-30-58> INFO : Setting up new map.
+<2018-06-03 21-30-58> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-58> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-58> INFO : Starting maze construction.
+<2018-06-03 21-30-58> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-58> INFO : Starting to get dead ends.
+<2018-06-03 21-30-58> INFO : All dead ends found.
+<2018-06-03 21-30-58> INFO : Number of dead-ends: 31
+<2018-06-03 21-30-58> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-58> INFO : Setting up map tiles.
+<2018-06-03 21-30-58> INFO : Map tile setup completed.
+<2018-06-03 21-30-58> INFO : Map setup completed.
+<2018-06-03 21-30-58> INFO : Setting up new map.
+<2018-06-03 21-30-58> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-58> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-58> INFO : Starting maze construction.
+<2018-06-03 21-30-58> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-58> INFO : Starting to get dead ends.
+<2018-06-03 21-30-58> INFO : All dead ends found.
+<2018-06-03 21-30-58> INFO : Number of dead-ends: 22
+<2018-06-03 21-30-58> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-58> INFO : Setting up map tiles.
+<2018-06-03 21-30-58> INFO : Map tile setup completed.
+<2018-06-03 21-30-58> INFO : Map setup completed.
+<2018-06-03 21-30-59> INFO : Setting up new map.
+<2018-06-03 21-30-59> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-59> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-59> INFO : Starting maze construction.
+<2018-06-03 21-30-59> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-59> INFO : Starting to get dead ends.
+<2018-06-03 21-30-59> INFO : All dead ends found.
+<2018-06-03 21-30-59> INFO : Number of dead-ends: 28
+<2018-06-03 21-30-59> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-59> INFO : Setting up map tiles.
+<2018-06-03 21-30-59> INFO : Map tile setup completed.
+<2018-06-03 21-30-59> INFO : Map setup completed.
+<2018-06-03 21-30-59> INFO : Setting up new map.
+<2018-06-03 21-30-59> INFO : Creating tile segment grid for map.
+<2018-06-03 21-30-59> INFO : Creating new blank segment grid.
+<2018-06-03 21-30-59> INFO : Starting maze construction.
+<2018-06-03 21-30-59> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-30-59> INFO : Starting to get dead ends.
+<2018-06-03 21-30-59> INFO : All dead ends found.
+<2018-06-03 21-30-59> INFO : Number of dead-ends: 22
+<2018-06-03 21-30-59> INFO : Points of Interest setup completed.
+<2018-06-03 21-30-59> INFO : Setting up map tiles.
+<2018-06-03 21-30-59> INFO : Map tile setup completed.
+<2018-06-03 21-30-59> INFO : Map setup completed.
+<2018-06-03 21-31-00> INFO : Setting up new map.
+<2018-06-03 21-31-00> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-00> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-00> INFO : Starting maze construction.
+<2018-06-03 21-31-00> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-00> INFO : Starting to get dead ends.
+<2018-06-03 21-31-00> INFO : All dead ends found.
+<2018-06-03 21-31-00> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-00> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-00> INFO : Setting up map tiles.
+<2018-06-03 21-31-00> INFO : Map tile setup completed.
+<2018-06-03 21-31-00> INFO : Map setup completed.
+<2018-06-03 21-31-01> INFO : Setting up new map.
+<2018-06-03 21-31-01> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-01> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-01> INFO : Starting maze construction.
+<2018-06-03 21-31-01> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-01> INFO : Starting to get dead ends.
+<2018-06-03 21-31-01> INFO : All dead ends found.
+<2018-06-03 21-31-01> INFO : Number of dead-ends: 22
+<2018-06-03 21-31-01> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-01> INFO : Setting up map tiles.
+<2018-06-03 21-31-01> INFO : Map tile setup completed.
+<2018-06-03 21-31-01> INFO : Map setup completed.
+<2018-06-03 21-31-01> INFO : Setting up new map.
+<2018-06-03 21-31-01> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-01> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-01> INFO : Starting maze construction.
+<2018-06-03 21-31-01> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-01> INFO : Starting to get dead ends.
+<2018-06-03 21-31-01> INFO : All dead ends found.
+<2018-06-03 21-31-01> INFO : Number of dead-ends: 30
+<2018-06-03 21-31-01> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-01> INFO : Setting up map tiles.
+<2018-06-03 21-31-01> INFO : Map tile setup completed.
+<2018-06-03 21-31-01> INFO : Map setup completed.
+<2018-06-03 21-31-02> INFO : Setting up new map.
+<2018-06-03 21-31-02> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-02> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-02> INFO : Starting maze construction.
+<2018-06-03 21-31-02> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-02> INFO : Starting to get dead ends.
+<2018-06-03 21-31-02> INFO : All dead ends found.
+<2018-06-03 21-31-02> INFO : Number of dead-ends: 25
+<2018-06-03 21-31-02> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-02> INFO : Setting up map tiles.
+<2018-06-03 21-31-02> INFO : Map tile setup completed.
+<2018-06-03 21-31-02> INFO : Map setup completed.
+<2018-06-03 21-31-02> INFO : Setting up new map.
+<2018-06-03 21-31-02> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-02> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-02> INFO : Starting maze construction.
+<2018-06-03 21-31-02> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-02> INFO : Starting to get dead ends.
+<2018-06-03 21-31-02> INFO : All dead ends found.
+<2018-06-03 21-31-02> INFO : Number of dead-ends: 13
+<2018-06-03 21-31-02> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-02> INFO : Setting up map tiles.
+<2018-06-03 21-31-02> INFO : Map tile setup completed.
+<2018-06-03 21-31-02> INFO : Map setup completed.
+<2018-06-03 21-31-03> INFO : Setting up new map.
+<2018-06-03 21-31-03> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-03> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-03> INFO : Starting maze construction.
+<2018-06-03 21-31-03> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-03> INFO : Starting to get dead ends.
+<2018-06-03 21-31-03> INFO : All dead ends found.
+<2018-06-03 21-31-03> INFO : Number of dead-ends: 27
+<2018-06-03 21-31-03> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-03> INFO : Setting up map tiles.
+<2018-06-03 21-31-03> INFO : Map tile setup completed.
+<2018-06-03 21-31-03> INFO : Map setup completed.
+<2018-06-03 21-31-04> INFO : Setting up new map.
+<2018-06-03 21-31-04> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-04> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-04> INFO : Starting maze construction.
+<2018-06-03 21-31-04> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-04> INFO : Starting to get dead ends.
+<2018-06-03 21-31-04> INFO : All dead ends found.
+<2018-06-03 21-31-04> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-04> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-04> INFO : Setting up map tiles.
+<2018-06-03 21-31-04> INFO : Map tile setup completed.
+<2018-06-03 21-31-04> INFO : Map setup completed.
+<2018-06-03 21-31-04> INFO : Setting up new map.
+<2018-06-03 21-31-04> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-04> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-04> INFO : Starting maze construction.
+<2018-06-03 21-31-04> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-04> INFO : Starting to get dead ends.
+<2018-06-03 21-31-04> INFO : All dead ends found.
+<2018-06-03 21-31-04> INFO : Number of dead-ends: 27
+<2018-06-03 21-31-04> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-04> INFO : Setting up map tiles.
+<2018-06-03 21-31-04> INFO : Map tile setup completed.
+<2018-06-03 21-31-04> INFO : Map setup completed.
+<2018-06-03 21-31-05> INFO : Setting up new map.
+<2018-06-03 21-31-05> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-05> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-05> INFO : Starting maze construction.
+<2018-06-03 21-31-05> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-05> INFO : Starting to get dead ends.
+<2018-06-03 21-31-05> INFO : All dead ends found.
+<2018-06-03 21-31-05> INFO : Number of dead-ends: 19
+<2018-06-03 21-31-05> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-05> INFO : Setting up map tiles.
+<2018-06-03 21-31-05> INFO : Map tile setup completed.
+<2018-06-03 21-31-05> INFO : Map setup completed.
+<2018-06-03 21-31-05> INFO : Setting up new map.
+<2018-06-03 21-31-05> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-05> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-05> INFO : Starting maze construction.
+<2018-06-03 21-31-05> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-05> INFO : Starting to get dead ends.
+<2018-06-03 21-31-05> INFO : All dead ends found.
+<2018-06-03 21-31-05> INFO : Number of dead-ends: 29
+<2018-06-03 21-31-05> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-05> INFO : Setting up map tiles.
+<2018-06-03 21-31-05> INFO : Map tile setup completed.
+<2018-06-03 21-31-05> INFO : Map setup completed.
+<2018-06-03 21-31-06> INFO : Setting up new map.
+<2018-06-03 21-31-06> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-06> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-06> INFO : Starting maze construction.
+<2018-06-03 21-31-06> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-06> INFO : Starting to get dead ends.
+<2018-06-03 21-31-06> INFO : All dead ends found.
+<2018-06-03 21-31-06> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-06> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-06> INFO : Setting up map tiles.
+<2018-06-03 21-31-06> INFO : Map tile setup completed.
+<2018-06-03 21-31-06> INFO : Map setup completed.
+<2018-06-03 21-31-06> INFO : Setting up new map.
+<2018-06-03 21-31-06> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-06> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-06> INFO : Starting maze construction.
+<2018-06-03 21-31-06> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-06> INFO : Starting to get dead ends.
+<2018-06-03 21-31-06> INFO : All dead ends found.
+<2018-06-03 21-31-06> INFO : Number of dead-ends: 23
+<2018-06-03 21-31-06> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-06> INFO : Setting up map tiles.
+<2018-06-03 21-31-06> INFO : Map tile setup completed.
+<2018-06-03 21-31-06> INFO : Map setup completed.
+<2018-06-03 21-31-07> INFO : Setting up new map.
+<2018-06-03 21-31-07> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-07> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-07> INFO : Starting maze construction.
+<2018-06-03 21-31-07> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-07> INFO : Starting to get dead ends.
+<2018-06-03 21-31-07> INFO : All dead ends found.
+<2018-06-03 21-31-07> INFO : Number of dead-ends: 33
+<2018-06-03 21-31-07> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-07> INFO : Setting up map tiles.
+<2018-06-03 21-31-07> INFO : Map tile setup completed.
+<2018-06-03 21-31-07> INFO : Map setup completed.
+<2018-06-03 21-31-08> INFO : Setting up new map.
+<2018-06-03 21-31-08> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-08> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-08> INFO : Starting maze construction.
+<2018-06-03 21-31-08> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-08> INFO : Starting to get dead ends.
+<2018-06-03 21-31-08> INFO : All dead ends found.
+<2018-06-03 21-31-08> INFO : Number of dead-ends: 29
+<2018-06-03 21-31-08> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-08> INFO : Setting up map tiles.
+<2018-06-03 21-31-08> INFO : Map tile setup completed.
+<2018-06-03 21-31-08> INFO : Map setup completed.
+<2018-06-03 21-31-08> INFO : *********************************
+<2018-06-03 21-31-08> INFO : Available processors (cores): 4
+<2018-06-03 21-31-08> INFO : Memory use (MB): 134.296 / 1,804.5
+<2018-06-03 21-31-08> INFO : *********************************
+<2018-06-03 21-31-08> INFO : Setting up new map.
+<2018-06-03 21-31-08> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-08> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-08> INFO : Starting maze construction.
+<2018-06-03 21-31-08> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-08> INFO : Starting to get dead ends.
+<2018-06-03 21-31-08> INFO : All dead ends found.
+<2018-06-03 21-31-08> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-08> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-08> INFO : Setting up map tiles.
+<2018-06-03 21-31-08> INFO : Map tile setup completed.
+<2018-06-03 21-31-08> INFO : Map setup completed.
+<2018-06-03 21-31-09> INFO : Setting up new map.
+<2018-06-03 21-31-09> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-09> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-09> INFO : Starting maze construction.
+<2018-06-03 21-31-09> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-09> INFO : Starting to get dead ends.
+<2018-06-03 21-31-09> INFO : All dead ends found.
+<2018-06-03 21-31-09> INFO : Number of dead-ends: 22
+<2018-06-03 21-31-09> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-09> INFO : Setting up map tiles.
+<2018-06-03 21-31-09> INFO : Map tile setup completed.
+<2018-06-03 21-31-09> INFO : Map setup completed.
+<2018-06-03 21-31-09> INFO : Setting up new map.
+<2018-06-03 21-31-10> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-10> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-10> INFO : Starting maze construction.
+<2018-06-03 21-31-10> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-10> INFO : Starting to get dead ends.
+<2018-06-03 21-31-10> INFO : All dead ends found.
+<2018-06-03 21-31-10> INFO : Number of dead-ends: 25
+<2018-06-03 21-31-10> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-10> INFO : Setting up map tiles.
+<2018-06-03 21-31-10> INFO : Map tile setup completed.
+<2018-06-03 21-31-10> INFO : Map setup completed.
+<2018-06-03 21-31-10> INFO : Setting up new map.
+<2018-06-03 21-31-10> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-10> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-10> INFO : Starting maze construction.
+<2018-06-03 21-31-10> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-10> INFO : Starting to get dead ends.
+<2018-06-03 21-31-10> INFO : All dead ends found.
+<2018-06-03 21-31-10> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-10> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-10> INFO : Setting up map tiles.
+<2018-06-03 21-31-10> INFO : Map tile setup completed.
+<2018-06-03 21-31-10> INFO : Map setup completed.
+<2018-06-03 21-31-11> INFO : Setting up new map.
+<2018-06-03 21-31-11> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-11> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-11> INFO : Starting maze construction.
+<2018-06-03 21-31-11> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-11> INFO : Starting to get dead ends.
+<2018-06-03 21-31-11> INFO : All dead ends found.
+<2018-06-03 21-31-11> INFO : Number of dead-ends: 22
+<2018-06-03 21-31-11> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-11> INFO : Setting up map tiles.
+<2018-06-03 21-31-11> INFO : Map tile setup completed.
+<2018-06-03 21-31-11> INFO : Map setup completed.
+<2018-06-03 21-31-11> INFO : Setting up new map.
+<2018-06-03 21-31-11> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-11> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-11> INFO : Starting maze construction.
+<2018-06-03 21-31-11> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-11> INFO : Starting to get dead ends.
+<2018-06-03 21-31-11> INFO : All dead ends found.
+<2018-06-03 21-31-11> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-11> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-11> INFO : Setting up map tiles.
+<2018-06-03 21-31-11> INFO : Map tile setup completed.
+<2018-06-03 21-31-11> INFO : Map setup completed.
+<2018-06-03 21-31-12> INFO : Setting up new map.
+<2018-06-03 21-31-12> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-12> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-12> INFO : Starting maze construction.
+<2018-06-03 21-31-12> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-12> INFO : Starting to get dead ends.
+<2018-06-03 21-31-12> INFO : All dead ends found.
+<2018-06-03 21-31-12> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-12> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-12> INFO : Setting up map tiles.
+<2018-06-03 21-31-12> INFO : Map tile setup completed.
+<2018-06-03 21-31-12> INFO : Map setup completed.
+<2018-06-03 21-31-12> INFO : Setting up new map.
+<2018-06-03 21-31-12> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-12> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-12> INFO : Starting maze construction.
+<2018-06-03 21-31-12> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-12> INFO : Starting to get dead ends.
+<2018-06-03 21-31-12> INFO : All dead ends found.
+<2018-06-03 21-31-12> INFO : Number of dead-ends: 27
+<2018-06-03 21-31-12> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-12> INFO : Setting up map tiles.
+<2018-06-03 21-31-12> INFO : Map tile setup completed.
+<2018-06-03 21-31-12> INFO : Map setup completed.
+<2018-06-03 21-31-13> INFO : Setting up new map.
+<2018-06-03 21-31-13> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-13> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-13> INFO : Starting maze construction.
+<2018-06-03 21-31-13> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-13> INFO : Starting to get dead ends.
+<2018-06-03 21-31-13> INFO : All dead ends found.
+<2018-06-03 21-31-13> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-13> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-13> INFO : Setting up map tiles.
+<2018-06-03 21-31-13> INFO : Map tile setup completed.
+<2018-06-03 21-31-13> INFO : Map setup completed.
+<2018-06-03 21-31-14> INFO : Setting up new map.
+<2018-06-03 21-31-14> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-14> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-14> INFO : Starting maze construction.
+<2018-06-03 21-31-14> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-14> INFO : Starting to get dead ends.
+<2018-06-03 21-31-14> INFO : All dead ends found.
+<2018-06-03 21-31-14> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-14> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-14> INFO : Setting up map tiles.
+<2018-06-03 21-31-14> INFO : Map tile setup completed.
+<2018-06-03 21-31-14> INFO : Map setup completed.
+<2018-06-03 21-31-14> INFO : Setting up new map.
+<2018-06-03 21-31-14> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-14> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-14> INFO : Starting maze construction.
+<2018-06-03 21-31-14> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-14> INFO : Starting to get dead ends.
+<2018-06-03 21-31-14> INFO : All dead ends found.
+<2018-06-03 21-31-14> INFO : Number of dead-ends: 33
+<2018-06-03 21-31-14> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-14> INFO : Setting up map tiles.
+<2018-06-03 21-31-14> INFO : Map tile setup completed.
+<2018-06-03 21-31-14> INFO : Map setup completed.
+<2018-06-03 21-31-15> INFO : Setting up new map.
+<2018-06-03 21-31-15> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-15> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-15> INFO : Starting maze construction.
+<2018-06-03 21-31-15> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-15> INFO : Starting to get dead ends.
+<2018-06-03 21-31-15> INFO : All dead ends found.
+<2018-06-03 21-31-15> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-15> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-15> INFO : Setting up map tiles.
+<2018-06-03 21-31-15> INFO : Map tile setup completed.
+<2018-06-03 21-31-15> INFO : Map setup completed.
+<2018-06-03 21-31-15> INFO : Setting up new map.
+<2018-06-03 21-31-15> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-15> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-15> INFO : Starting maze construction.
+<2018-06-03 21-31-15> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-15> INFO : Starting to get dead ends.
+<2018-06-03 21-31-15> INFO : All dead ends found.
+<2018-06-03 21-31-15> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-15> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-15> INFO : Setting up map tiles.
+<2018-06-03 21-31-15> INFO : Map tile setup completed.
+<2018-06-03 21-31-15> INFO : Map setup completed.
+<2018-06-03 21-31-16> INFO : Setting up new map.
+<2018-06-03 21-31-16> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-16> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-16> INFO : Starting maze construction.
+<2018-06-03 21-31-16> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-16> INFO : Starting to get dead ends.
+<2018-06-03 21-31-16> INFO : All dead ends found.
+<2018-06-03 21-31-16> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-16> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-16> INFO : Setting up map tiles.
+<2018-06-03 21-31-16> INFO : Map tile setup completed.
+<2018-06-03 21-31-16> INFO : Map setup completed.
+<2018-06-03 21-31-16> INFO : Setting up new map.
+<2018-06-03 21-31-16> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-16> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-16> INFO : Starting maze construction.
+<2018-06-03 21-31-16> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-16> INFO : Starting to get dead ends.
+<2018-06-03 21-31-16> INFO : All dead ends found.
+<2018-06-03 21-31-16> INFO : Number of dead-ends: 25
+<2018-06-03 21-31-16> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-16> INFO : Setting up map tiles.
+<2018-06-03 21-31-16> INFO : Map tile setup completed.
+<2018-06-03 21-31-16> INFO : Map setup completed.
+<2018-06-03 21-31-17> INFO : Setting up new map.
+<2018-06-03 21-31-17> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-17> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-17> INFO : Starting maze construction.
+<2018-06-03 21-31-17> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-17> INFO : Starting to get dead ends.
+<2018-06-03 21-31-17> INFO : All dead ends found.
+<2018-06-03 21-31-17> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-17> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-17> INFO : Setting up map tiles.
+<2018-06-03 21-31-17> INFO : Map tile setup completed.
+<2018-06-03 21-31-17> INFO : Map setup completed.
+<2018-06-03 21-31-18> INFO : Setting up new map.
+<2018-06-03 21-31-18> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-18> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-18> INFO : Starting maze construction.
+<2018-06-03 21-31-18> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-18> INFO : Starting to get dead ends.
+<2018-06-03 21-31-18> INFO : All dead ends found.
+<2018-06-03 21-31-18> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-18> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-18> INFO : Setting up map tiles.
+<2018-06-03 21-31-18> INFO : Map tile setup completed.
+<2018-06-03 21-31-18> INFO : Map setup completed.
+<2018-06-03 21-31-18> INFO : Setting up new map.
+<2018-06-03 21-31-18> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-18> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-18> INFO : Starting maze construction.
+<2018-06-03 21-31-18> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-18> INFO : Starting to get dead ends.
+<2018-06-03 21-31-18> INFO : All dead ends found.
+<2018-06-03 21-31-18> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-18> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-18> INFO : Setting up map tiles.
+<2018-06-03 21-31-18> INFO : Map tile setup completed.
+<2018-06-03 21-31-18> INFO : Map setup completed.
+<2018-06-03 21-31-19> INFO : Setting up new map.
+<2018-06-03 21-31-19> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-19> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-19> INFO : Starting maze construction.
+<2018-06-03 21-31-19> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-19> INFO : Starting to get dead ends.
+<2018-06-03 21-31-19> INFO : All dead ends found.
+<2018-06-03 21-31-19> INFO : Number of dead-ends: 25
+<2018-06-03 21-31-19> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-19> INFO : Setting up map tiles.
+<2018-06-03 21-31-19> INFO : Map tile setup completed.
+<2018-06-03 21-31-19> INFO : Map setup completed.
+<2018-06-03 21-31-19> INFO : Setting up new map.
+<2018-06-03 21-31-19> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-19> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-19> INFO : Starting maze construction.
+<2018-06-03 21-31-19> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-19> INFO : Starting to get dead ends.
+<2018-06-03 21-31-19> INFO : All dead ends found.
+<2018-06-03 21-31-19> INFO : Number of dead-ends: 28
+<2018-06-03 21-31-19> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-19> INFO : Setting up map tiles.
+<2018-06-03 21-31-19> INFO : Map tile setup completed.
+<2018-06-03 21-31-19> INFO : Map setup completed.
+<2018-06-03 21-31-20> INFO : Setting up new map.
+<2018-06-03 21-31-20> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-20> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-20> INFO : Starting maze construction.
+<2018-06-03 21-31-20> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-20> INFO : Starting to get dead ends.
+<2018-06-03 21-31-20> INFO : All dead ends found.
+<2018-06-03 21-31-20> INFO : Number of dead-ends: 27
+<2018-06-03 21-31-20> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-20> INFO : Setting up map tiles.
+<2018-06-03 21-31-20> INFO : Map tile setup completed.
+<2018-06-03 21-31-20> INFO : Map setup completed.
+<2018-06-03 21-31-21> INFO : Setting up new map.
+<2018-06-03 21-31-21> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-21> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-21> INFO : Starting maze construction.
+<2018-06-03 21-31-21> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-21> INFO : Starting to get dead ends.
+<2018-06-03 21-31-21> INFO : All dead ends found.
+<2018-06-03 21-31-21> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-21> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-21> INFO : Setting up map tiles.
+<2018-06-03 21-31-21> INFO : Map tile setup completed.
+<2018-06-03 21-31-21> INFO : Map setup completed.
+<2018-06-03 21-31-21> INFO : Setting up new map.
+<2018-06-03 21-31-21> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-21> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-21> INFO : Starting maze construction.
+<2018-06-03 21-31-21> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-21> INFO : Starting to get dead ends.
+<2018-06-03 21-31-21> INFO : All dead ends found.
+<2018-06-03 21-31-21> INFO : Number of dead-ends: 27
+<2018-06-03 21-31-21> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-21> INFO : Setting up map tiles.
+<2018-06-03 21-31-21> INFO : Map tile setup completed.
+<2018-06-03 21-31-21> INFO : Map setup completed.
+<2018-06-03 21-31-22> INFO : Setting up new map.
+<2018-06-03 21-31-22> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-22> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-22> INFO : Starting maze construction.
+<2018-06-03 21-31-22> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-22> INFO : Starting to get dead ends.
+<2018-06-03 21-31-22> INFO : All dead ends found.
+<2018-06-03 21-31-22> INFO : Number of dead-ends: 25
+<2018-06-03 21-31-22> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-22> INFO : Setting up map tiles.
+<2018-06-03 21-31-22> INFO : Map tile setup completed.
+<2018-06-03 21-31-22> INFO : Map setup completed.
+<2018-06-03 21-31-22> INFO : Setting up new map.
+<2018-06-03 21-31-22> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-22> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-22> INFO : Starting maze construction.
+<2018-06-03 21-31-22> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-22> INFO : Starting to get dead ends.
+<2018-06-03 21-31-22> INFO : All dead ends found.
+<2018-06-03 21-31-22> INFO : Number of dead-ends: 22
+<2018-06-03 21-31-22> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-22> INFO : Setting up map tiles.
+<2018-06-03 21-31-22> INFO : Map tile setup completed.
+<2018-06-03 21-31-22> INFO : Map setup completed.
+<2018-06-03 21-31-23> INFO : Setting up new map.
+<2018-06-03 21-31-23> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-23> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-23> INFO : Starting maze construction.
+<2018-06-03 21-31-23> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-23> INFO : Starting to get dead ends.
+<2018-06-03 21-31-23> INFO : All dead ends found.
+<2018-06-03 21-31-23> INFO : Number of dead-ends: 22
+<2018-06-03 21-31-23> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-23> INFO : Setting up map tiles.
+<2018-06-03 21-31-23> INFO : Map tile setup completed.
+<2018-06-03 21-31-23> INFO : Map setup completed.
+<2018-06-03 21-31-23> INFO : Setting up new map.
+<2018-06-03 21-31-23> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-23> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-23> INFO : Starting maze construction.
+<2018-06-03 21-31-23> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-23> INFO : Starting to get dead ends.
+<2018-06-03 21-31-23> INFO : All dead ends found.
+<2018-06-03 21-31-23> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-23> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-23> INFO : Setting up map tiles.
+<2018-06-03 21-31-23> INFO : Map tile setup completed.
+<2018-06-03 21-31-23> INFO : Map setup completed.
+<2018-06-03 21-31-24> INFO : Setting up new map.
+<2018-06-03 21-31-24> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-24> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-24> INFO : Starting maze construction.
+<2018-06-03 21-31-24> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-24> INFO : Starting to get dead ends.
+<2018-06-03 21-31-24> INFO : All dead ends found.
+<2018-06-03 21-31-24> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-24> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-24> INFO : Setting up map tiles.
+<2018-06-03 21-31-24> INFO : Map tile setup completed.
+<2018-06-03 21-31-24> INFO : Map setup completed.
+<2018-06-03 21-31-25> INFO : Setting up new map.
+<2018-06-03 21-31-25> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-25> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-25> INFO : Starting maze construction.
+<2018-06-03 21-31-25> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-25> INFO : Starting to get dead ends.
+<2018-06-03 21-31-25> INFO : All dead ends found.
+<2018-06-03 21-31-25> INFO : Number of dead-ends: 24
+<2018-06-03 21-31-25> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-25> INFO : Setting up map tiles.
+<2018-06-03 21-31-25> INFO : Map tile setup completed.
+<2018-06-03 21-31-25> INFO : Map setup completed.
+<2018-06-03 21-31-25> INFO : Setting up new map.
+<2018-06-03 21-31-25> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-25> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-25> INFO : Starting maze construction.
+<2018-06-03 21-31-25> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-25> INFO : Starting to get dead ends.
+<2018-06-03 21-31-25> INFO : All dead ends found.
+<2018-06-03 21-31-25> INFO : Number of dead-ends: 30
+<2018-06-03 21-31-25> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-25> INFO : Setting up map tiles.
+<2018-06-03 21-31-25> INFO : Map tile setup completed.
+<2018-06-03 21-31-25> INFO : Map setup completed.
+<2018-06-03 21-31-26> INFO : Setting up new map.
+<2018-06-03 21-31-26> INFO : Creating tile segment grid for map.
+<2018-06-03 21-31-26> INFO : Creating new blank segment grid.
+<2018-06-03 21-31-26> INFO : Starting maze construction.
+<2018-06-03 21-31-26> INFO : Starting to setup Points of Interest.
+<2018-06-03 21-31-26> INFO : Starting to get dead ends.
+<2018-06-03 21-31-26> INFO : All dead ends found.
+<2018-06-03 21-31-26> INFO : Number of dead-ends: 26
+<2018-06-03 21-31-26> INFO : Points of Interest setup completed.
+<2018-06-03 21-31-26> INFO : Setting up map tiles.
+<2018-06-03 21-31-26> INFO : Map tile setup completed.
+<2018-06-03 21-31-26> INFO : Map setup completed.
+<2018-06-03 21-31-27> INFO : Exiting main game.
+<2018-06-03 21-31-27> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 21-31-27> INFO : Closing game.
+<2018-06-03 21-31-29> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-03 21-31-30> INFO : Exiting.

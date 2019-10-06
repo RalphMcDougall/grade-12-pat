@@ -1,0 +1,14 @@
+<2018-05-18 23-19-42> INFO : Connecting to database: DSPersistent
+<2018-05-18 23-19-43> INFO : Successfully connected to database
+<2018-05-18 23-19-43> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-05-18 23-19-43> INFO : Initialising GUIActiveQuests.
+<2018-05-18 23-19-44> INFO : Initialising GUICharacterMainMenu.
+<2018-05-18 23-19-44> INFO : Initialising GUICharacterSelection.
+<2018-05-18 23-19-44> INFO : Initialising GUICredits.
+<2018-05-18 23-19-44> INFO : Initialising GUIHelp.
+<2018-05-18 23-19-44> INFO : Initialising GUINewCharacter.
+<2018-05-18 23-19-44> INFO : Initialising GUIUpgradeCharacter.
+<2018-05-18 23-19-44> INFO : GameHandler initialised.
+<2018-05-18 23-19-45> INFO : Changing screen to: NEW_CHARACTER
+<2018-05-18 23-19-48> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-05-18 23-19-49> INFO : Exiting.

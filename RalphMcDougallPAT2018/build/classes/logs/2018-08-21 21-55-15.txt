@@ -1,0 +1,312 @@
+<2018-08-21 21-55-15> INFO : Loading static data...
+<2018-08-21 21-55-15> INFO : Connecting to database: DSPersistent
+<2018-08-21 21-55-16> INFO : Successfully connected to database
+<2018-08-21 21-55-16> INFO : Load tile types from database...
+<2018-08-21 21-55-16> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-08-21 21-55-16> INFO : Tile types loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading map segments from file...
+<2018-08-21 21-55-16> INFO : Map segments loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading item types from database...
+<2018-08-21 21-55-16> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-08-21 21-55-16> INFO : Item types loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading NPC names from file...
+<2018-08-21 21-55-16> INFO : NPC names loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading projectile types from database...
+<2018-08-21 21-55-16> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-08-21 21-55-16> INFO : Projectile types loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading quest types from database...
+<2018-08-21 21-55-16> INFO : Querying database: SELECT QuestTypeID, QuestTypeDescriptor FROM tblQuestTypes
+<2018-08-21 21-55-16> INFO : Load the targets of the quest type from the database.
+<2018-08-21 21-55-16> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 1;
+<2018-08-21 21-55-16> INFO : Load the targets of the quest type from the database.
+<2018-08-21 21-55-16> INFO : Querying database: SELECT TargetDescription, MaxTargetCount, MaxReward FROM tblQuestTargets WHERE QuestTypeID = 2;
+<2018-08-21 21-55-16> INFO : Quest types loaded successfully.
+<2018-08-21 21-55-16> INFO : Loading enemy types from database...
+<2018-08-21 21-55-16> INFO : Querying database: SELECT EnemyName, SpriteSheetX, SpriteSheetY, NumSprites, EnemyHealth, EnemyMovementSpeed, EnemyDamage, EnemyProjectileType, EnemyFireRate FROM tblEnemyTypes
+<2018-08-21 21-55-16> INFO : Enemy types loaded successfully.
+<2018-08-21 21-55-16> INFO : Static data loaded.
+<2018-08-21 21-55-16> INFO : Initialising screens...
+<2018-08-21 21-55-16> INFO : Initialising GUIActiveQuests.
+<2018-08-21 21-55-16> INFO : Initialising GUICharacterMainMenu.
+<2018-08-21 21-55-16> INFO : Initialising GUICharacterSelection.
+<2018-08-21 21-55-16> INFO : Initialising GUICredits.
+<2018-08-21 21-55-16> INFO : Initialising GUIHelp.
+<2018-08-21 21-55-17> INFO : Initialising GUINewCharacter.
+<2018-08-21 21-55-17> INFO : Initialising GUIUpgradeCharacter.
+<2018-08-21 21-55-17> INFO : Screens initialised successfully.
+<2018-08-21 21-55-17> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-21 21-55-17> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-21 21-55-17> INFO : GameHandler initialised.
+<2018-08-21 21-55-21> INFO : Changing screen to: NEW_CHARACTER
+<2018-08-21 21-55-31> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-21 21-55-31> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-21 21-55-32> INFO : Changing screen to: NEW_CHARACTER
+<2018-08-21 21-55-40> INFO : Adding user to database.
+<2018-08-21 21-55-40> INFO : Inserting new user into database.
+<2018-08-21 21-55-40> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, Health, Damage, FireRate, Speed) VALUES ("Ralph", NOW(), 30, 10, 12, 10);
+<2018-08-21 21-55-40> INFO : Querying database: SELECT MAX(UserID) FROM tblUsers;
+<2018-08-21 21-55-40> INFO : Querying database: SELECT QuestID FROM tblActiveQuests WHERE UserID = 35;
+<2018-08-21 21-55-40> INFO : User successfully added to database.
+<2018-08-21 21-55-40> INFO : User added to database successfully.
+<2018-08-21 21-55-40> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-21 21-55-41> INFO : Changing screen to: GAME
+<2018-08-21 21-55-41> INFO : Starting game.
+<2018-08-21 21-55-41> INFO : Initialising app game container
+<2018-08-21 21-55-41> INFO : Initialising new game...
+<2018-08-21 21-55-41> INFO : Initialising sprite sheets...
+<2018-08-21 21-55-41> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-08-21 21-55-41> INFO : Loading image.
+<2018-08-21 21-55-41> INFO : Starting to split sprite sheet.
+<2018-08-21 21-55-41> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-55-41> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-55-41> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-08-21 21-55-41> INFO : Loading image.
+<2018-08-21 21-55-41> INFO : Starting to split sprite sheet.
+<2018-08-21 21-55-41> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-55-41> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-55-41> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-08-21 21-55-41> INFO : Loading image.
+<2018-08-21 21-55-41> INFO : Starting to split sprite sheet.
+<2018-08-21 21-55-41> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-55-41> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-55-41> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-08-21 21-55-41> INFO : Loading image.
+<2018-08-21 21-55-41> INFO : Starting to split sprite sheet.
+<2018-08-21 21-55-41> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-55-41> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-55-41> INFO : Sprite sheets initialised successfully.
+<2018-08-21 21-55-41> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-55-41> INFO : Enemies removed from entity handler.
+<2018-08-21 21-55-41> INFO : Setting up new map.
+<2018-08-21 21-55-41> INFO : Creating tile segment grid for map.
+<2018-08-21 21-55-41> INFO : Creating new blank segment grid.
+<2018-08-21 21-55-41> INFO : Starting maze construction.
+<2018-08-21 21-55-41> INFO : Starting to get dead ends.
+<2018-08-21 21-55-41> INFO : All dead ends found.
+<2018-08-21 21-55-41> INFO : Number of dead-ends: 32
+<2018-08-21 21-55-41> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-55-41> INFO : Starting to get dead ends.
+<2018-08-21 21-55-41> INFO : All dead ends found.
+<2018-08-21 21-55-41> INFO : Points of Interest setup completed.
+<2018-08-21 21-55-41> INFO : Setting up map tiles.
+<2018-08-21 21-55-41> INFO : Map tile setup completed.
+<2018-08-21 21-55-41> INFO : Getting new quest ID.
+<2018-08-21 21-55-41> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-55-41> INFO : Map setup completed.
+<2018-08-21 21-55-41> WARNING : HUDLayer not yet initialised, minimap could not be set to current map.
+<2018-08-21 21-55-41> INFO : Initialising path finding grid...
+<2018-08-21 21-55-41> INFO : Path finding grid initialised.
+<2018-08-21 21-55-41> INFO : Loading HUD...
+<2018-08-21 21-55-41> INFO : Creating HUD layer.
+<2018-08-21 21-55-41> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-55-41> INFO : Creating new minimap.
+<2018-08-21 21-55-41> INFO : Setting up grid segment type colours.
+<2018-08-21 21-55-41> INFO : Filling grid with unknown types.
+<2018-08-21 21-55-41> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-55-41> INFO : Minimap created successfully.
+<2018-08-21 21-55-41> INFO : New game initialised successfully.
+<2018-08-21 21-55-42> INFO : *********************************
+<2018-08-21 21-55-42> INFO : Available processors (cores): 4
+<2018-08-21 21-55-42> INFO : Memory use (MB): 29.042 / 1,804.5
+<2018-08-21 21-55-42> INFO : Number of entities: 2
+<2018-08-21 21-55-42> INFO : *********************************
+<2018-08-21 21-56-03> INFO : *********************************
+<2018-08-21 21-56-03> INFO : Available processors (cores): 4
+<2018-08-21 21-56-03> INFO : Memory use (MB): 36.593 / 1,804.5
+<2018-08-21 21-56-03> INFO : Number of entities: 11
+<2018-08-21 21-56-03> INFO : *********************************
+<2018-08-21 21-56-12> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-56-12> INFO : Enemies removed from entity handler.
+<2018-08-21 21-56-12> INFO : Setting up new map.
+<2018-08-21 21-56-12> INFO : Creating tile segment grid for map.
+<2018-08-21 21-56-12> INFO : Creating new blank segment grid.
+<2018-08-21 21-56-12> INFO : Starting maze construction.
+<2018-08-21 21-56-12> INFO : Starting to get dead ends.
+<2018-08-21 21-56-12> INFO : All dead ends found.
+<2018-08-21 21-56-12> INFO : Number of dead-ends: 26
+<2018-08-21 21-56-12> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-56-12> INFO : Starting to get dead ends.
+<2018-08-21 21-56-12> INFO : All dead ends found.
+<2018-08-21 21-56-12> INFO : Points of Interest setup completed.
+<2018-08-21 21-56-12> INFO : Setting up map tiles.
+<2018-08-21 21-56-12> INFO : Map tile setup completed.
+<2018-08-21 21-56-12> INFO : Getting new quest ID.
+<2018-08-21 21-56-12> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-56-12> INFO : Map setup completed.
+<2018-08-21 21-56-12> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-56-12> INFO : Creating new minimap.
+<2018-08-21 21-56-12> INFO : Setting up grid segment type colours.
+<2018-08-21 21-56-12> INFO : Filling grid with unknown types.
+<2018-08-21 21-56-12> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-56-12> INFO : Minimap created successfully.
+<2018-08-21 21-56-25> INFO : *********************************
+<2018-08-21 21-56-25> INFO : Available processors (cores): 4
+<2018-08-21 21-56-25> INFO : Memory use (MB): 40.808 / 1,804.5
+<2018-08-21 21-56-25> INFO : Number of entities: 11
+<2018-08-21 21-56-25> INFO : *********************************
+<2018-08-21 21-56-30> INFO : Inserting new quest into database.
+<2018-08-21 21-56-30> INFO : Updating database: INSERT INTO tblActiveQuests(QuestID, UserID, IssuerName, QuestType, QuestTargetDescription, DesiredTargetCount, QuestProgress, Reward) VALUES (1, 35, 'Gregor', 2, 'Troll', 8, 0, 80)
+<2018-08-21 21-56-47> INFO : *********************************
+<2018-08-21 21-56-47> INFO : Available processors (cores): 4
+<2018-08-21 21-56-47> INFO : Memory use (MB): 39.083 / 1,804.5
+<2018-08-21 21-56-47> INFO : Number of entities: 91
+<2018-08-21 21-56-47> INFO : *********************************
+<2018-08-21 21-56-50> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-56-50> INFO : Enemies removed from entity handler.
+<2018-08-21 21-56-50> INFO : Setting up new map.
+<2018-08-21 21-56-50> INFO : Creating tile segment grid for map.
+<2018-08-21 21-56-50> INFO : Creating new blank segment grid.
+<2018-08-21 21-56-50> INFO : Starting maze construction.
+<2018-08-21 21-56-50> INFO : Starting to get dead ends.
+<2018-08-21 21-56-50> INFO : All dead ends found.
+<2018-08-21 21-56-50> INFO : Number of dead-ends: 23
+<2018-08-21 21-56-50> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-56-50> INFO : Starting to get dead ends.
+<2018-08-21 21-56-50> INFO : All dead ends found.
+<2018-08-21 21-56-50> INFO : Points of Interest setup completed.
+<2018-08-21 21-56-50> INFO : Setting up map tiles.
+<2018-08-21 21-56-50> INFO : Map tile setup completed.
+<2018-08-21 21-56-50> INFO : Getting new quest ID.
+<2018-08-21 21-56-50> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-56-50> INFO : Map setup completed.
+<2018-08-21 21-56-50> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-56-50> INFO : Creating new minimap.
+<2018-08-21 21-56-50> INFO : Setting up grid segment type colours.
+<2018-08-21 21-56-50> INFO : Filling grid with unknown types.
+<2018-08-21 21-56-50> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-56-50> INFO : Minimap created successfully.
+<2018-08-21 21-57-09> INFO : *********************************
+<2018-08-21 21-57-09> INFO : Available processors (cores): 4
+<2018-08-21 21-57-09> INFO : Memory use (MB): 39.009 / 1,804.5
+<2018-08-21 21-57-09> INFO : Number of entities: 118
+<2018-08-21 21-57-09> INFO : *********************************
+<2018-08-21 21-57-30> INFO : *********************************
+<2018-08-21 21-57-30> INFO : Available processors (cores): 4
+<2018-08-21 21-57-30> INFO : Memory use (MB): 29.196 / 1,804.5
+<2018-08-21 21-57-30> INFO : Number of entities: 130
+<2018-08-21 21-57-30> INFO : *********************************
+<2018-08-21 21-57-48> INFO : Increasing progress on quest: 1 to 1 / 8.
+<2018-08-21 21-57-52> INFO : *********************************
+<2018-08-21 21-57-52> INFO : Available processors (cores): 4
+<2018-08-21 21-57-52> INFO : Memory use (MB): 42.673 / 1,804.5
+<2018-08-21 21-57-52> INFO : Number of entities: 121
+<2018-08-21 21-57-52> INFO : *********************************
+<2018-08-21 21-58-00> INFO : Player character dead.
+<2018-08-21 21-58-00> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-58-00> INFO : Enemies removed from entity handler.
+<2018-08-21 21-58-00> INFO : Starting game over screen.
+<2018-08-21 21-58-02> INFO : Exiting main game.
+<2018-08-21 21-58-02> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-21 21-58-02> INFO : Closing game.
+<2018-08-21 21-58-02> INFO : Player character dead.
+<2018-08-21 21-58-02> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-58-02> INFO : Enemies removed from entity handler.
+<2018-08-21 21-58-02> INFO : Starting game over screen.
+<2018-08-21 21-58-05> INFO : Changing screen to: GAME
+<2018-08-21 21-58-05> INFO : Starting game.
+<2018-08-21 21-58-05> INFO : Initialising app game container
+<2018-08-21 21-58-05> INFO : Initialising new game...
+<2018-08-21 21-58-05> INFO : Initialising sprite sheets...
+<2018-08-21 21-58-05> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-08-21 21-58-05> INFO : Loading image.
+<2018-08-21 21-58-05> INFO : Starting to split sprite sheet.
+<2018-08-21 21-58-05> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-58-05> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-58-05> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-08-21 21-58-05> INFO : Loading image.
+<2018-08-21 21-58-05> INFO : Starting to split sprite sheet.
+<2018-08-21 21-58-05> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-58-05> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-58-05> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-08-21 21-58-05> INFO : Loading image.
+<2018-08-21 21-58-05> INFO : Starting to split sprite sheet.
+<2018-08-21 21-58-05> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-58-05> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-58-05> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-08-21 21-58-05> INFO : Loading image.
+<2018-08-21 21-58-05> INFO : Starting to split sprite sheet.
+<2018-08-21 21-58-05> INFO : Sprite sheet splitting completed.
+<2018-08-21 21-58-05> INFO : Sprite sheet initialised successfully.
+<2018-08-21 21-58-05> INFO : Sprite sheets initialised successfully.
+<2018-08-21 21-58-05> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-58-05> INFO : Enemies removed from entity handler.
+<2018-08-21 21-58-05> INFO : Setting up new map.
+<2018-08-21 21-58-05> INFO : Creating tile segment grid for map.
+<2018-08-21 21-58-05> INFO : Creating new blank segment grid.
+<2018-08-21 21-58-05> INFO : Starting maze construction.
+<2018-08-21 21-58-05> INFO : Starting to get dead ends.
+<2018-08-21 21-58-05> INFO : All dead ends found.
+<2018-08-21 21-58-05> INFO : Number of dead-ends: 26
+<2018-08-21 21-58-05> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-58-05> INFO : Starting to get dead ends.
+<2018-08-21 21-58-05> INFO : All dead ends found.
+<2018-08-21 21-58-05> INFO : Points of Interest setup completed.
+<2018-08-21 21-58-05> INFO : Setting up map tiles.
+<2018-08-21 21-58-05> INFO : Map tile setup completed.
+<2018-08-21 21-58-05> INFO : Getting new quest ID.
+<2018-08-21 21-58-05> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-58-05> INFO : Map setup completed.
+<2018-08-21 21-58-05> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-58-05> INFO : Creating new minimap.
+<2018-08-21 21-58-05> INFO : Setting up grid segment type colours.
+<2018-08-21 21-58-05> INFO : Filling grid with unknown types.
+<2018-08-21 21-58-05> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-58-05> INFO : Minimap created successfully.
+<2018-08-21 21-58-05> INFO : Initialising path finding grid...
+<2018-08-21 21-58-05> INFO : Path finding grid initialised.
+<2018-08-21 21-58-05> INFO : Loading HUD...
+<2018-08-21 21-58-05> INFO : Creating HUD layer.
+<2018-08-21 21-58-05> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-58-05> INFO : Creating new minimap.
+<2018-08-21 21-58-05> INFO : Setting up grid segment type colours.
+<2018-08-21 21-58-05> INFO : Filling grid with unknown types.
+<2018-08-21 21-58-05> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-58-05> INFO : Minimap created successfully.
+<2018-08-21 21-58-05> INFO : New game initialised successfully.
+<2018-08-21 21-58-18> INFO : *********************************
+<2018-08-21 21-58-18> INFO : Available processors (cores): 4
+<2018-08-21 21-58-18> INFO : Memory use (MB): 53.588 / 1,804.5
+<2018-08-21 21-58-18> INFO : Number of entities: 37
+<2018-08-21 21-58-18> INFO : *********************************
+<2018-08-21 21-58-24> INFO : Increasing progress on quest: 1 to 2 / 8.
+<2018-08-21 21-58-32> INFO : Increasing progress on quest: 1 to 3 / 8.
+<2018-08-21 21-58-37> INFO : Increasing progress on quest: 1 to 4 / 8.
+<2018-08-21 21-58-40> INFO : *********************************
+<2018-08-21 21-58-40> INFO : Available processors (cores): 4
+<2018-08-21 21-58-40> INFO : Memory use (MB): 46.606 / 1,804.5
+<2018-08-21 21-58-40> INFO : Number of entities: 14
+<2018-08-21 21-58-40> INFO : *********************************
+<2018-08-21 21-58-53> INFO : Removing all enemies from entity handler...
+<2018-08-21 21-58-53> INFO : Enemies removed from entity handler.
+<2018-08-21 21-58-53> INFO : Setting up new map.
+<2018-08-21 21-58-53> INFO : Creating tile segment grid for map.
+<2018-08-21 21-58-53> INFO : Creating new blank segment grid.
+<2018-08-21 21-58-53> INFO : Starting maze construction.
+<2018-08-21 21-58-53> INFO : Starting to get dead ends.
+<2018-08-21 21-58-53> INFO : All dead ends found.
+<2018-08-21 21-58-53> INFO : Number of dead-ends: 33
+<2018-08-21 21-58-53> INFO : Starting to setup Points of Interest.
+<2018-08-21 21-58-53> INFO : Starting to get dead ends.
+<2018-08-21 21-58-53> INFO : All dead ends found.
+<2018-08-21 21-58-53> INFO : Points of Interest setup completed.
+<2018-08-21 21-58-53> INFO : Setting up map tiles.
+<2018-08-21 21-58-53> INFO : Map tile setup completed.
+<2018-08-21 21-58-53> INFO : Getting new quest ID.
+<2018-08-21 21-58-53> INFO : Querying database: SELECT MAX(QuestID) + 1 FROM tblActiveQuests
+<2018-08-21 21-58-53> INFO : Map setup completed.
+<2018-08-21 21-58-53> INFO : Updating minimap to new given minimap.
+<2018-08-21 21-58-53> INFO : Creating new minimap.
+<2018-08-21 21-58-53> INFO : Setting up grid segment type colours.
+<2018-08-21 21-58-53> INFO : Filling grid with unknown types.
+<2018-08-21 21-58-53> INFO : Finding Points-of-Interest on map
+<2018-08-21 21-58-53> INFO : Minimap created successfully.
+<2018-08-21 21-58-54> INFO : Exiting main game.
+<2018-08-21 21-58-54> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-08-21 21-58-54> INFO : Closing game.
+<2018-08-21 21-58-56> INFO : Updating the users statistic data.
+<2018-08-21 21-58-56> INFO : Updating database: UPDATE tblUsers SET LastPlay = NOW(), XP = 0, Health = 30, Damage = 10, FireRate = 12, Speed = 10, NumDeaths = 2, NumKills = 34, NumQuestsCompleted = 0, numTimesHealthUpgraded = 0, numTimesDamageUpgraded = 0, numTimesFireRateUpgraded = 0, numTimesSpeedUpgraded = 0 WHERE UserID = 35;
+<2018-08-21 21-58-56> INFO : User statistic data updated.
+<2018-08-21 21-58-56> INFO : Updating database: UPDATE tblActiveQuests SET QuestProgress = 4 WHERE QuestID = 1;
+<2018-08-21 21-58-56> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-08-21 21-58-56> INFO : Querying database: SELECT UserID, UserName, DAY(LastPlay) + '/' + MONTH(lastPlay) + '/' + YEAR(lastPlay) FROM tblUsers ORDER BY LastPlay DESC;
+<2018-08-21 21-58-56> INFO : Exiting game.

@@ -1,0 +1,20 @@
+<2018-06-23 21-36-15> INFO : Connecting to database: DSPersistent
+<2018-06-23 21-36-16> INFO : Successfully connected to database
+<2018-06-23 21-36-16> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-23 21-36-16> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-23 21-36-16> INFO : Loading projectile types...
+<2018-06-23 21-36-16> INFO : Querying database: SELECT ProjectileTypeID, ProjectileTypeName, SpriteSheetX, SpriteSheetY, Range FROM tblProjectileTypes
+<2018-06-23 21-36-16> INFO : Projectile loading completed.
+<2018-06-23 21-36-16> INFO : Initialising GUIActiveQuests.
+<2018-06-23 21-36-16> INFO : Initialising GUICharacterMainMenu.
+<2018-06-23 21-36-16> INFO : Initialising GUICharacterSelection.
+<2018-06-23 21-36-16> INFO : Initialising GUICredits.
+<2018-06-23 21-36-16> INFO : Initialising GUIHelp.
+<2018-06-23 21-36-16> INFO : Initialising GUINewCharacter.
+<2018-06-23 21-36-16> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-23 21-36-17> INFO : GameHandler initialised.
+<2018-06-23 21-36-23> INFO : Changing screen to: NEW_CHARACTER
+<2018-06-23 21-36-31> INFO : Updating database: INSERT INTO tblUsers(UserName, LastPlay, XP, Health, Damage, FireRate, Speed, NumDeaths, NumKills, NumQuestsCompleted, NumTimesHealthUpgraded, NumTimesDamageUpgraded, NumTimesFireRateUpgraded, NumTimesSpeedUpgraded) VALUES (Ralph, 2018-06-23 21-36-31, 0, 100, 10, 5, 5, 0, 0, 0, 0, 0, 0, 0);
+<2018-06-23 21-36-31> ERROR : Unable to submit user to database! net.ucanaccess.jdbc.UcanaccessSQLException: UCAExc:::4.0.2 unexpected token: 21 required: )
+<2018-06-23 21-37-28> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-23 21-37-28> INFO : Exiting.

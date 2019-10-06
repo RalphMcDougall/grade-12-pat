@@ -1,0 +1,180 @@
+<2018-04-29 22-09-07> INFO : Connecting to database: DSPersistent
+<2018-04-29 22-09-08> INFO : Successfully connected to database
+<2018-04-29 22-09-08> INFO : Querying database: SELECT * FROM tblTileTypes;
+<2018-04-29 22-09-08> INFO : Initialising GUIActiveQuests.
+<2018-04-29 22-09-08> INFO : Initialising GUICharacterMainMenu.
+<2018-04-29 22-09-08> INFO : Initialising GUICharacterSelection.
+<2018-04-29 22-09-08> INFO : Initialising GUICredits.
+<2018-04-29 22-09-08> INFO : Initialising GUIHelp.
+<2018-04-29 22-09-08> INFO : Initialising GUINewCharacter.
+<2018-04-29 22-09-08> INFO : Initialising GUIUpgradeCharacter.
+<2018-04-29 22-09-08> INFO : GameHandler initialised.
+<2018-04-29 22-09-09> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-09> INFO : Changing screen to: GAME
+<2018-04-29 22-09-10> INFO : Starting game.
+<2018-04-29 22-09-10> INFO : Initialising app game container
+<2018-04-29 22-09-10> INFO : Initialising a new game.
+<2018-04-29 22-09-10> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-10> INFO : Loading image.
+<2018-04-29 22-09-10> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-10> INFO : Loading image.
+<2018-04-29 22-09-10> INFO : Finished initialising new game.
+<2018-04-29 22-09-11> INFO : Exiting main game.
+<2018-04-29 22-09-11> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-11> INFO : Starting game.
+<2018-04-29 22-09-11> INFO : Initialising app game container
+<2018-04-29 22-09-11> INFO : Initialising a new game.
+<2018-04-29 22-09-11> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-11> INFO : Loading image.
+<2018-04-29 22-09-11> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-11> INFO : Loading image.
+<2018-04-29 22-09-11> INFO : Finished initialising new game.
+<2018-04-29 22-09-14> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-04-29 22-09-14> INFO : Starting game.
+<2018-04-29 22-09-14> INFO : Initialising app game container
+<2018-04-29 22-09-14> INFO : Initialising a new game.
+<2018-04-29 22-09-14> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-14> INFO : Loading image.
+<2018-04-29 22-09-14> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-14> INFO : Loading image.
+<2018-04-29 22-09-14> INFO : Finished initialising new game.
+<2018-04-29 22-09-16> INFO : Exiting main game.
+<2018-04-29 22-09-16> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-16> INFO : Starting game.
+<2018-04-29 22-09-16> INFO : Initialising app game container
+<2018-04-29 22-09-16> INFO : Initialising a new game.
+<2018-04-29 22-09-16> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-16> INFO : Loading image.
+<2018-04-29 22-09-16> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-16> INFO : Loading image.
+<2018-04-29 22-09-16> INFO : Finished initialising new game.
+<2018-04-29 22-09-17> INFO : Exiting main game.
+<2018-04-29 22-09-17> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-17> INFO : Starting game.
+<2018-04-29 22-09-17> INFO : Initialising app game container
+<2018-04-29 22-09-17> INFO : Initialising a new game.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-17> INFO : Finished initialising new game.
+<2018-04-29 22-09-17> INFO : Exiting main game.
+<2018-04-29 22-09-17> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-17> INFO : Starting game.
+<2018-04-29 22-09-17> INFO : Initialising app game container
+<2018-04-29 22-09-17> INFO : Initialising a new game.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-17> INFO : Finished initialising new game.
+<2018-04-29 22-09-17> INFO : Exiting main game.
+<2018-04-29 22-09-17> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-17> INFO : Starting game.
+<2018-04-29 22-09-17> INFO : Initialising app game container
+<2018-04-29 22-09-17> INFO : Initialising a new game.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-17> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-17> INFO : Loading image.
+<2018-04-29 22-09-18> INFO : Finished initialising new game.
+<2018-04-29 22-09-18> INFO : Exiting main game.
+<2018-04-29 22-09-18> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-18> INFO : Starting game.
+<2018-04-29 22-09-18> INFO : Initialising app game container
+<2018-04-29 22-09-18> INFO : Initialising a new game.
+<2018-04-29 22-09-18> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-18> INFO : Loading image.
+<2018-04-29 22-09-18> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-18> INFO : Loading image.
+<2018-04-29 22-09-18> INFO : Finished initialising new game.
+<2018-04-29 22-09-18> INFO : Exiting main game.
+<2018-04-29 22-09-18> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-18> INFO : Starting game.
+<2018-04-29 22-09-18> INFO : Initialising app game container
+<2018-04-29 22-09-18> INFO : Initialising a new game.
+<2018-04-29 22-09-18> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-18> INFO : Loading image.
+<2018-04-29 22-09-18> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-18> INFO : Loading image.
+<2018-04-29 22-09-18> INFO : Finished initialising new game.
+<2018-04-29 22-09-18> INFO : Exiting main game.
+<2018-04-29 22-09-18> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-18> INFO : Starting game.
+<2018-04-29 22-09-18> INFO : Initialising app game container
+<2018-04-29 22-09-19> INFO : Initialising a new game.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Finished initialising new game.
+<2018-04-29 22-09-19> INFO : Exiting main game.
+<2018-04-29 22-09-19> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-19> INFO : Starting game.
+<2018-04-29 22-09-19> INFO : Initialising app game container
+<2018-04-29 22-09-19> INFO : Initialising a new game.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Finished initialising new game.
+<2018-04-29 22-09-19> INFO : Exiting main game.
+<2018-04-29 22-09-19> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-19> INFO : Starting game.
+<2018-04-29 22-09-19> INFO : Initialising app game container
+<2018-04-29 22-09-19> INFO : Initialising a new game.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-19> INFO : Loading image.
+<2018-04-29 22-09-19> INFO : Finished initialising new game.
+<2018-04-29 22-09-20> INFO : Exiting main game.
+<2018-04-29 22-09-20> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-09-20> INFO : Starting game.
+<2018-04-29 22-09-20> INFO : Initialising app game container
+<2018-04-29 22-09-20> INFO : Initialising a new game.
+<2018-04-29 22-09-20> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-09-20> INFO : Loading image.
+<2018-04-29 22-09-20> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-09-20> INFO : Loading image.
+<2018-04-29 22-09-20> INFO : Finished initialising new game.
+<2018-04-29 22-10-47> INFO : Exiting main game.
+<2018-04-29 22-10-47> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-10-47> INFO : Starting game.
+<2018-04-29 22-10-47> INFO : Initialising app game container
+<2018-04-29 22-10-47> INFO : Initialising a new game.
+<2018-04-29 22-10-47> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-10-47> INFO : Loading image.
+<2018-04-29 22-10-47> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-10-47> INFO : Loading image.
+<2018-04-29 22-10-47> INFO : Finished initialising new game.
+<2018-04-29 22-10-47> INFO : Exiting main game.
+<2018-04-29 22-10-47> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-10-47> INFO : Starting game.
+<2018-04-29 22-10-47> INFO : Initialising app game container
+<2018-04-29 22-10-48> INFO : Initialising a new game.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Finished initialising new game.
+<2018-04-29 22-10-48> INFO : Exiting main game.
+<2018-04-29 22-10-48> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-10-48> INFO : Starting game.
+<2018-04-29 22-10-48> INFO : Initialising app game container
+<2018-04-29 22-10-48> INFO : Initialising a new game.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Finished initialising new game.
+<2018-04-29 22-10-48> INFO : Exiting main game.
+<2018-04-29 22-10-48> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-04-29 22-10-48> INFO : Starting game.
+<2018-04-29 22-10-48> INFO : Initialising app game container
+<2018-04-29 22-10-48> INFO : Initialising a new game.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-04-29 22-10-48> INFO : Loading image.
+<2018-04-29 22-10-48> INFO : Finished initialising new game.

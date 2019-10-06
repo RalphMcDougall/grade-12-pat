@@ -1,0 +1,40 @@
+<2018-06-16 22-52-09> INFO : Connecting to database: DSPersistent
+<2018-06-16 22-52-10> INFO : Successfully connected to database
+<2018-06-16 22-52-10> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-16 22-52-10> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-16 22-52-10> INFO : Initialising GUIActiveQuests.
+<2018-06-16 22-52-10> INFO : Initialising GUICharacterMainMenu.
+<2018-06-16 22-52-10> INFO : Initialising GUICharacterSelection.
+<2018-06-16 22-52-10> INFO : Initialising GUICredits.
+<2018-06-16 22-52-10> INFO : Initialising GUIHelp.
+<2018-06-16 22-52-10> INFO : Initialising GUINewCharacter.
+<2018-06-16 22-52-10> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-16 22-52-10> INFO : GameHandler initialised.
+<2018-06-16 22-52-12> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-16 22-52-13> INFO : Changing screen to: GAME
+<2018-06-16 22-52-13> INFO : Starting game.
+<2018-06-16 22-52-13> INFO : Initialising app game container
+<2018-06-16 22-52-13> INFO : Initialising a new game.
+<2018-06-16 22-52-13> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-16 22-52-13> INFO : Loading image.
+<2018-06-16 22-52-13> INFO : Starting to split sprite sheet.
+<2018-06-16 22-52-13> INFO : Sprite sheet splitting completed.
+<2018-06-16 22-52-13> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-16 22-52-13> INFO : Loading image.
+<2018-06-16 22-52-13> INFO : Starting to split sprite sheet.
+<2018-06-16 22-52-13> INFO : Sprite sheet splitting completed.
+<2018-06-16 22-52-13> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-16 22-52-13> INFO : Loading image.
+<2018-06-16 22-52-13> INFO : Starting to split sprite sheet.
+<2018-06-16 22-52-13> INFO : Sprite sheet splitting completed.
+<2018-06-16 22-52-13> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-16 22-52-13> INFO : Loading image.
+<2018-06-16 22-52-13> INFO : Starting to split sprite sheet.
+<2018-06-16 22-52-13> INFO : Sprite sheet splitting completed.
+<2018-06-16 22-52-13> INFO : Setting up new map.
+<2018-06-16 22-52-13> INFO : Creating tile segment grid for map.
+<2018-06-16 22-52-13> INFO : Creating new blank segment grid.
+<2018-06-16 22-52-13> INFO : Starting maze construction.
+<2018-06-16 22-52-13> INFO : Starting to setup Points of Interest.
+<2018-06-16 22-52-13> INFO : Starting to get dead ends.
+<2018-06-16 22-52-13> INFO : All dead ends found.

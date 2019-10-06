@@ -1,0 +1,653 @@
+<2018-06-03 20-57-35> INFO : Connecting to database: DSPersistent
+<2018-06-03 20-57-35> INFO : Successfully connected to database
+<2018-06-03 20-57-35> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
+<2018-06-03 20-57-35> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
+<2018-06-03 20-57-36> INFO : Initialising GUIActiveQuests.
+<2018-06-03 20-57-36> INFO : Initialising GUICharacterMainMenu.
+<2018-06-03 20-57-36> INFO : Initialising GUICharacterSelection.
+<2018-06-03 20-57-36> INFO : Initialising GUICredits.
+<2018-06-03 20-57-36> INFO : Initialising GUIHelp.
+<2018-06-03 20-57-36> INFO : Initialising GUINewCharacter.
+<2018-06-03 20-57-36> INFO : Initialising GUIUpgradeCharacter.
+<2018-06-03 20-57-36> INFO : GameHandler initialised.
+<2018-06-03 20-57-39> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 20-57-40> INFO : Changing screen to: GAME
+<2018-06-03 20-57-40> INFO : Starting game.
+<2018-06-03 20-57-40> INFO : Initialising app game container
+<2018-06-03 20-57-40> INFO : Initialising a new game.
+<2018-06-03 20-57-40> INFO : Initialising sprite sheet: TileSpriteSheet
+<2018-06-03 20-57-40> INFO : Loading image.
+<2018-06-03 20-57-40> INFO : Starting to split sprite sheet.
+<2018-06-03 20-57-40> INFO : Sprite sheet splitting completed.
+<2018-06-03 20-57-40> INFO : Initialising sprite sheet: CharacterSpriteSheet
+<2018-06-03 20-57-40> INFO : Loading image.
+<2018-06-03 20-57-40> INFO : Starting to split sprite sheet.
+<2018-06-03 20-57-40> INFO : Sprite sheet splitting completed.
+<2018-06-03 20-57-40> INFO : Initialising sprite sheet: ItemSpriteSheet
+<2018-06-03 20-57-40> INFO : Loading image.
+<2018-06-03 20-57-40> INFO : Starting to split sprite sheet.
+<2018-06-03 20-57-40> INFO : Sprite sheet splitting completed.
+<2018-06-03 20-57-40> INFO : Initialising sprite sheet: ProjectileSpriteSheet
+<2018-06-03 20-57-40> INFO : Loading image.
+<2018-06-03 20-57-40> INFO : Starting to split sprite sheet.
+<2018-06-03 20-57-40> INFO : Sprite sheet splitting completed.
+<2018-06-03 20-57-40> INFO : Setting up new map.
+<2018-06-03 20-57-40> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-40> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-40> INFO : Starting maze construction.
+<2018-06-03 20-57-40> INFO : Setting up map tiles.
+<2018-06-03 20-57-40> INFO : Map tile setup completed.
+<2018-06-03 20-57-40> INFO : Map setup completed.
+<2018-06-03 20-57-40> INFO : Creating HUD layer.
+<2018-06-03 20-57-40> INFO : Finished initialising new game.
+<2018-06-03 20-57-41> INFO : *********************************
+<2018-06-03 20-57-41> INFO : Available processors (cores): 4
+<2018-06-03 20-57-41> INFO : Memory use (MB): 65.418 / 1,804.5
+<2018-06-03 20-57-41> INFO : *********************************
+<2018-06-03 20-57-42> INFO : Setting up new map.
+<2018-06-03 20-57-42> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-42> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-42> INFO : Starting maze construction.
+<2018-06-03 20-57-42> INFO : Setting up map tiles.
+<2018-06-03 20-57-42> INFO : Map tile setup completed.
+<2018-06-03 20-57-42> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-43> INFO : Setting up new map.
+<2018-06-03 20-57-43> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-43> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-43> INFO : Starting maze construction.
+<2018-06-03 20-57-43> INFO : Setting up map tiles.
+<2018-06-03 20-57-43> INFO : Map tile setup completed.
+<2018-06-03 20-57-43> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-44> INFO : Setting up new map.
+<2018-06-03 20-57-44> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-44> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-44> INFO : Starting maze construction.
+<2018-06-03 20-57-44> INFO : Setting up map tiles.
+<2018-06-03 20-57-44> INFO : Map tile setup completed.
+<2018-06-03 20-57-44> INFO : Map setup completed.
+<2018-06-03 20-57-45> INFO : Setting up new map.
+<2018-06-03 20-57-45> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-45> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-45> INFO : Starting maze construction.
+<2018-06-03 20-57-45> INFO : Setting up map tiles.
+<2018-06-03 20-57-45> INFO : Map tile setup completed.
+<2018-06-03 20-57-45> INFO : Map setup completed.
+<2018-06-03 20-57-45> INFO : Setting up new map.
+<2018-06-03 20-57-45> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-45> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-45> INFO : Starting maze construction.
+<2018-06-03 20-57-45> INFO : Setting up map tiles.
+<2018-06-03 20-57-45> INFO : Map tile setup completed.
+<2018-06-03 20-57-45> INFO : Map setup completed.
+<2018-06-03 20-57-45> INFO : Setting up new map.
+<2018-06-03 20-57-45> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-45> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-45> INFO : Starting maze construction.
+<2018-06-03 20-57-45> INFO : Setting up map tiles.
+<2018-06-03 20-57-45> INFO : Map tile setup completed.
+<2018-06-03 20-57-45> INFO : Map setup completed.
+<2018-06-03 20-57-45> INFO : Setting up new map.
+<2018-06-03 20-57-45> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-45> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-45> INFO : Starting maze construction.
+<2018-06-03 20-57-45> INFO : Setting up map tiles.
+<2018-06-03 20-57-45> INFO : Map tile setup completed.
+<2018-06-03 20-57-45> INFO : Map setup completed.
+<2018-06-03 20-57-45> INFO : Setting up new map.
+<2018-06-03 20-57-45> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-45> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-45> INFO : Starting maze construction.
+<2018-06-03 20-57-45> INFO : Setting up map tiles.
+<2018-06-03 20-57-45> INFO : Map tile setup completed.
+<2018-06-03 20-57-45> INFO : Map setup completed.
+<2018-06-03 20-57-46> INFO : Setting up new map.
+<2018-06-03 20-57-46> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-46> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-46> INFO : Starting maze construction.
+<2018-06-03 20-57-46> INFO : Setting up map tiles.
+<2018-06-03 20-57-46> INFO : Map tile setup completed.
+<2018-06-03 20-57-46> INFO : Map setup completed.
+<2018-06-03 20-57-46> INFO : Setting up new map.
+<2018-06-03 20-57-46> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-46> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-46> INFO : Starting maze construction.
+<2018-06-03 20-57-46> INFO : Setting up map tiles.
+<2018-06-03 20-57-46> INFO : Map tile setup completed.
+<2018-06-03 20-57-46> INFO : Map setup completed.
+<2018-06-03 20-57-46> INFO : Setting up new map.
+<2018-06-03 20-57-46> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-46> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-46> INFO : Starting maze construction.
+<2018-06-03 20-57-46> INFO : Setting up map tiles.
+<2018-06-03 20-57-46> INFO : Map tile setup completed.
+<2018-06-03 20-57-46> INFO : Map setup completed.
+<2018-06-03 20-57-46> INFO : Setting up new map.
+<2018-06-03 20-57-46> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-46> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-46> INFO : Starting maze construction.
+<2018-06-03 20-57-46> INFO : Setting up map tiles.
+<2018-06-03 20-57-46> INFO : Map tile setup completed.
+<2018-06-03 20-57-46> INFO : Map setup completed.
+<2018-06-03 20-57-46> INFO : Setting up new map.
+<2018-06-03 20-57-46> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-46> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-46> INFO : Starting maze construction.
+<2018-06-03 20-57-46> INFO : Setting up map tiles.
+<2018-06-03 20-57-46> INFO : Map tile setup completed.
+<2018-06-03 20-57-46> INFO : Map setup completed.
+<2018-06-03 20-57-47> INFO : Setting up new map.
+<2018-06-03 20-57-47> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-47> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-47> INFO : Starting maze construction.
+<2018-06-03 20-57-47> INFO : Setting up map tiles.
+<2018-06-03 20-57-47> INFO : Map tile setup completed.
+<2018-06-03 20-57-47> INFO : Map setup completed.
+<2018-06-03 20-57-47> INFO : Setting up new map.
+<2018-06-03 20-57-47> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-47> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-47> INFO : Starting maze construction.
+<2018-06-03 20-57-47> INFO : Setting up map tiles.
+<2018-06-03 20-57-47> INFO : Map tile setup completed.
+<2018-06-03 20-57-47> INFO : Map setup completed.
+<2018-06-03 20-57-47> INFO : Setting up new map.
+<2018-06-03 20-57-47> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-47> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-47> INFO : Starting maze construction.
+<2018-06-03 20-57-47> INFO : Setting up map tiles.
+<2018-06-03 20-57-47> INFO : Map tile setup completed.
+<2018-06-03 20-57-47> INFO : Map setup completed.
+<2018-06-03 20-57-47> INFO : Setting up new map.
+<2018-06-03 20-57-47> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-47> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-47> INFO : Starting maze construction.
+<2018-06-03 20-57-47> INFO : Setting up map tiles.
+<2018-06-03 20-57-47> INFO : Map tile setup completed.
+<2018-06-03 20-57-47> INFO : Map setup completed.
+<2018-06-03 20-57-47> INFO : Setting up new map.
+<2018-06-03 20-57-47> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-47> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-47> INFO : Starting maze construction.
+<2018-06-03 20-57-47> INFO : Setting up map tiles.
+<2018-06-03 20-57-47> INFO : Map tile setup completed.
+<2018-06-03 20-57-47> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-48> INFO : Setting up new map.
+<2018-06-03 20-57-48> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-48> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-48> INFO : Starting maze construction.
+<2018-06-03 20-57-48> INFO : Setting up map tiles.
+<2018-06-03 20-57-48> INFO : Map tile setup completed.
+<2018-06-03 20-57-48> INFO : Map setup completed.
+<2018-06-03 20-57-49> INFO : Setting up new map.
+<2018-06-03 20-57-49> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-49> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-49> INFO : Starting maze construction.
+<2018-06-03 20-57-49> INFO : Setting up map tiles.
+<2018-06-03 20-57-49> INFO : Map tile setup completed.
+<2018-06-03 20-57-49> INFO : Map setup completed.
+<2018-06-03 20-57-49> INFO : Setting up new map.
+<2018-06-03 20-57-49> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-49> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-49> INFO : Starting maze construction.
+<2018-06-03 20-57-49> INFO : Setting up map tiles.
+<2018-06-03 20-57-49> INFO : Map tile setup completed.
+<2018-06-03 20-57-49> INFO : Map setup completed.
+<2018-06-03 20-57-49> INFO : Setting up new map.
+<2018-06-03 20-57-49> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-49> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-49> INFO : Starting maze construction.
+<2018-06-03 20-57-49> INFO : Setting up map tiles.
+<2018-06-03 20-57-49> INFO : Map tile setup completed.
+<2018-06-03 20-57-49> INFO : Map setup completed.
+<2018-06-03 20-57-49> INFO : Setting up new map.
+<2018-06-03 20-57-49> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-49> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-49> INFO : Starting maze construction.
+<2018-06-03 20-57-49> INFO : Setting up map tiles.
+<2018-06-03 20-57-49> INFO : Map tile setup completed.
+<2018-06-03 20-57-49> INFO : Map setup completed.
+<2018-06-03 20-57-49> INFO : Setting up new map.
+<2018-06-03 20-57-49> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-49> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-49> INFO : Starting maze construction.
+<2018-06-03 20-57-49> INFO : Setting up map tiles.
+<2018-06-03 20-57-49> INFO : Map tile setup completed.
+<2018-06-03 20-57-49> INFO : Map setup completed.
+<2018-06-03 20-57-50> INFO : Setting up new map.
+<2018-06-03 20-57-50> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-50> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-50> INFO : Starting maze construction.
+<2018-06-03 20-57-50> INFO : Setting up map tiles.
+<2018-06-03 20-57-50> INFO : Map tile setup completed.
+<2018-06-03 20-57-50> INFO : Map setup completed.
+<2018-06-03 20-57-50> INFO : Setting up new map.
+<2018-06-03 20-57-50> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-50> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-50> INFO : Starting maze construction.
+<2018-06-03 20-57-50> INFO : Setting up map tiles.
+<2018-06-03 20-57-50> INFO : Map tile setup completed.
+<2018-06-03 20-57-50> INFO : Map setup completed.
+<2018-06-03 20-57-50> INFO : Setting up new map.
+<2018-06-03 20-57-50> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-50> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-50> INFO : Starting maze construction.
+<2018-06-03 20-57-50> INFO : Setting up map tiles.
+<2018-06-03 20-57-50> INFO : Map tile setup completed.
+<2018-06-03 20-57-50> INFO : Map setup completed.
+<2018-06-03 20-57-50> INFO : Setting up new map.
+<2018-06-03 20-57-50> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-50> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-50> INFO : Starting maze construction.
+<2018-06-03 20-57-50> INFO : Setting up map tiles.
+<2018-06-03 20-57-50> INFO : Map tile setup completed.
+<2018-06-03 20-57-50> INFO : Map setup completed.
+<2018-06-03 20-57-50> INFO : Setting up new map.
+<2018-06-03 20-57-50> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-50> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-50> INFO : Starting maze construction.
+<2018-06-03 20-57-50> INFO : Setting up map tiles.
+<2018-06-03 20-57-50> INFO : Map tile setup completed.
+<2018-06-03 20-57-50> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-51> INFO : Setting up new map.
+<2018-06-03 20-57-51> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-51> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-51> INFO : Starting maze construction.
+<2018-06-03 20-57-51> INFO : Setting up map tiles.
+<2018-06-03 20-57-51> INFO : Map tile setup completed.
+<2018-06-03 20-57-51> INFO : Map setup completed.
+<2018-06-03 20-57-52> INFO : Setting up new map.
+<2018-06-03 20-57-52> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-52> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-52> INFO : Starting maze construction.
+<2018-06-03 20-57-52> INFO : Setting up map tiles.
+<2018-06-03 20-57-52> INFO : Map tile setup completed.
+<2018-06-03 20-57-52> INFO : Map setup completed.
+<2018-06-03 20-57-52> INFO : Setting up new map.
+<2018-06-03 20-57-52> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-52> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-52> INFO : Starting maze construction.
+<2018-06-03 20-57-52> INFO : Setting up map tiles.
+<2018-06-03 20-57-52> INFO : Map tile setup completed.
+<2018-06-03 20-57-52> INFO : Map setup completed.
+<2018-06-03 20-57-52> INFO : Setting up new map.
+<2018-06-03 20-57-52> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-52> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-52> INFO : Starting maze construction.
+<2018-06-03 20-57-52> INFO : Setting up map tiles.
+<2018-06-03 20-57-52> INFO : Map tile setup completed.
+<2018-06-03 20-57-52> INFO : Map setup completed.
+<2018-06-03 20-57-52> INFO : Setting up new map.
+<2018-06-03 20-57-52> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-52> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-52> INFO : Starting maze construction.
+<2018-06-03 20-57-52> INFO : Setting up map tiles.
+<2018-06-03 20-57-52> INFO : Map tile setup completed.
+<2018-06-03 20-57-52> INFO : Map setup completed.
+<2018-06-03 20-57-52> INFO : Setting up new map.
+<2018-06-03 20-57-52> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-52> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-52> INFO : Starting maze construction.
+<2018-06-03 20-57-52> INFO : Setting up map tiles.
+<2018-06-03 20-57-52> INFO : Map tile setup completed.
+<2018-06-03 20-57-52> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-53> INFO : Setting up new map.
+<2018-06-03 20-57-53> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-53> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-53> INFO : Starting maze construction.
+<2018-06-03 20-57-53> INFO : Setting up map tiles.
+<2018-06-03 20-57-53> INFO : Map tile setup completed.
+<2018-06-03 20-57-53> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-54> INFO : Setting up new map.
+<2018-06-03 20-57-54> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-54> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-54> INFO : Starting maze construction.
+<2018-06-03 20-57-54> INFO : Setting up map tiles.
+<2018-06-03 20-57-54> INFO : Map tile setup completed.
+<2018-06-03 20-57-54> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-55> INFO : Setting up new map.
+<2018-06-03 20-57-55> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-55> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-55> INFO : Starting maze construction.
+<2018-06-03 20-57-55> INFO : Setting up map tiles.
+<2018-06-03 20-57-55> INFO : Map tile setup completed.
+<2018-06-03 20-57-55> INFO : Map setup completed.
+<2018-06-03 20-57-56> INFO : Setting up new map.
+<2018-06-03 20-57-56> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-56> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-56> INFO : Starting maze construction.
+<2018-06-03 20-57-56> INFO : Setting up map tiles.
+<2018-06-03 20-57-56> INFO : Map tile setup completed.
+<2018-06-03 20-57-56> INFO : Map setup completed.
+<2018-06-03 20-57-56> INFO : Setting up new map.
+<2018-06-03 20-57-56> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-56> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-56> INFO : Starting maze construction.
+<2018-06-03 20-57-56> INFO : Setting up map tiles.
+<2018-06-03 20-57-56> INFO : Map tile setup completed.
+<2018-06-03 20-57-56> INFO : Map setup completed.
+<2018-06-03 20-57-56> INFO : Setting up new map.
+<2018-06-03 20-57-56> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-56> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-56> INFO : Starting maze construction.
+<2018-06-03 20-57-56> INFO : Setting up map tiles.
+<2018-06-03 20-57-56> INFO : Map tile setup completed.
+<2018-06-03 20-57-56> INFO : Map setup completed.
+<2018-06-03 20-57-56> INFO : Setting up new map.
+<2018-06-03 20-57-56> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-56> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-56> INFO : Starting maze construction.
+<2018-06-03 20-57-56> INFO : Setting up map tiles.
+<2018-06-03 20-57-56> INFO : Map tile setup completed.
+<2018-06-03 20-57-56> INFO : Map setup completed.
+<2018-06-03 20-57-57> INFO : Setting up new map.
+<2018-06-03 20-57-57> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-57> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-57> INFO : Starting maze construction.
+<2018-06-03 20-57-57> INFO : Setting up map tiles.
+<2018-06-03 20-57-57> INFO : Map tile setup completed.
+<2018-06-03 20-57-57> INFO : Map setup completed.
+<2018-06-03 20-57-57> INFO : Setting up new map.
+<2018-06-03 20-57-57> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-57> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-57> INFO : Starting maze construction.
+<2018-06-03 20-57-57> INFO : Setting up map tiles.
+<2018-06-03 20-57-57> INFO : Map tile setup completed.
+<2018-06-03 20-57-57> INFO : Map setup completed.
+<2018-06-03 20-57-57> INFO : Setting up new map.
+<2018-06-03 20-57-57> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-57> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-57> INFO : Starting maze construction.
+<2018-06-03 20-57-57> INFO : Setting up map tiles.
+<2018-06-03 20-57-57> INFO : Map tile setup completed.
+<2018-06-03 20-57-57> INFO : Map setup completed.
+<2018-06-03 20-57-57> INFO : Setting up new map.
+<2018-06-03 20-57-57> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-57> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-57> INFO : Starting maze construction.
+<2018-06-03 20-57-57> INFO : Setting up map tiles.
+<2018-06-03 20-57-57> INFO : Map tile setup completed.
+<2018-06-03 20-57-57> INFO : Map setup completed.
+<2018-06-03 20-57-57> INFO : Setting up new map.
+<2018-06-03 20-57-57> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-57> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-57> INFO : Starting maze construction.
+<2018-06-03 20-57-57> INFO : Setting up map tiles.
+<2018-06-03 20-57-57> INFO : Map tile setup completed.
+<2018-06-03 20-57-57> INFO : Map setup completed.
+<2018-06-03 20-57-58> INFO : Setting up new map.
+<2018-06-03 20-57-58> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-58> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-58> INFO : Starting maze construction.
+<2018-06-03 20-57-58> INFO : Setting up map tiles.
+<2018-06-03 20-57-58> INFO : Map tile setup completed.
+<2018-06-03 20-57-58> INFO : Map setup completed.
+<2018-06-03 20-57-58> INFO : Setting up new map.
+<2018-06-03 20-57-58> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-58> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-58> INFO : Starting maze construction.
+<2018-06-03 20-57-58> INFO : Setting up map tiles.
+<2018-06-03 20-57-58> INFO : Map tile setup completed.
+<2018-06-03 20-57-58> INFO : Map setup completed.
+<2018-06-03 20-57-58> INFO : Setting up new map.
+<2018-06-03 20-57-58> INFO : Creating tile segment grid for map.
+<2018-06-03 20-57-58> INFO : Creating new blank segment grid.
+<2018-06-03 20-57-58> INFO : Starting maze construction.
+<2018-06-03 20-57-58> INFO : Setting up map tiles.
+<2018-06-03 20-57-58> INFO : Map tile setup completed.
+<2018-06-03 20-57-58> INFO : Map setup completed.
+<2018-06-03 20-57-59> INFO : Exiting main game.
+<2018-06-03 20-57-59> INFO : Changing screen to: CHARACTER_MAIN_MENU
+<2018-06-03 20-57-59> INFO : Closing game.
+<2018-06-03 20-58-00> INFO : Changing screen to: CHARACTER_SELECTION
+<2018-06-03 20-58-00> INFO : Exiting.
