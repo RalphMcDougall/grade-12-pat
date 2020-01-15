@@ -1,6 +1,0 @@
-<2018-06-03 21-45-44> INFO : Connecting to database: DSPersistent
-<2018-06-03 21-45-45> INFO : Successfully connected to database
-<2018-06-03 21-45-45> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
-<2018-06-03 21-45-45> INFO : Querying database: SELECT ItemID, ItemName, ItemDescription, Rarity, SpriteSheetX, SpriteSheetY, HealthBoost, DamageBoost, FireRateBoost, SpeedBoost FROM tblItems;
-<2018-06-03 21-45-45> ERROR : Unable to load NPC names from file! java.io.FileNotFoundException: resources\NPCNames.txt (The system cannot find the path specified)
-<2018-06-03 21-45-47> INFO : Exiting.

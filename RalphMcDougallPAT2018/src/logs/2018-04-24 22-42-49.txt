@@ -1,4 +1,0 @@
-<2018-04-24 22-42-49> INFO : Initialising sprite sheet.
-<2018-04-24 22-42-49> INFO : Loading image.
-<2018-04-24 22-42-49> ERROR : Unable to load sprite sheet! java.lang.RuntimeException: Resource not found: resources/.png
-<2018-04-24 22-42-52> INFO : Exiting.

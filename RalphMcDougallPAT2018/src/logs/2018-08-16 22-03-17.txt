@@ -1,9 +1,0 @@
-<2018-08-16 22-03-17> INFO : Loading static data...
-<2018-08-16 22-03-17> INFO : Connecting to database: DSPersistent
-<2018-08-16 22-03-18> INFO : Successfully connected to database
-<2018-08-16 22-03-18> INFO : Load tile types from database...
-<2018-08-16 22-03-18> INFO : Querying database: SELECT TileID, TileName, SpriteSheetX, SpriteSheetY, Walkable FROM tblTileTypes;
-<2018-08-16 22-03-18> INFO : Tile types loaded successfully.
-<2018-08-16 22-03-18> INFO : Loading map segments from file...
-<2018-08-16 22-03-18> ERROR : Unable to load map segments from file! java.io.FileNotFoundException: resources\MapSegments.txt (The system cannot find the path specified)
-<2018-08-16 22-03-20> INFO : Exiting game.

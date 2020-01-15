@@ -1,4 +1,0 @@
-<2018-04-24 22-43-58> INFO : Initialising sprite sheet.
-<2018-04-24 22-43-58> INFO : Loading image.
-<2018-04-24 22-43-58> ERROR : Unable to load sprite sheet! java.lang.RuntimeException: No OpenGL context found in the current thread.
-<2018-04-24 22-44-03> INFO : Exiting.
