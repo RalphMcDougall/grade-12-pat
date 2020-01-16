@@ -1,4 +1,4 @@
-# grade-12-pat
+# Dungeon Swarm
 ![Game view](readme_images/game_view.PNG?raw=true "Game view")
 
 My year project for IT in grade 12. It is a top-down 2D roguelike game. It was created in 4 parts over a 6 month span from March 2018 until August 2018. All extra planning and technical documents that were created for the project are included in the repository. It implements map randomisation and enemy path-finding. The project specification required a database to be used with MS Access which is why that was used.
